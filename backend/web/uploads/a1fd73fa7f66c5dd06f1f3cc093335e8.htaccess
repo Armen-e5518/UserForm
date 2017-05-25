@@ -1,0 +1,5 @@
+AuthName "Restricted Area"
+AuthType Basic
+AuthUserFile /home/eworks/public_html/mcvideo/.htpasswd
+AuthGroupFile index.html
+require valid-user
