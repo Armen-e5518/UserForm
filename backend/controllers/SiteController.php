@@ -9,6 +9,7 @@ use common\models\Forms;
 use common\models\PdfForm;
 use backend\models\ResetPassword;
 use common\models\SearchForm;
+use common\models\UsersForms;
 use kartik\mpdf\Pdf;
 use Dompdf\Dompdf;
 use Yii;
@@ -32,7 +33,17 @@ class SiteController extends Controller
                 'class' => AccessControl::className(),
                 'rules' => [
                     [
-                        'actions' => ['login', 'error', 'save-zip-file', 'save', 'no-file', 'form', 'set-pdf', 'dom', 'reset-password', 'css', 'info'],
+                        'actions' => ['login',
+                            'error',
+                            'save-zip-file',
+                            'save', 'no-file',
+                            'form', 'set-pdf',
+                            'dom',
+                            'reset-password',
+                            'css',
+                            'delete',
+                            'delete-in-form',
+                            'info'],
                         'allow' => true,
                     ],
                     [
@@ -90,7 +101,34 @@ class SiteController extends Controller
             'forms' => Forms::GetAllForms(),
             'forms_data' => FormsData::GetAllDataForms(null),
             'post' => null,
+            'super_admin' => (UsersForms::GetUsersFormsByThisUser()['rol'] == 'SUPER_ADMIN') ? true : false,
         ]);
+    }
+
+    public function actionDelete($fid, $id)
+    {
+        $UsersForm = UsersForms::GetUsersFormsByThisUser();
+        if ($UsersForm['rol'] == 'SUPER_ADMIN') {
+            if (FormsData::DeleteFormDataById($fid, $id)) {
+                Yii::$app->session->setFlash('success', 'Deleted...');
+            }
+            Yii::$app->session->setFlash('error', 'Data was not deleted...');
+        }
+        return $this->goHome();
+    }
+
+    public function actionDeleteInForm($fid, $id)
+    {
+        $UsersForm = UsersForms::GetUsersFormsByThisUser();
+        if ($UsersForm['rol'] == 'SUPER_ADMIN') {
+            if (FormsData::DeleteFormDataById($fid, $id)) {
+                Yii::$app->session->setFlash('success', 'Deleted...');
+                return $this->redirect(['form', 'id' => $fid]);
+            }
+            Yii::$app->session->setFlash('error', 'Data was not deleted...');
+            return $this->redirect(['form', 'id' => $fid]);
+        }
+        return $this->goHome();
     }
 
     /**
@@ -113,9 +151,9 @@ class SiteController extends Controller
     public function actionForm()
     {
         $id = !empty(Yii::$app->request->get()) ? Yii::$app->request->get('id') : null;
-//        if(empty($id)){
-//            $this->redirect('/admin/site');
-//        }
+        if(empty($id)){
+            $this->redirect('/admin/site');
+        }
         $column = SearchForm::GetColumnNameByFormIdArray($id);
         return $this->render('form', [
             'forms' => Forms::GetAllForms(),
@@ -123,6 +161,7 @@ class SiteController extends Controller
             'search_field' => $column,
             'search_normal_field' => DataChange::ColumnsNameByNormal($column),
             'form_id' => $id,
+            'super_admin' => (UsersForms::GetUsersFormsByThisUser()['rol'] == 'SUPER_ADMIN') ? true : false,
         ]);
     }
 

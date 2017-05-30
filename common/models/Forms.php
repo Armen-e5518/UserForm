@@ -57,7 +57,7 @@ class Forms extends \yii\db\ActiveRecord
             } else {
                 $model = new self();
             }
-            $model->name = (string)$data['name'];
+            $model->name = (string) $data['name'];
             $model->url = md5(microtime(true));
             $model->html = Html::encode($data['html']);;
             if ($model->save()) {

@@ -160,7 +160,7 @@
                     <div class="preview">User first name</div>
                     <div class="view">
                         <div>
-                            <span>User first name :</span>
+                            <span>User first name </span>
                             <span><input class="gen-name not-empty search-on user-first-name" name="user_first_name_1"
                                          type="text"></span>
                         </div>
@@ -200,7 +200,7 @@
                     <div class="preview">User last name</div>
                     <div class="view">
                         <div>
-                            <span>User last name:</span>
+                            <span>User last name</span>
                             <span><input class="gen-name not-empty search-on user-last-name" name="user_last_name_1"
                                          type="text"></span>
                         </div>
@@ -240,7 +240,7 @@
                     <div class="preview">User email</div>
                     <div class="view">
                         <div>
-                            <span>User email:</span>
+                            <span>User email</span>
                             <span><input class="gen-name not-empty search-on user-email-name" name="user_email_1"
                                          type="email"></span>
                         </div>
@@ -375,7 +375,7 @@
                     <div class="preview">Text box</div>
                     <div class="view">
                         <div>
-                            <span class="name-title">Text box name:</span>
+                            <span class="name-title">Text box name</span>
                             <span><input class="gen-text" type="text"></span>
                         </div>
                     </div>
@@ -400,7 +400,7 @@
                     <div class="preview">Checkbox</div>
                     <div class="view">
                         <div>
-                            <span class="name-title">Text:</span>
+                            <span class="name-title">Text</span>
                             <span class="checkbox-c"><input class="gen-checkbox" type="checkbox"></span>
                         </div>
                     </div>
@@ -421,7 +421,7 @@
                     <div class="preview">File upload</div>
                     <div class="view">
                         <div>
-                            <span class="float-left name-title">Text:</span>
+                            <span class="float-left name-title">Text</span>
                             <span class="file-c"><input class="gen-file" name="file" type="file"></span>
                         </div>
                     </div>
@@ -448,7 +448,7 @@
                     </div>
                     <div class="view">
                         <div>
-                            <span class="name-title">Text:</span>
+                            <span class="name-title">Text</span>
                             <span class="checkbox-c"><input class="gen-redio" name="radio_5462010" value="1"
                                                             type="radio"></span>
                         </div>

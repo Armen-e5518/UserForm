@@ -23,7 +23,11 @@ class FormController extends Controller
                 'class' => AccessControl::className(),
                 'rules' => [
                     [
-                        'actions' => ['index','update','delete','view'],
+                        'actions' => ['index',
+                            'update',
+                            'delete',
+                            'clone',
+                            'view'],
                         'allow' => true,
                     ],
                     [
@@ -94,6 +98,14 @@ class FormController extends Controller
         return $this->render('update', [
             'form' => Forms::GetFormById($id),
             'id' => $id,
+        ]);
+    }
+
+    public function actionClone($id)
+    {
+        $this->layout = false;
+        return $this->render('clone', [
+            'form' => Forms::GetFormById($id),
         ]);
     }
 }

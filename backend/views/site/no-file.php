@@ -1,3 +1,3 @@
 <?php
+$this->title = 'No User File';
 ?>
-<h1>No User File</h1>

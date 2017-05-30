@@ -28,7 +28,7 @@ $this->title = 'Data';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="row">
-    <div class="col-md-12">
+    <div class="col-md-12 col-sm-12">
         <div class="search">
             <form id="form-index" method="post" action="">
                 <?= Select2::widget([
@@ -43,46 +43,53 @@ $this->params['breadcrumbs'][] = $this->title;
             </form>
         </div>
     </div>
-    <div class="col-md-12">
-        <table id="form-data-table" class="table" cellspacing="0">
-            <thead>
-            <tr class="success">
-                <th>Date</th>
-                <th>Form Name</th>
-                <th>User First Name</th>
-                <th>User Last Name</th>
-                <th>E-mail</th>
-                <th></th>
-            </tr>
-            </thead>
-            <tbody>
-            <?php if (!empty($forms_data)): ?>
-                <?php foreach ($forms_data as $kay => $data): ?>
-                    <tr class="success">
-                        <td><?= $data['date'] ?></td>
-                        <td><?= $data['name'] ?></td>
-                        <td><?= $data['user_first_name_1'] ?></td>
-                        <td><?= $data['user_last_name_1'] ?></td>
-                        <td><?= $data['user_email_1'] ?></td>
-                        <td>
-                            <?= Html::a('<span class="glyphicon glyphicon-save"></span>',
-                                ['/site/save-zip-file', 'fid' => $data['fid'], 'id' => $data['id']],
-                                [
-                                    'class' => 'btn btn-success',
-                                    'target' => '_blank',
-                                ]) ?>
-                            <?= Html::a('<span class="glyphicon glyphicon-eye-open"></span>',
-                                ['/users-form/form', 'fid' => $data['fid'], 'id' => $data['id']],
-                                [
-                                    'class' => 'btn btn-success',
-                                ]) ?>
-
-                        </td>
-                    </tr>
-
-                <?php endforeach; ?>
-            <?php endif; ?>
-            </tbody>
-        </table
+    <div class="col-md-12 col-sm-12">
+        <div class="table-responsive">
+            <table id="form-data-table" class="table" cellspacing="0">
+                <thead>
+                <tr class="success">
+                    <th>Date</th>
+                    <th>Form Name</th>
+                    <th>User First Name</th>
+                    <th>User Last Name</th>
+                    <th>E-mail</th>
+                    <th></th>
+                </tr>
+                </thead>
+                <tbody>
+                <?php if (!empty($forms_data)): ?>
+                    <?php foreach ($forms_data as $kay => $data): ?>
+                        <tr class="success">
+                            <td><?= $data['date'] ?></td>
+                            <td><?= $data['name'] ?></td>
+                            <td><?= $data['user_first_name_1'] ?></td>
+                            <td><?= $data['user_last_name_1'] ?></td>
+                            <td><?= $data['user_email_1'] ?></td>
+                            <td>
+                                <?php if ($super_admin): ?>
+                                    <?= Html::a('<span class="glyphicon glyphicon-trash"></span>',
+                                        ['/site/delete', 'fid' => $data['fid'], 'id' => $data['id']],
+                                        [
+                                            'class' => 'btn btn-success',
+                                        ]) ?>
+                                <?php endif; ?>
+                                <?= Html::a('<span class="glyphicon glyphicon-save"></span>',
+                                    ['/site/save-zip-file', 'fid' => $data['fid'], 'id' => $data['id']],
+                                    [
+                                        'class' => 'btn btn-success',
+                                        'target' => '_blank',
+                                    ]) ?>
+                                <?= Html::a('<span class="glyphicon glyphicon-eye-open"></span>',
+                                    ['/users-form/form', 'fid' => $data['fid'], 'id' => $data['id']],
+                                    [
+                                        'class' => 'btn btn-success',
+                                    ]) ?>
+                            </td>
+                        </tr>
+                    <?php endforeach; ?>
+                <?php endif; ?>
+                </tbody>
+            </table
+        </div>
     </div>
 </div>

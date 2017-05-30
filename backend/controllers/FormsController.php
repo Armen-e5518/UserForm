@@ -2,6 +2,7 @@
 
 namespace backend\controllers;
 
+use backend\models\TableBuilder;
 use Yii;
 use common\models\Forms;
 use backend\models\FormsSearch;
@@ -22,7 +23,7 @@ class FormsController extends Controller
                 'class' => AccessControl::className(),
                 'rules' => [
                     [
-                        'actions' => ['login', 'error','delete'],
+                        'actions' => ['login', 'error', 'delete'],
                         'allow' => true,
                     ],
                     [
@@ -40,8 +41,10 @@ class FormsController extends Controller
             ],
         ];
     }
-    public function actions(){
-        if(Yii::$app->user->isGuest){
+
+    public function actions()
+    {
+        if (Yii::$app->user->isGuest) {
             $this->redirect('/admin/site/login');
         }
     }
@@ -119,7 +122,8 @@ class FormsController extends Controller
     public function actionDelete($id)
     {
         $this->findModel($id)->delete();
-
+        $d_model = new TableBuilder();
+        $d_model->DropTableById($id);
         return $this->redirect(['index']);
     }
 

@@ -23,7 +23,9 @@ $(document).ready(function () {
 
     $('.new-group').click(function () {
         $(this).closest('.box-element').find('.view input').attr('name', NameGenerator('radio'))
-    })
+    });
+
+    $('.editable').removeAttr('contenteditable');
 
     $(document).on("mousemove", function (event) {
         $('.right-text').css('left', event.pageX + 'px');

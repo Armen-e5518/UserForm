@@ -119,7 +119,7 @@ class FormsData extends \yii\db\ActiveRecord
         if (empty($tableSchema)) {
             return [];
         }
-        if(!empty($id)){
+        if (!empty($id)) {
             $query = new Query();
             return $query->select("*")
                 ->from('form_' . $id)
@@ -128,5 +128,17 @@ class FormsData extends \yii\db\ActiveRecord
         }
         return [];
 
+    }
+
+    public static function DeleteFormDataById($form_id, $data_id)
+    {
+        $tableSchema = \Yii::$app->db->schema->getTableSchema('form_' . $form_id);
+        if (empty($tableSchema)) {
+            return false;
+        }
+        $query = new Query();
+        return $query->createCommand()
+            ->delete('form_' . $form_id, ['id' => $data_id])
+            ->execute();
     }
 }

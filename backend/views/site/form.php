@@ -59,14 +59,20 @@ $this->params['breadcrumbs'][] = $this->title;
             <?php if (!empty($forms_data)): ?>
                 <?php foreach ($forms_data as $kay => $data): ?>
                     <tr class="success">
-                        <td><?=$data['date']?></td>
+                        <td><?= $data['date'] ?></td>
                         <?php if (!empty($search_field)): ?>
                             <?php foreach ($search_field as $column): ?>
                                 <td><?= $data[$column] ?></td>
                             <?php endforeach; ?>
                         <?php endif; ?>
-
                         <td>
+                            <?php if ($super_admin): ?>
+                                <?= Html::a('<span class="glyphicon glyphicon-trash"></span>',
+                                    ['/site/delete-in-form', 'fid' => $form_id, 'id' => $data['id']],
+                                    [
+                                        'class' => 'btn btn-success',
+                                    ]) ?>
+                            <?php endif; ?>
                             <?= Html::a('<span class="glyphicon glyphicon-save"></span>',
                                 ['/site/save-zip-file', 'fid' => $form_id, 'id' => $data['id']],
                                 [

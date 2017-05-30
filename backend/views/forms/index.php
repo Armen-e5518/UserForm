@@ -33,7 +33,7 @@ $this->params['breadcrumbs'][] = $this->title;
                         'class' => 'yii\grid\ActionColumn',
                         'header' => 'Actions',
 //                        'headerOptions' => ['style' => 'color:#337ab7'],
-                        'template' => '{view}{update}{delete}',
+                        'template' => '{view}{update}{delete}{clone}',
                         'buttons' => [
                             'view' => function ($url, $model) {
                                 return Html::a('<span class="glyphicon glyphicon-eye-open"></span>', $url, [
@@ -49,7 +49,13 @@ $this->params['breadcrumbs'][] = $this->title;
                                 return Html::a('<span class="glyphicon glyphicon-trash"></span>', $url, [
                                     'title' => Yii::t('app', 'lead-delete'),
                                 ]);
+                            },
+                            'clone' => function ($url, $model) {
+                                return Html::a('<span class="glyphicon glyphicon-resize-full"></span>', $url, [
+                                    'title' => Yii::t('app', 'clone'),
+                                ]);
                             }
+
                         ],
                         'urlCreator' => function ($action, $model, $key, $index) {
                             if ($action === 'view') {
@@ -62,6 +68,10 @@ $this->params['breadcrumbs'][] = $this->title;
                             }
                             if ($action === 'delete') {
                                 $url ='/admin/forms/delete?id='.$model->id;
+                                return $url;
+                            }
+                            if ($action === 'clone') {
+                                $url ='/admin/form/clone?id='.$model->id;
                                 return $url;
                             }
                         }

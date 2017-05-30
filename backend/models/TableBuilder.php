@@ -61,6 +61,16 @@ class TableBuilder extends Migration
         }
     }
 
+    public function DropTableById($form_id)
+    {
+        $tableSchema = \Yii::$app->db->schema->getTableSchema('form_' . $form_id);
+        if (!empty($tableSchema)) {
+            return $this->db->createCommand()->dropTable('form_' . $form_id)->execute();
+        }
+        return true;
+    }
+
+
     protected function GetRandomTableName()
     {
         return substr(md5(microtime()), 0, 6);

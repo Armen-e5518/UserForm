@@ -41,4 +41,28 @@ class SiteController extends Controller
         ]);
     }
 
+    public function actionFrontCss()
+    {
+        $file = $target_dir = \Yii::$app->basePath . '/web/css/front.css';
+        $post = Yii::$app->request->post();
+        if ($post) {
+            file_put_contents($file, $post['css']);
+        }
+        return $this->render('css', [
+            'data' => file_get_contents($file)
+        ]);
+    }
+
+    public function actionFileView()
+    {
+        $file = $target_dir = \Yii::$app->basePath . '/views/site/view.php';
+        $post = Yii::$app->request->post();
+        if ($post) {
+            file_put_contents($file, $post['css']);
+        }
+        return $this->render('file', [
+            'data' => file_get_contents($file)
+        ]);
+    }
+
 }

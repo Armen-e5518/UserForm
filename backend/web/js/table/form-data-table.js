@@ -2,7 +2,9 @@ $(document).ready(function () {
 
     var table = $('#form-data-table').DataTable({
         "pageLength": 10,
+        "deferRender": true,
         dom: 'Bfrtip',
+        "order": [[ 0, "desc" ]],
         buttons: [
             'csv', 'excel', 'pdf'
         ],
