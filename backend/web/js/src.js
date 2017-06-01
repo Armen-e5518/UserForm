@@ -184,17 +184,17 @@ function out(x) {
 
 function NameGenerator(text, ob) {
     var title = 'name'
-    if (ob) {
-         title = ob.find('.name-title').html();
-         if(title == undefined){
-             title = ob.find('h1').html();
-         }
-         if(title == undefined){
-             title = 'name'
-         }else {
-             title = GetNormalName(title);
-         }
-    }
+    // if (ob) {
+    //      title = ob.find('.name-title').html();
+    //      if(title == undefined){
+    //          title = ob.find('h1').html();
+    //      }
+    //      if(title == undefined){
+    //          title = 'name'
+    //      }else {
+    //          title = GetNormalName(title);
+    //      }
+    // }
     var text = text + '_' + title + '_';
     var possible = "7418529630215478963205147852014679580312945";
     for (var i = 0; i < 3; i++)text += possible.charAt(Math.floor(Math.random() * possible.length));

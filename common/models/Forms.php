@@ -12,6 +12,11 @@ use yii\helpers\Html;
  * @property string $url
  * @property string $name
  * @property string $html
+ * @property string $email_subject
+ * @property string $email_text
+ * @property string $thank_title
+ * @property string $thank_text
+ *
  */
 class Forms extends \yii\db\ActiveRecord
 {
@@ -31,7 +36,7 @@ class Forms extends \yii\db\ActiveRecord
         return [
             [['html'], 'string'],
             [['url'], 'string', 'max' => 38],
-            [['name'], 'string', 'max' => 255],
+            [['name', 'email_subject', 'email_text', 'thank_title', 'thank_text'], 'string', 'max' => 255],
         ];
     }
 
@@ -45,19 +50,26 @@ class Forms extends \yii\db\ActiveRecord
             'url' => 'Url',
             'name' => 'Name',
             'html' => 'Html',
+            'email_subject' => 'Email Subject',
+            'email_text' => 'Email Text',
+            'thank_title' => 'Thank you title',
+            'thank_text' => 'Text',
         ];
     }
 
+    /**
+     * @param null $data
+     * @return int
+     */
     public static function SaveForm($data = null)
     {
         if (!empty($data)) {
-
             if (!empty($data['id'])) {
                 $model = self::findOne(['id' => $data['id']]);
             } else {
                 $model = new self();
             }
-            $model->name = (string) $data['name'];
+            $model->name = (string)$data['name'];
             $model->url = md5(microtime(true));
             $model->html = Html::encode($data['html']);;
             if ($model->save()) {
@@ -69,51 +81,79 @@ class Forms extends \yii\db\ActiveRecord
         }
     }
 
+    /**
+     * @param $id
+     * @return array|static
+     */
     public static function GetFormById($id)
     {
         $UsersForm = UsersForms::GetUsersFormsByThisUser();
-        if ( $UsersForm['rol'] == 'ADMIN' && !in_array($id, $UsersForm['data'])) {
-            return [];
+        if ($UsersForm['rol'] == 'ADMIN' && !in_array($id, $UsersForm['data'])) {
+            return null;
         }
         return self::findOne(['id' => $id]);
     }
 
+    /**
+     * @param $id
+     * @return static
+     */
     public static function GetFormByIdView($id)
     {
         return self::findOne(['id' => $id]);
     }
 
+    /**
+     * @param $id
+     * @return static
+     */
     public static function GetFormIdByUrl($id)
     {
         return self::findOne(['url' => $id]);
     }
 
+    /**
+     * @param $id
+     * @return static
+     */
     public static function FormExistById($id)
     {
         return self::findOne(['id' => $id]);
     }
 
+    /**
+     * @return array
+     */
     public static function GetAllForms()
     {
         $UsersForm = UsersForms::GetUsersFormsByThisUser();
-        if ( $UsersForm['rol'] == 'SUPER_ADMIN' ) {
-            return self::find()->select(['name','id'])->indexBy('id')->column();
+        if ($UsersForm['rol'] == 'SUPER_ADMIN') {
+            return self::find()->select(['name', 'id'])->indexBy('id')->column();
         }
-        if ( $UsersForm['rol'] == 'ADMIN' ) {
-            return self::find()->select(['name','id'])->where(['id' => $UsersForm['data']])->indexBy('id')->column();
+        if ($UsersForm['rol'] == 'ADMIN') {
+            return self::find()->select(['name', 'id'])->where(['id' => $UsersForm['data']])->indexBy('id')->column();
         }
-
-
     }
 
-    public static function GetAllFormsIds(){
+    /**
+     * @return array|\yii\db\ActiveRecord[]
+     */
+    public static function GetAllFormsIds()
+    {
         $UsersForm = UsersForms::GetUsersFormsByThisUser();
-        if ( $UsersForm['rol'] == 'SUPER_ADMIN' ) {
-            return self::find()->select(['id','name'])->asArray()->all();
+        if ($UsersForm['rol'] == 'SUPER_ADMIN') {
+            return self::find()->select(['id', 'name'])->asArray()->all();
         }
-        if ( $UsersForm['rol'] == 'ADMIN' ) {
-            return self::find()->select(['id','name'])->where(['id' => $UsersForm['data']])->asArray()->all();
+        if ($UsersForm['rol'] == 'ADMIN') {
+            return self::find()->select(['id', 'name'])->where(['id' => $UsersForm['data']])->asArray()->all();
         }
     }
 
+    public static function GetEmailDataById($id)
+    {
+        if (!empty($id)) {
+            return self::findOne(['id' => $id]);
+        }
+        return null;
+    }
 }

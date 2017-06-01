@@ -10,6 +10,9 @@ use Yii;
  * @property integer $id
  * @property integer $form_id
  * @property string $column_name
+ * @property string $column_label
+ *
+ * @property Forms $form
  */
 class SearchForm extends \yii\db\ActiveRecord
 {
@@ -28,7 +31,7 @@ class SearchForm extends \yii\db\ActiveRecord
     {
         return [
             [['form_id'], 'integer'],
-            [['column_name'], 'string', 'max' => 30],
+            [['column_name', 'column_label'], 'string', 'max' => 255],
         ];
     }
 
@@ -41,15 +44,19 @@ class SearchForm extends \yii\db\ActiveRecord
             'id' => 'ID',
             'form_id' => 'Form ID',
             'column_name' => 'Column Name',
+            'column_label' => 'Column Label',
         ];
     }
 
-    public static function SaveFormSearchColumn($form_id, $column_name)
+    public static function SaveFormSearchColumn($form_id, $column_name, $c_name)
     {
         if (!empty($form_id) && !empty($column_name)) {
             $model = new self();
             $model->form_id = $form_id;
             $model->column_name = $column_name;
+            if ($column_name != 'user_last_name_1' && $column_name != 'user_first_name_1' && $column_name != 'user_email_1') {
+                $model->column_label = $c_name;
+            }
             return $model->save();
         }
         return false;
@@ -74,7 +81,16 @@ class SearchForm extends \yii\db\ActiveRecord
     public static function GetColumnNameByFormIdArray($form_id)
     {
         if (!empty($form_id)) {
-            return self::find()->select('column_name')->where(['form_id' => $form_id])->asArray()->column();
+            $data = self::findAll(['form_id' => $form_id]);
+            $new_col = [];
+            foreach ($data as $col) {
+                if (!empty($col['column_label'])) {
+                    array_push($new_col, $col['column_label']);
+                } else {
+                    array_push($new_col, $col['column_name']);
+                }
+            }
+            return $new_col;
         }
         return [];
     }

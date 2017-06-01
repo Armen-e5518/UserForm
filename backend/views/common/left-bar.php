@@ -131,6 +131,10 @@
                         <i class="glyphicon glyphicon-remove"></i>
                         delete
                     </a>
+                    <a href="#edit" class=" edit-text label label-danger">
+                        <i class="glyphicon glyphicon-pencil"></i>
+                        edit
+                    </a>
                     <span class="drag label label-default">
 								<i class="glyphicon glyphicon-move"></i>
 								drag
@@ -171,6 +175,10 @@
                         <i class="glyphicon glyphicon-remove"></i>
                         delete
                     </a>
+                    <a href="#edit" class=" edit-text label label-danger">
+                        <i class="glyphicon glyphicon-pencil"></i>
+                        edit
+                    </a>
                     <span class="drag label label-default">
 								<i class="glyphicon glyphicon-move"></i>
 								drag
@@ -210,6 +218,10 @@
                     <a href="#close" class="remove label label-danger">
                         <i class="glyphicon glyphicon-remove"></i>
                         delete
+                    </a>
+                    <a href="#edit" class=" edit-text label label-danger">
+                        <i class="glyphicon glyphicon-pencil"></i>
+                        edit
                     </a>
                     <span class="drag label label-default">
 								<i class="glyphicon glyphicon-move"></i>
@@ -259,10 +271,70 @@
 								<i class="glyphicon glyphicon-move"></i>
 								drag
 							</span>
-                    <div class="preview">Title</div>
+                    <div class="preview">Title h1</div>
                     <div class="view">
                         <div>
-                            <h1>Text</h1>
+                            <h1>Text h1</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="box box-element ui-draggable">
+                    <a href="#close" class="remove label label-danger">
+                        <i class="glyphicon glyphicon-remove"></i>
+                        delete
+                    </a>
+                    <a href="#edit" class=" edit-text label label-danger">
+                        <i class="glyphicon glyphicon-pencil"></i>
+                        edit
+                    </a>
+                    <span class="drag label label-default">
+								<i class="glyphicon glyphicon-move"></i>
+								drag
+							</span>
+                    <div class="preview">Title h2</div>
+                    <div class="view">
+                        <div>
+                            <h2>Text h2</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="box box-element ui-draggable">
+                    <a href="#close" class="remove label label-danger">
+                        <i class="glyphicon glyphicon-remove"></i>
+                        delete
+                    </a>
+                    <a href="#edit" class=" edit-text label label-danger">
+                        <i class="glyphicon glyphicon-pencil"></i>
+                        edit
+                    </a>
+                    <span class="drag label label-default">
+								<i class="glyphicon glyphicon-move"></i>
+								drag
+							</span>
+                    <div class="preview">Title h3</div>
+                    <div class="view">
+                        <div>
+                            <h3>Text h3</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="box box-element ui-draggable">
+                    <a href="#close" class="remove label label-danger">
+                        <i class="glyphicon glyphicon-remove"></i>
+                        delete
+                    </a>
+                    <a href="#edit" class=" edit-text label label-danger">
+                        <i class="glyphicon glyphicon-pencil"></i>
+                        edit
+                    </a>
+                    <span class="drag label label-default">
+								<i class="glyphicon glyphicon-move"></i>
+								drag
+							</span>
+                    <div class="preview">Title h4</div>
+                    <div class="view">
+                        <div>
+                            <h4>Text h4</h4>
                         </div>
                     </div>
                 </div>
@@ -323,6 +395,9 @@
 								drag
 							</span>
                     <span class="configuration">
+                                <span class="btn-group btn-group-xs n-empty">
+                                   <input type="text" id="column-name-l" placeholder="Column name">
+								</span>
 								<span class="btn-group btn-group-xs n-empty">
                                     <span>Not empty</span>
                                     <span><input type="checkbox"></span>
@@ -436,6 +511,33 @@
                         edit
                     </a>
                     <span class="drag label label-default">
+						<i class="glyphicon glyphicon-move"></i>
+						drag
+                    </span>
+                    <span class="configuration">
+                        <input id="image-url" type="text">
+                    </span>
+                    <div class="preview">
+                        Image
+                    </div>
+                    <div class="view">
+                        <div>
+                            <img width="70px"
+                                 src="https://s-media-cache-ak0.pinimg.com/originals/ff/a5/e6/ffa5e6b0e5808c8a455ca52e4b47bd05.jpg"
+                                 alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="box box-element ui-draggable">
+                    <a href="#close" class="remove label label-danger">
+                        <i class="glyphicon glyphicon-remove"></i>
+                        delete
+                    </a>
+                    <a href="#edit" class=" edit-text label label-danger">
+                        <i class="glyphicon glyphicon-pencil"></i>
+                        edit
+                    </a>
+                    <span class="drag label label-default">
 								<i class="glyphicon glyphicon-move"></i>
 								drag
 							</span>
@@ -454,6 +556,7 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="box box-element ui-draggable">
                     <a href="#close" class="remove label label-danger">
                         <i class="glyphicon glyphicon-remove"></i>

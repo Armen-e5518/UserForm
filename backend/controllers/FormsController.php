@@ -2,6 +2,7 @@
 
 namespace backend\controllers;
 
+use backend\models\EmailText;
 use backend\models\TableBuilder;
 use Yii;
 use common\models\Forms;
@@ -23,7 +24,11 @@ class FormsController extends Controller
                 'class' => AccessControl::className(),
                 'rules' => [
                     [
-                        'actions' => ['login', 'error', 'delete'],
+                        'actions' => ['login',
+                            'error',
+                            'email',
+                            'thanks',
+                            'delete'],
                         'allow' => true,
                     ],
                     [
@@ -75,7 +80,28 @@ class FormsController extends Controller
             'model' => $this->findModel($id),
         ]);
     }
-
+    public function actionEmail($id)
+    {
+        $model = $this->findModel($id);
+        if ($model->load(Yii::$app->request->post()) && $model->save()) {
+            return $this->redirect(['index']);
+        } else {
+            return $this->render('email', [
+                'model' => $model,
+            ]);
+        }
+    }
+    public function actionThanks($id)
+    {
+        $model = $this->findModel($id);
+        if ($model->load(Yii::$app->request->post()) && $model->save()) {
+            return $this->redirect(['index']);
+        } else {
+            return $this->render('thanks', [
+                'model' => $model,
+            ]);
+        }
+    }
     /**
      * Creates a new Forms model.
      * If creation is successful, the browser will be redirected to the 'view' page.

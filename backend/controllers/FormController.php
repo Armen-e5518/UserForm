@@ -27,6 +27,7 @@ class FormController extends Controller
                             'update',
                             'delete',
                             'clone',
+                            'send-mail',
                             'view'],
                         'allow' => true,
                     ],
@@ -45,8 +46,10 @@ class FormController extends Controller
             ],
         ];
     }
-    public function actions(){
-        if(Yii::$app->user->isGuest){
+
+    public function actions()
+    {
+        if (Yii::$app->user->isGuest) {
             $this->redirect('/admin/site/login');
         }
     }
@@ -66,7 +69,7 @@ class FormController extends Controller
     public function actionView($id)
     {
         $post = Yii::$app->request->post();
-        $post = Helper::FileUpload($_FILES,$post);
+        $post = Helper::FileUpload($_FILES, $post);
         if (!empty($post)) {
             $model = new Dynamic();
             $model->RunModel('form_' . $id, $post);
@@ -107,5 +110,15 @@ class FormController extends Controller
         return $this->render('clone', [
             'form' => Forms::GetFormById($id),
         ]);
+    }
+
+    public function actionSendMail()
+    {
+        $m = Yii::$app->mailer->compose()
+            ->setFrom('from@domain.com')
+            ->setTo('garmen5518@gmail.com')
+            ->setSubject('text')
+            ->send();
+        var_dump($m);
     }
 }

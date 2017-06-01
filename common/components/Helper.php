@@ -32,7 +32,7 @@ class Helper
                     $target_dir = \Yii::$app->basePath . '/web/uploads/';
                     $name_array = explode(".", basename($file[$name]["name"]));
                     $format = end($name_array);
-                    $file_name = md5(microtime(true));
+                    $file_name = md5(microtime(true) + rand(1, 100));
                     $target_file = $target_dir . $file_name . '.' . $format;
                     if (!move_uploaded_file($file[$name]["tmp_name"], $target_file)) {
                         $flag = false;
@@ -47,6 +47,7 @@ class Helper
                 }
             }
         }
+
         return $post;
     }
 
@@ -73,6 +74,7 @@ class Helper
                 if (file_exists($zip_file)) {
                     unlink($zip_file);
                 }
+                fopen($zip_file, 'w');
                 $zip = new \ZipArchive();
                 if ($zip->open($zip_file, \ZipArchive::CREATE) !== TRUE) {
                     throw new \Exception('Cannot create a zip file');
@@ -89,6 +91,26 @@ class Helper
             }
         }
         return null;
+    }
+
+    public static function SendMail($post = null, $form_id = null)
+    {
+        if (!empty($post) && !empty($form_id)) {
+            $email_data = Forms::GetEmailDataById($form_id);
+            $Subject = !empty($email_data['email_subject']) ? $email_data['email_subject'] : 'Thanks';
+            $Body = !empty($email_data['email_text']) ? $email_data['email_text'] : 'Thanks';
+            foreach ($post as $kay => $data) {
+                if (!(strripos($kay, 'user_email') === false)) {
+                    return \Yii::$app->mailer->compose()
+                        ->setFrom(\Yii::$app->params['mail']['from'])
+                        ->setTo($data)
+                        ->setSubject($Subject)
+                        ->setTextBody($Body)
+                        ->send();
+                }
+            }
+        }
+        return false;
     }
 
 }

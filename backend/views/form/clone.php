@@ -21,6 +21,7 @@ use \yii\web\View;
     <script src="/admin/js/scripts.js"></script>
     <script src="/admin/js/src.js"></script>
     <script src="/admin/js/save-form.js"></script>
+    <script src="/admin/js/image-set.js"></script>
 </head>
 <body style="min-height: 824px;" class="edit">
 <div class="navbar navbar-inverse navbar-fixed-top navbar-layoutit">
@@ -39,30 +40,8 @@ use \yii\web\View;
                         <i class=" glyphicon glyphicon-user"></i>
                         Admin
                     </button>
-                    <button type="button" id="edit" class="btn btn-xs btn-primary active">
-                        <i class="glyphicon glyphicon-edit "></i>
-                        edit
-                    </button>
-                    <button type="button" class="btn btn-xs btn-primary" id="devpreview">
-                        <i class="glyphicon-eye-close glyphicon"></i>
-                        develop
-                    </button>
-                    <button type="button" class="btn btn-xs btn-primary" id="sourcepreview">
-                        <i class="glyphicon-eye-open glyphicon"></i>
-                        preview
-                    </button>
                 </div>
-                <div class="btn-group">
-                    <button type="button" class="btn btn-xs btn-primary" id="button-download-modal"
-                            data-target="#downloadModal"
-                            role="button" data-toggle="modal"><i class="glyphicon-chevron-down glyphicon"></i>
-                        download
-                    </button>
-                    <button class="btn btn-xs btn-primary" href="#clear" id="clear">
-                        <i class="glyphicon-trash glyphicon"></i>
-                        clear
-                    </button>
-                </div>
+
             </li>
         </ul>
     </div>

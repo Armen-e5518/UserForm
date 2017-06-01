@@ -16,38 +16,40 @@ $this->params['breadcrumbs'][] = $this->title;
     </p>
     <div class="row">
         <div class="col-md-12">
-            <?= GridView ::widget([
+            <?= GridView::widget([
                 'dataProvider' => $dataProvider,
                 'filterModel' => $searchModel,
                 'columns' => [
                     ['class' => 'yii\grid\SerialColumn'],
                     [
                         'attribute' => 'url',
-                        'value' => function($model){
-                            return '<a target="_blank" href="'.$model->url.'">'.$model->url.'</a>';
+                        'value' => function ($model) {
+                            return '<a target="_blank" href="' . $model->url . '">' . $model->url . '</a>';
                         },
                         'format' => 'raw'
                     ],
+                    'email_subject',
+                    'thank_title',
                     'name',
                     [
                         'class' => 'yii\grid\ActionColumn',
                         'header' => 'Actions',
 //                        'headerOptions' => ['style' => 'color:#337ab7'],
-                        'template' => '{view}{update}{delete}{clone}',
+                        'template' => '{view}{update}{delete}{clone}{thanks}{email}',
                         'buttons' => [
                             'view' => function ($url, $model) {
                                 return Html::a('<span class="glyphicon glyphicon-eye-open"></span>', $url, [
-                                    'title' => Yii::t('app', 'lead-view'),
+                                    'title' => Yii::t('app', 'view'),
                                 ]);
                             },
                             'update' => function ($url, $model) {
                                 return Html::a('<span class="glyphicon glyphicon-pencil"></span>', $url, [
-                                    'title' => Yii::t('app', 'lead-update'),
+                                    'title' => Yii::t('app', 'update'),
                                 ]);
                             },
                             'delete' => function ($url, $model) {
                                 return Html::a('<span class="glyphicon glyphicon-trash"></span>', $url, [
-                                    'title' => Yii::t('app', 'lead-delete'),
+                                    'title' => Yii::t('app', 'delete'),
                                 ]);
                             },
                             'clone' => function ($url, $model) {
@@ -55,23 +57,43 @@ $this->params['breadcrumbs'][] = $this->title;
                                     'title' => Yii::t('app', 'clone'),
                                 ]);
                             }
+                            ,
+                            'thanks' => function ($url, $model) {
+                                return Html::a('<span class="glyphicon glyphicon-ok"></span>', $url, [
+                                    'title' => Yii::t('app', 'thank you text'),
+                                ]);
+                            },
+                            'email' => function ($url, $model) {
+                                return Html::a('<span class="glyphicon glyphicon-envelope"></span>', $url, [
+                                    'title' => Yii::t('app', 'email text'),
+                                ]);
+                            }
+
 
                         ],
                         'urlCreator' => function ($action, $model, $key, $index) {
                             if ($action === 'view') {
-                                $url ='/admin/form/view?id='.$model->id;
+                                $url = '/admin/form/view?id=' . $model->id;
                                 return $url;
                             }
                             if ($action === 'update') {
-                                $url ='/admin/form/update?id='.$model->id;
+                                $url = '/admin/form/update?id=' . $model->id;
                                 return $url;
                             }
                             if ($action === 'delete') {
-                                $url ='/admin/forms/delete?id='.$model->id;
+                                $url = '/admin/forms/delete?id=' . $model->id;
                                 return $url;
                             }
                             if ($action === 'clone') {
-                                $url ='/admin/form/clone?id='.$model->id;
+                                $url = '/admin/form/clone?id=' . $model->id;
+                                return $url;
+                            }
+                            if ($action === 'thanks') {
+                                $url = '/admin/forms/thanks?id=' . $model->id;
+                                return $url;
+                            }
+                            if ($action === 'email') {
+                                $url = '/admin/forms/email?id=' . $model->id;
                                 return $url;
                             }
                         }

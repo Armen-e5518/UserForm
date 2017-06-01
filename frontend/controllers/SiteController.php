@@ -8,7 +8,6 @@ use Yii;
 use yii\web\Controller;
 
 
-
 class SiteController extends Controller
 {
     public function beforeAction($action)
@@ -19,25 +18,41 @@ class SiteController extends Controller
 
     public function actionView($id)
     {
-        $id = Helper::CheckFormIdByUrl($id);
-        if(empty($id)){
-            echo  '404 error';
+        $this->layout = false;
+        $id_f = Helper::CheckFormIdByUrl($id);
+        if (empty($id_f)) {
+            echo '404 error';
             exit;
         }
         $post = Yii::$app->request->post();
-        $post = Helper::FileUpload($_FILES,$post);
+        $post = Helper::FileUpload($_FILES, $post);
         if (!empty($post)) {
             $model = new Dynamic();
-            $model->RunModel('form_' . $id, $post);
+            $model->RunModel('form_' . $id_f, $post);
             if ($model->SaveData()) {
+                Helper::SendMail($post, $id_f);
+                $this->redirect(['thank', 'id' => $id]);
                 Yii::$app->session->setFlash('success', 'Saved...');
             } else {
                 Yii::$app->session->setFlash('error', 'Error...');
             }
         }
-        return $this->render('view', [
-            'form' => Forms::GetFormByIdView($id),
-            'id' => $id,
+        return $this->render('new-view', [
+            'form' => Forms::GetFormByIdView($id_f),
+            'id' => $id_f,
+        ]);
+    }
+
+    public function actionThank($id)
+    {
+        $this->layout = false;
+        $id = Helper::CheckFormIdByUrl($id);
+        if (empty($id)) {
+            echo '404 error';
+            exit;
+        }
+        return $this->render('thank', [
+            'data' => Forms::GetFormByIdView($id),
         ]);
     }
 
@@ -49,6 +64,18 @@ class SiteController extends Controller
             file_put_contents($file, $post['css']);
         }
         return $this->render('css', [
+            'data' => file_get_contents($file)
+        ]);
+    }
+
+    public function actionLayoutit()
+    {
+        $file = $target_dir = \Yii::$app->basePath . '/web/css/layoutit.css';
+        $post = Yii::$app->request->post();
+        if ($post) {
+            file_put_contents($file, $post['css']);
+        }
+        return $this->render('layoutit', [
             'data' => file_get_contents($file)
         ]);
     }

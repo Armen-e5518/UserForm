@@ -169,6 +169,7 @@ class SiteController extends Controller
     {
         if (!empty($fid) && !empty($id)) {
             $file = Helper::GetZipUrl($fid, $id);
+
             if (file_exists($file)) {
                 Yii::$app->response->sendFile((string)$file);
             } else {

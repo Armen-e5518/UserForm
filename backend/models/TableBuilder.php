@@ -54,7 +54,7 @@ class TableBuilder extends Migration
                     $sql[$d['name']] = $this->string()->null();
                 }
                 if ($d['search'] == 'search') {
-                    SearchForm::SaveFormSearchColumn($form_id, $d['name']);
+                    SearchForm::SaveFormSearchColumn($form_id, $d['name'],$d['c_name']);
                 }
             }
             $this->createTable('{{%form_' . $form_id . '}}', $sql, $tableOptions);

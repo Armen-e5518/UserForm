@@ -250,20 +250,21 @@ body {
 }
 
 .edit .demo .lyrow .drag {
-    top: 5px;
+    top: -5px;
     right: 80px;
     z-index: 10;
 }
 
 .edit .demo .column .box .drag {
-    top: 5px;
+    top: -5px;
 }
 
 .edit .demo .column .box .configuration {
     position: absolute;
-    top: 3px;
+    top: -12px;
     right: 140px;
     white-space: nowrap;
+    font-size: 15px!important;
 }
 
 .edit .demo .column .box .configuration:hover {
@@ -285,7 +286,7 @@ body {
 
 .edit .demo .remove {
     position: absolute;
-    top: 5px;
+    top: -5px;
     right: 5px;
     z-index: 10;
 }

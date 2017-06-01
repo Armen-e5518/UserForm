@@ -85,10 +85,14 @@ function SaveForm() {
                 $('.demo .gen-name').each(function () {
                     item = {};
                     item.type = ($(this).attr('type') == 'number') ? 'int' : 'string';
-                    item.search = ($(this).hasClass('search-on')) ? 'search' : null;
                     item.name = $(this).attr('name');
                     item.id = res;
                     form_id = item.id;
+                    if ($(this).hasClass('search-on')){
+                        item.search = 'search';
+                        item.c_name = $(this).closest('.box-element').find('#column-name-l').val();
+                        item.c_name = item.c_name ? item.c_name : 'Name';
+                    }
                     ob_name.push(item)
                 });
                 $.ajax({
@@ -124,10 +128,10 @@ function CheckNotEmptyAndEmailVal() {
         }
     });
     $('#user-view input[type="email"]').each(function () {
-        if(!validateEmail($(this).val())){
+        if (!validateEmail($(this).val())) {
             flag = false;
             $(this).addClass('empty-active')
-        }else {
+        } else {
             $(this).removeClass('empty-active')
         }
     })
