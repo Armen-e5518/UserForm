@@ -77,8 +77,15 @@ class SearchForm extends \yii\db\ActiveRecord
         }
         return [];
     }
-
     public static function GetColumnNameByFormIdArray($form_id)
+    {
+        if (!empty($form_id)) {
+            return self::find()->select('column_name')->where(['form_id' => $form_id])->asArray()->column();
+        }
+        return [];
+    }
+
+    public static function GetColumnNameByFormIdArrayByLabel($form_id)
     {
         if (!empty($form_id)) {
             $data = self::findAll(['form_id' => $form_id]);

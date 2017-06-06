@@ -4,6 +4,8 @@ namespace backend\controllers;
 
 use backend\models\EmailText;
 use backend\models\TableBuilder;
+use common\models\User;
+use common\models\UsersForms;
 use Yii;
 use common\models\Forms;
 use backend\models\FormsSearch;
@@ -28,6 +30,7 @@ class FormsController extends Controller
                             'error',
                             'email',
                             'thanks',
+                            'download',
                             'delete'],
                         'allow' => true,
                     ],
@@ -51,6 +54,7 @@ class FormsController extends Controller
     {
         if (Yii::$app->user->isGuest) {
             $this->redirect('/admin/site/login');
+//            $this->redirect(['/site/login','url' => Yii::$app->request->get('file')]);
         }
     }
 
@@ -69,6 +73,21 @@ class FormsController extends Controller
         ]);
     }
 
+    public function actionDownload($file)
+    {
+        if (!(User::getUserStatus() == 'SUPER_ADMIN')) {
+            $this->redirect('/admin');
+        }
+
+        $phat = \Yii::$app->params['root_path'] . 'backend/web/uploads/' . $file;
+        if (file_exists($phat)) {
+            Yii::$app->response->sendFile((string)$phat);
+        } else {
+            $this->redirect('/admin');
+        }
+
+    }
+
     /**
      * Displays a single Forms model.
      * @param integer $id
@@ -80,6 +99,7 @@ class FormsController extends Controller
             'model' => $this->findModel($id),
         ]);
     }
+
     public function actionEmail($id)
     {
         $model = $this->findModel($id);
@@ -91,6 +111,7 @@ class FormsController extends Controller
             ]);
         }
     }
+
     public function actionThanks($id)
     {
         $model = $this->findModel($id);
@@ -102,6 +123,7 @@ class FormsController extends Controller
             ]);
         }
     }
+
     /**
      * Creates a new Forms model.
      * If creation is successful, the browser will be redirected to the 'view' page.
@@ -147,9 +169,13 @@ class FormsController extends Controller
      */
     public function actionDelete($id)
     {
-        $this->findModel($id)->delete();
         $d_model = new TableBuilder();
         $d_model->DropTableById($id);
+        if ($this->findModel($id)->delete()) {
+            Yii::$app->session->setFlash('success', 'Deleted...');
+        } else {
+            Yii::$app->session->setFlash('error', 'Data was not deleted...');
+        }
         return $this->redirect(['index']);
     }
 

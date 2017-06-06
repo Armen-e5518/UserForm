@@ -22,7 +22,7 @@ class FormsSearch extends Forms
     {
         return [
             [['id'], 'integer'],
-            [['url', 'name', 'html', 'email_subject', 'email_text', 'thank_title', 'thank_text'], 'safe'],
+            [['url', 'name', 'html', 'email', 'email_subject', 'email_text', 'thank_title', 'thank_text'], 'safe'],
         ];
     }
 
@@ -48,14 +48,14 @@ class FormsSearch extends Forms
         $domain = Yii::$app->params['domain'];
         $url = $domain . '/site/view?id=';
         $query = Forms::find();
-        $query->select(['id', 'CONCAT("' . (string)$url . '",url) as url', 'name','email_subject','thank_title']);
+        $query->select(['id', 'CONCAT("' . (string)$url . '",url) as url', 'name', 'email_subject', 'thank_title', 'email']);
 
         $UsersForm = UsersForms::GetUsersFormsByThisUser();
-        if ($UsersForm['rol'] == 'ADMIN' && !empty($UsersForm['data'])){
+        if ($UsersForm['rol'] == 'ADMIN' && !empty($UsersForm['data'])) {
             $query->where((['in', 'id', $UsersForm['data']]));
         }
         $dataProvider = new ActiveDataProvider([
-            'query' => $query,
+            'query' => $query->orderBy(['id' => SORT_DESC]),
         ]);
 
         $this->load($params);
@@ -71,6 +71,7 @@ class FormsSearch extends Forms
         $query->andFilterWhere(['like', 'url', $this->url])
             ->andFilterWhere(['like', 'name', $this->name])
             ->andFilterWhere(['like', 'html', $this->html])
+            ->andFilterWhere(['like', 'email_subject', $this->email])
             ->andFilterWhere(['like', 'email_subject', $this->email_subject])
             ->andFilterWhere(['like', 'email_text', $this->email_text])
             ->andFilterWhere(['like', 'thank_title', $this->thank_title])

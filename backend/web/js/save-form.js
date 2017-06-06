@@ -25,11 +25,6 @@ $(document).ready(function () {
             }, 500)
         }
     });
-    $('#save-data').click(function () {
-        if (CheckNotEmptyAndEmailVal()) {
-            $('#data-form').submit();
-        }
-    })
 });
 
 function SetItemName() {
@@ -88,7 +83,7 @@ function SaveForm() {
                     item.name = $(this).attr('name');
                     item.id = res;
                     form_id = item.id;
-                    if ($(this).hasClass('search-on')){
+                    if ($(this).hasClass('search-on')) {
                         item.search = 'search';
                         item.c_name = $(this).closest('.box-element').find('#column-name-l').val();
                         item.c_name = item.c_name ? item.c_name : 'Name';
@@ -100,7 +95,7 @@ function SaveForm() {
                     url: "/admin/ajax/create-table-by-data",
                     data: toObject(ob_name),
                     success: function (data) {
-                        var href = location.protocol + "//" + document.domain + '/admin/form/view?id=' + form_id;
+                        var href = location.protocol + "//" + document.domain + '/admin/forms';
                         window.location.href = href;
                     }
                 });
@@ -114,28 +109,6 @@ function toObject(arr) {
     for (var i = 0; i < arr.length; ++i)
         rv[i] = arr[i];
     return rv;
-}
-
-function CheckNotEmptyAndEmailVal() {
-    var flag = true;
-    $('.not-empty').each(function () {
-        var val = $(this).val();
-        if (!val) {
-            flag = false;
-            $(this).addClass('empty-active')
-        } else {
-            $(this).removeClass('empty-active')
-        }
-    });
-    $('#user-view input[type="email"]').each(function () {
-        if (!validateEmail($(this).val())) {
-            flag = false;
-            $(this).addClass('empty-active')
-        } else {
-            $(this).removeClass('empty-active')
-        }
-    })
-    return flag;
 }
 
 

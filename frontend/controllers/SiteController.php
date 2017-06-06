@@ -16,6 +16,11 @@ class SiteController extends Controller
         return parent::beforeAction($action);
     }
 
+    public function actionIndex()
+    {
+        $this->redirect('https://am.usembassy.gov');
+    }
+
     public function actionView($id)
     {
         $this->layout = false;
@@ -30,7 +35,9 @@ class SiteController extends Controller
             $model = new Dynamic();
             $model->RunModel('form_' . $id_f, $post);
             if ($model->SaveData()) {
-                Helper::SendMail($post, $id_f);
+                $d_id = Yii::$app->db->getLastInsertID();
+                Helper::SendMail($post, $id_f, $d_id);
+                Helper::SendMailAdmin($post, $id_f, $d_id);
                 $this->redirect(['thank', 'id' => $id]);
                 Yii::$app->session->setFlash('success', 'Saved...');
             } else {

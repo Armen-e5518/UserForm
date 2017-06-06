@@ -2,6 +2,22 @@ body {
     padding-bottom: 0px !important;
 }
 
+.col-md-12 {
+    width: 100%
+}
+
+.col-md-8 {
+    width: 66.66666667%
+}
+
+.col-md-6 {
+    width: 50%
+}
+
+.col-md-4 {
+    width: 33.33333333%;
+}
+
 .view textarea {
     width: 100%;
 }
@@ -38,13 +54,19 @@ p {
 }
 
 .view h1, .view h2, .view h3, .view h4 {
-    background-color: #003875;
-    color: #fff !important;
     padding: 10px;
+    font-weight: 600;
+}
+
+.view h2, .view h3, .view h4 {
+    background-color: #ddd;
+    color: #003875 !important;
 }
 
 .view h1 {
     font-size: 25px !important;
+    background-color: #003875;
+    color: #fff !important;
 }
 
 .view h2 {
@@ -60,7 +82,7 @@ p {
 }
 
 .view .drag {
-    font-size: 10px!important;
+    font-size: 10px !important;
 }
 
 .display-none {
@@ -219,6 +241,7 @@ p {
 .save-button {
     width: 100%;
     text-align: center;
+    margin-top: 22px;
 }
 
 #user-view .box {
@@ -504,6 +527,14 @@ th.success input {
     width: 12%;
 }
 
+.image-block {
+    text-align: center;
+}
+
+select {
+    min-width: 125px;
+}
+
 @media (min-width: 768px) {
     .sidebar-mini.sidebar-collapse .sidebar-menu > li > a > span {
         border-radius: 0 !important;
@@ -514,4 +545,30 @@ th.success input {
     #form-data-table td a {
         margin-bottom: 3px;
     }
+}
+
+.text-title {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#image-width {
+    width: 50px;
+}
+
+.view img {
+    width: 70px;
+}
+
+.error-pop {
+    color: red !important;
+    font-size: 12px;
+}
+
+#user-view input[type=text], #user-view input[type=email], #user-view input[type=tel], #user-view input[type=number] {
+    width: 100%;
+}
+
+#user-view textarea {
+    height: 50px;
 }

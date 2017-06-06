@@ -485,3 +485,12 @@ th.success input {
         margin-bottom: 3px;
     }
 }
+
+.error-pop {
+    color: red !important;
+    font-size: 12px;
+    display: inline-block;
+}
+#user-view textarea {
+    height: 50px;
+}

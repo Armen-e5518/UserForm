@@ -13,6 +13,7 @@ use \yii\web\View;
     <link href="/admin/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
     <link href="/admin/css/layoutit.css" rel="stylesheet">
     <link href="/admin/css/src.css" rel="stylesheet">
+<!--    <link href="/admin/css/dropzone.css" rel="stylesheet">-->
     <script src="/admin/js/jquery/html5shiv.js"></script>
     <script src="/admin/lib/jquery/dist/jquery.min.js"></script>
     <script src="/admin/js/jquery/jquery-ui.js"></script>
@@ -23,7 +24,8 @@ use \yii\web\View;
     <script src="/admin/js/src.js"></script>
     <script src="/admin/js/save-form.js"></script>
     <script src="/admin/js/image-set.js"></script>
-
+    <script src="//cdnjs.cloudflare.com/ajax/libs/dropzone/4.3.0/min/dropzone.min.js"></script>
+    <script src="/admin/js/Dropzone.js"></script>
 </head>
 <body style="min-height: 824px;" class="edit">
 <div class="navbar navbar-inverse navbar-fixed-top navbar-layoutit">

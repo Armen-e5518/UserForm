@@ -85,6 +85,7 @@ class UsersFormController extends Controller
             'form' => Forms::GetFormById($fid),
             'form_id' => $fid,
             'id' => $id,
+            'pdf' => Yii::$app->request->get('pdf')
         ]);
     }
 

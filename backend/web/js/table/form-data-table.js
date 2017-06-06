@@ -4,13 +4,32 @@ $(document).ready(function () {
         "pageLength": 10,
         "deferRender": true,
         dom: 'Bfrtip',
-        "order": [[ 0, "desc" ]],
+        "order": [[0, "desc"]],
         buttons: [
-            'csv', 'excel', 'pdf'
+            'csv',
+            'excel',
+            {
+                extend: 'pdf',
+                text: 'PDF',
+                exportOptions: {
+                    modifier: {
+                        columns: [0, 1, 2, 3, 4, 5],
+                        page: 'current'
+                    }
+
+                },
+                customize: function(doc) {
+                    //pageMargins [left, top, right, bottom]
+                    console.log(doc);
+                    // doc.pageMargins = [ 150, 20, 150, 20 ];
+                    doc.dataPadding = [ 150, 20, 150, 20 ];
+
+                }
+            }
         ],
 
     });
- 
+
     $('#form-data-table thead th').each(function () {
         $(this).append('<input type="text" placeholder="Search" />');
     });
@@ -29,3 +48,4 @@ $(document).ready(function () {
 
 
 });
+

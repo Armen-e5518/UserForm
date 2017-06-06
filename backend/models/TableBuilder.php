@@ -61,7 +61,7 @@ class TableBuilder extends Migration
         }
     }
 
-    public function DropTableById($form_id)
+    public function  DropTableById($form_id)
     {
         $tableSchema = \Yii::$app->db->schema->getTableSchema('form_' . $form_id);
         if (!empty($tableSchema)) {

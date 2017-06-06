@@ -29,7 +29,8 @@ class Helper
             $flag = true;
             foreach ($file as $name => $value) {
                 if (!empty($value['name'])) {
-                    $target_dir = \Yii::$app->basePath . '/web/uploads/';
+//                    $target_dir = \Yii::$app->basePath . '/web/uploads/';
+                    $target_dir = \Yii::$app->params['root_path'] . 'backend/web/uploads/';
                     $name_array = explode(".", basename($file[$name]["name"]));
                     $format = end($name_array);
                     $file_name = md5(microtime(true) + rand(1, 100));
@@ -70,7 +71,7 @@ class Helper
             if (!empty($data)) {
                 $flag = false;
                 $phat = \Yii::$app->basePath . '/web/uploads/';
-                $zip_file = $phat . 'zip/' . $data['user_first_name_1'] . '_' . $data['user_last_name_1'] . '.zip';
+                $zip_file = $phat . 'zip/' . $data['user_first_name_1'] . '_' . $data['user_last_name_1'] . '_' . $form_id . '_' . $form_data_id . '.zip';
                 if (file_exists($zip_file)) {
                     unlink($zip_file);
                 }
@@ -87,15 +88,18 @@ class Helper
                     }
                 }
                 $zip->close();
-                return $zip_file;
+                return [
+                    'zip' => $zip_file,
+                    'flag' => $flag,
+                ];
             }
         }
         return null;
     }
 
-    public static function SendMail($post = null, $form_id = null)
+    public static function SendMail($post = null, $form_id = null, $id = null)
     {
-        if (!empty($post) && !empty($form_id)) {
+        if (!empty($post) && !empty($form_id) && !empty($id)) {
             $email_data = Forms::GetEmailDataById($form_id);
             $Subject = !empty($email_data['email_subject']) ? $email_data['email_subject'] : 'Thanks';
             $Body = !empty($email_data['email_text']) ? $email_data['email_text'] : 'Thanks';
@@ -111,6 +115,36 @@ class Helper
             }
         }
         return false;
+    }
+
+    public static function SendMailAdmin($post = null, $form_id = null, $id = null)
+    {
+        if (!empty($post) && !empty($form_id) && !empty($id)) {
+            $email_data = Forms::GetEmailDataById($form_id);
+            $Subject = 'New User Data';
+            $pdf = \Yii::$app->params['domain'] . '/admin/users-form/form?fid=' . $form_id . '&id=' . $id . '&pdf=1';
+            $Body = '<a href="' . $pdf . '">Download Pdf</a>';
+            return \Yii::$app->mailer->compose()
+                ->setFrom(\Yii::$app->params['mail']['from'])
+                ->setTo($email_data['email'])
+                ->setSubject($Subject)
+                ->setHtmlBody($Body)
+                ->send();
+
+        }
+        return false;
+    }
+
+
+    public static function GetFileArrayByData($data = null)
+    {
+        if (!empty($data)) {
+            foreach ($data as $kay => $d) {
+                if ((!(strripos($kay, 'file_') === false))) {
+
+                }
+            }
+        }
     }
 
 }

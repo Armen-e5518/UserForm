@@ -23,7 +23,7 @@ $this->registerJsFile('/admin/js/table/form-data-table.js', ['position' => \yii\
 $this->registerJsFile('/admin/js/table/form-data-index.js', ['position' => \yii\web\View::POS_END]);
 $this->registerJsFile('/admin/js/table/table-normal-column.js', ['position' => \yii\web\View::POS_END]);
 //dmstr\web\AdminLteAsset::register($this);
-$this->title = 'Data';
+$this->title = $form['name'];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="row">

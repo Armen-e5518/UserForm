@@ -136,7 +136,7 @@ function TableGenerator(row, col) {
 }
 
 function TableGeneratorByTextBox(row, col) {
-    var html = '<table class="table">';
+    var html = '<div class="table-responsive"><table class="table">';
     var text = 'text';
     for (var i = 0; i < row; i++) {
         html += '<tr>';
@@ -154,7 +154,7 @@ function TableGeneratorByTextBox(row, col) {
         }
         html += '</tr>'
     }
-    html += '</table>';
+    html += '</table></div>';
     return html;
 }
 
@@ -162,6 +162,8 @@ function FindElementEdit(ob, isEditable) {
     console.log(isEditable);
     ob.closest('.box-element').find('.view').find('h1').prop('contenteditable', !isEditable).toggleClass('editable');
     ob.closest('.box-element').find('.view').find('h2').prop('contenteditable', !isEditable).toggleClass('editable');
+    ob.closest('.box-element').find('.view').find('h3').prop('contenteditable', !isEditable).toggleClass('editable');
+    ob.closest('.box-element').find('.view').find('h4').prop('contenteditable', !isEditable).toggleClass('editable');
     ob.closest('.box-element').find('.view').find('h3').prop('contenteditable', !isEditable).toggleClass('editable');
     ob.closest('.box-element').find('.view').find('h').prop('contenteditable', !isEditable).toggleClass('editable');
     ob.closest('.box-element').find('.view').find('p').prop('contenteditable', !isEditable).toggleClass('editable');

@@ -8,7 +8,7 @@ $this->registerJsFile('/admin/js/src.js', ['position' => \yii\web\View::POS_END]
 $this->registerJsFile('/admin/js/save-form.js', ['position' => \yii\web\View::POS_END]);
 $this->registerJsFile('/admin/js/set-data.js', ['position' => \yii\web\View::POS_END]);
 $this->registerJsFile('/admin/js/save-pdf-content.js', ['position' => \yii\web\View::POS_END]);
-
+$this->title = $form['name'];
 ?>
 <div class="content-user-data">
     <?php if (!empty($form)) : ?>
@@ -29,4 +29,5 @@ $this->registerJsFile('/admin/js/save-pdf-content.js', ['position' => \yii\web\V
 <script>
     var _Form_id = "<?=!empty($form['id']) ? $form['id'] : null?>";
     var _Id = "<?=!empty($id) ? $id : null?>";
+    var _Pdf = "<?=!empty($pdf) ? $pdf : null?>";
 </script>

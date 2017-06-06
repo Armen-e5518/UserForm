@@ -14,6 +14,7 @@ use yii\helpers\Html;
  * @property string $html
  * @property string $email_subject
  * @property string $email_text
+ * @property string $email
  * @property string $thank_title
  * @property string $thank_text
  *
@@ -34,9 +35,10 @@ class Forms extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['html'], 'string'],
-            [['url'], 'string', 'max' => 38],
-            [['name', 'email_subject', 'email_text', 'thank_title', 'thank_text'], 'string', 'max' => 255],
+            [['html','thank_text'], 'string'],
+            [['url','email'], 'string', 'max' => 200],
+            ['email', 'email'],
+            [['name', 'email_subject', 'email_text', 'thank_title'], 'string', 'max' => 255],
         ];
     }
 
@@ -54,6 +56,7 @@ class Forms extends \yii\db\ActiveRecord
             'email_text' => 'Email Text',
             'thank_title' => 'Thank you title',
             'thank_text' => 'Text',
+            'email' => 'Send Email',
         ];
     }
 

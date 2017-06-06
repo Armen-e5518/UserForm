@@ -6,9 +6,8 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-    <script type="text/javascript" async="" src="//code.jquery.com/jquery-1.12.4.js"></script>
-    <script type="text/javascript" async="" src="/admin/js/src.js"></script>
-    <script type="text/javascript" async="" src="/admin/js/save-form.js"></script>
+    <script type="text/javascript" async="" src="/js/jquery/jquery.js"></script>
+
 
 
     <script type="text/javascript" async=""
@@ -6013,7 +6012,7 @@
                         <input type="hidden" name="date" value="<?= date("Y-m-d H:i:s"); ?>">
                         <?= \yii\helpers\Html::decode($form['html']) ?>
                         <div class="save-button">
-                            <button id="save-data" type="button" class="btn btn-success">Save Data</button>
+                            <button id="save-data" type="button" class="btn btn-success">Submit</button>
                         </div>
                     </form>
                 </div>
@@ -6236,6 +6235,9 @@
     /* ]]> */
 </script><!--wp_footer-->
 
+
+    <script type="text/javascript" async="" src="/admin/js/src.js"></script>
+    <script type="text/javascript" async="" src="/admin/js/save-form-data.js"></script>
 <div id="usasearch_sayt"
      style="background: none; border: 0px; display: block; float: none; height: 0px; line-height: 0; margin: 0px; padding: 0px; position: static; width: 0px;">
     <ul class="ui-autocomplete ui-menu ui-widget ui-widget-content ui-corner-all" role="listbox"

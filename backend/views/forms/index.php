@@ -28,14 +28,15 @@ $this->params['breadcrumbs'][] = $this->title;
                         },
                         'format' => 'raw'
                     ],
+                    'name',
+                    'email',
                     'email_subject',
                     'thank_title',
-                    'name',
                     [
                         'class' => 'yii\grid\ActionColumn',
                         'header' => 'Actions',
 //                        'headerOptions' => ['style' => 'color:#337ab7'],
-                        'template' => '{view}{update}{delete}{clone}{thanks}{email}',
+                        'template' => '{v}{update}{delete}{clone}{thanks}{email}',
                         'buttons' => [
                             'view' => function ($url, $model) {
                                 return Html::a('<span class="glyphicon glyphicon-eye-open"></span>', $url, [
@@ -50,6 +51,9 @@ $this->params['breadcrumbs'][] = $this->title;
                             'delete' => function ($url, $model) {
                                 return Html::a('<span class="glyphicon glyphicon-trash"></span>', $url, [
                                     'title' => Yii::t('app', 'delete'),
+                                    'data' => [
+                                        'confirm' => 'Do you want to delete this form?',
+                                    ],
                                 ]);
                             },
                             'clone' => function ($url, $model) {

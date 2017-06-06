@@ -164,7 +164,7 @@
                     <div class="preview">User first name</div>
                     <div class="view">
                         <div>
-                            <span>User first name </span>
+                            <span class="text-title">User first name </span>
                             <span><input class="gen-name not-empty search-on user-first-name" name="user_first_name_1"
                                          type="text"></span>
                         </div>
@@ -208,7 +208,7 @@
                     <div class="preview">User last name</div>
                     <div class="view">
                         <div>
-                            <span>User last name</span>
+                            <span class="text-title">User last name</span>
                             <span><input class="gen-name not-empty search-on user-last-name" name="user_last_name_1"
                                          type="text"></span>
                         </div>
@@ -252,7 +252,7 @@
                     <div class="preview">User email</div>
                     <div class="view">
                         <div>
-                            <span>User email</span>
+                            <span class="text-title">User email</span>
                             <span><input class="gen-name not-empty search-on user-email-name" name="user_email_1"
                                          type="email"></span>
                         </div>
@@ -352,10 +352,6 @@
                                     <span>Not empty</span>
                                     <span><input type="checkbox"></span>
 								</span>
-                                <span class="btn-group btn-group-xs f-search">
-                                    <span>Search</span>
-                                    <span><input type="checkbox"></span>
-								</span>
 							</span>
                     <div class="preview">Text area</div>
                     <div class="view">
@@ -450,7 +446,7 @@
                     <div class="preview">Text box</div>
                     <div class="view">
                         <div>
-                            <span class="name-title">Text box name</span>
+                            <span class="name-title text-title">Text box name</span>
                             <span><input class="gen-text" type="text"></span>
                         </div>
                     </div>
@@ -501,7 +497,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="box box-element ui-draggable">
+                <div class="box box-element ui-draggable" >
                     <a href="#close" class="remove label label-danger">
                         <i class="glyphicon glyphicon-remove"></i>
                         delete
@@ -515,16 +511,15 @@
 						drag
                     </span>
                     <span class="configuration">
-                        <input id="image-url" type="text">
+                        <input id="image-url" placeholder="Image URL" type="text">
+                        <span><input id="image-width" alt='img'  value="70" type="number"> px.</span>
                     </span>
                     <div class="preview">
                         Image
                     </div>
                     <div class="view">
-                        <div>
-                            <img width="70px"
-                                 src="https://s-media-cache-ak0.pinimg.com/originals/ff/a5/e6/ffa5e6b0e5808c8a455ca52e4b47bd05.jpg"
-                                 alt="">
+                        <div class="image-block">
+                            <img style="width: 70px;" src="https://s-media-cache-ak0.pinimg.com/originals/ff/a5/e6/ffa5e6b0e5808c8a455ca52e4b47bd05.jpg" alt="">
                         </div>
                     </div>
                 </div>
@@ -584,6 +579,39 @@
                     </div>
                     <div class="view"></div>
                 </div>
+                <div class="box box-element ui-draggable" style="display: none">
+                    <a href="#close" class="remove label label-danger">
+                        <i class="glyphicon glyphicon-remove"></i>
+                        delete
+                    </a>
+                    <a href="#edit" class=" edit-text label label-danger">
+                        <i class="glyphicon glyphicon-pencil"></i>
+                        edit
+                    </a>
+                    <span class="drag label label-default">
+						<i class="glyphicon glyphicon-move"></i>
+						drag
+                    </span>
+                    <span class="configuration">
+                        <input id="image-url" placeholder="Image URL" type="text">
+                        <span><input id="image-width" alt='img'  value="70" type="number"> px.</span>
+                    </span>
+                    <div class="preview">
+                        Image
+                        <div class="img-upload">
+                            <form action="/" method="post" class="dropzone" id="my-awesome-dropzone"></form>
+                        </div>
+                    </div>
+                    <div class="view">
+                        <div class="img-upload">
+                            <form action="/" method="post" class="dropzone" id="my-awesome-dropzone"></form>
+                        </div>
+                        <div class="image-block">
+                            <img style="width: 70px;" src="https://s-media-cache-ak0.pinimg.com/originals/ff/a5/e6/ffa5e6b0e5808c8a455ca52e4b47bd05.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+
                 <div class="box box-element ui-draggable">
                     <a href="#close" class="remove label label-danger">
                         <i class="glyphicon glyphicon-remove"></i>
@@ -603,7 +631,7 @@
                                 drag
                             </span>
                     <div class="preview">
-                        <input type="text" value="" placeholder="Count row" class="form-control"
+                        <input type="number" value="" placeholder="Count row" class="form-control"
                                id="drop-down-g">
                         <span></span>
                     </div>

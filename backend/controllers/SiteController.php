@@ -111,8 +111,9 @@ class SiteController extends Controller
         if ($UsersForm['rol'] == 'SUPER_ADMIN') {
             if (FormsData::DeleteFormDataById($fid, $id)) {
                 Yii::$app->session->setFlash('success', 'Deleted...');
+            }else{
+                Yii::$app->session->setFlash('error', 'Data was not deleted...');
             }
-            Yii::$app->session->setFlash('error', 'Data was not deleted...');
         }
         return $this->goHome();
     }
@@ -155,11 +156,13 @@ class SiteController extends Controller
             $this->redirect('/admin/site');
         }
         $column = SearchForm::GetColumnNameByFormIdArray($id);
+        $column_label = SearchForm::GetColumnNameByFormIdArrayByLabel($id);
         return $this->render('form', [
+            'form' => Forms::GetFormById($id),
             'forms' => Forms::GetAllForms(),
             'forms_data' => FormsData::GetFormDataByFormId($id),
             'search_field' => $column,
-            'search_normal_field' => DataChange::ColumnsNameByNormal($column),
+            'search_normal_field' => DataChange::ColumnsNameByNormal($column_label),
             'form_id' => $id,
             'super_admin' => (UsersForms::GetUsersFormsByThisUser()['rol'] == 'SUPER_ADMIN') ? true : false,
         ]);
@@ -169,9 +172,8 @@ class SiteController extends Controller
     {
         if (!empty($fid) && !empty($id)) {
             $file = Helper::GetZipUrl($fid, $id);
-
-            if (file_exists($file)) {
-                Yii::$app->response->sendFile((string)$file);
+            if (file_exists($file['zip']) && $file['flag']) {
+                Yii::$app->response->sendFile((string)$file['zip']);
             } else {
                 $this->redirect('/admin/site/no-file');
             }
@@ -218,7 +220,6 @@ class SiteController extends Controller
         } else {
             return $this->render('login', [
                 'model' => $model,
-
             ]);
         }
     }
@@ -261,14 +262,15 @@ class SiteController extends Controller
             'content' => $content,
             // format content from your own css file if needed or use the
 //             enhanced bootstrap css built by Krajee for mPDF formatting
-//            'cssFile' => '@vendor/kartik-v/yii2-mpdf/assets/kv-mpdf-bootstrap.min.css',
+//            'cssFile' => '@web/css/pdf-css.css',
+            'cssFile' => '@vendor/kartik-v/yii2-mpdf/assets/kv-mpdf-bootstrap.min.css',
             // any css to be embedded if required
-            'cssInline' => '.kv-heading-1{font-size:18px}',
+//            'cssInline' => '.kv-heading-1{font-size:18px}',
             // set mPDF properties on the fly
-            'options' => ['title' => 'U.S. Embassy in Armenia'],
+            'options' => ['title' => 'U.S. Embassy in Armenia '.date('YY-MM-DD')],
             // call mPDF methods on the fly
             'methods' => [
-                'SetHeader' => ['U.S. Embassy in Armenia'],
+                'SetHeader' => ['U.S. Embassy in Armenia '.date('Y-m-d')],
                 'SetFooter' => ['{PAGENO}'],
             ]
         ]);
@@ -279,19 +281,4 @@ class SiteController extends Controller
         return $pdf->render();
     }
 
-//    public function actionDom()
-//    {
-//
-//        $content = '
-//
-//tEXT::
-//input
-//';
-//
-//        //generate some PDFs!
-//        $dompdf = new DOMPDF();  //if you use namespaces you may use new \DOMPDF()
-//        $dompdf->loadHtml($content);
-//        $dompdf->render();
-//        $dompdf->stream("sample.pdf", array("Attachment"=>0));
-//}
 }
