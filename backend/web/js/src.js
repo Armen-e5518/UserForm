@@ -114,6 +114,18 @@ $(document).ready(function () {
         }
     });
 
+    $('.demo .gen-name[max-character]').each(function () {
+        $(this).closest('.box-element').find('.configuration #max-character').val($(this).attr('max-character'));
+    });
+
+    $('.demo  .view .not-empty').each(function () {
+        $(this).closest('.box-element').find('.configuration .n-empty input').prop("checked", true);
+    });
+
+    $('.demo  .view .search-on').each(function () {
+        $(this).closest('.box-element').find('.configuration .f-search input').prop("checked", true);
+    })
+
 });
 
 function SetTypeInInput(ob) {
@@ -210,3 +222,4 @@ function GetNormalName(string) {
     s1 = s1.replace(':', "");
     return s1;
 }
+

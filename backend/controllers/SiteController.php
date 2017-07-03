@@ -111,7 +111,7 @@ class SiteController extends Controller
         if ($UsersForm['rol'] == 'SUPER_ADMIN') {
             if (FormsData::DeleteFormDataById($fid, $id)) {
                 Yii::$app->session->setFlash('success', 'Deleted...');
-            }else{
+            } else {
                 Yii::$app->session->setFlash('error', 'Data was not deleted...');
             }
         }
@@ -139,7 +139,7 @@ class SiteController extends Controller
      */
     public function actionCss()
     {
-        $file = $target_dir = \Yii::$app->basePath . '/web/css/src.css';
+        $file = \Yii::$app->basePath . '/web/css/src.css';
         $post = Yii::$app->request->post();
         if ($post) {
             file_put_contents($file, $post['css']);
@@ -152,7 +152,7 @@ class SiteController extends Controller
     public function actionForm()
     {
         $id = !empty(Yii::$app->request->get()) ? Yii::$app->request->get('id') : null;
-        if(empty($id)){
+        if (empty($id)) {
             $this->redirect('/admin/site');
         }
         $column = SearchForm::GetColumnNameByFormIdArray($id);
@@ -243,12 +243,11 @@ class SiteController extends Controller
         }
 
         $this->layout = false;
-
+        $form_data = FormsData::GetFormDataByFormIdByDataId($fid, $id);
+//        Helper::Out($form_data);
         $content = $this->renderPartial('pdf-content', [
             'form' => PdfForm::GetPdfContentByFormIdDataId($fid, $id),
         ]);
-//        $content = 'Armen';
-        // setup kartik\mpdf\Pdf component
         $pdf = new Pdf([
             // set to use core fonts only
             'mode' => Pdf::MODE_CORE,
@@ -267,11 +266,11 @@ class SiteController extends Controller
             // any css to be embedded if required
 //            'cssInline' => '.kv-heading-1{font-size:18px}',
             // set mPDF properties on the fly
-            'options' => ['title' => 'U.S. Embassy in Armenia '.date('YY-MM-DD')],
+            'options' => ['title' => 'U.S. Embassy in Armenia ' . date('YY-MM-DD')],
             // call mPDF methods on the fly
             'methods' => [
-                'SetHeader' => ['U.S. Embassy in Armenia '.date('Y-m-d')],
-                'SetFooter' => ['{PAGENO}'],
+                'SetHeader' => [$form_data['user_first_name_1'] . ' ' . $form_data['user_last_name_1'] .' '. date('Y-m-d')],
+                'SetFooter' => ['U.S. Embassy in Armenia | {PAGENO}'],
             ]
         ]);
         Yii::$app->response->format = \yii\web\Response::FORMAT_RAW;

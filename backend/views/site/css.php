@@ -7,12 +7,7 @@
 <script src="https://codemirror.net/addon/hint/javascript-hint.js"></script>
 
 <form action="" method="post" id="css-ed">
-
-  <textarea style="background-color: #a6d6c7; font-size: 20px" name="css" id="csseditor" cols="100" rows="25"
-            class="codemirror-textarea">
-    <?= $data ?>
-</textarea>
-
+  <textarea style="background-color: #a6d6c7; font-size: 20px" name="css" id="csseditor" cols="100" rows="25" class="codemirror-textarea"><?= $data ?></textarea>
     <br>
     <input type="submit" value="Save">
 </form>
@@ -28,8 +23,8 @@
         });
         myCodeMirror.setSize(1000, 600);
 
-        $(document).bind('keydown', function(e) {
-            if(e.ctrlKey && (e.which == 83)) {
+        $(document).bind('keydown', function (e) {
+            if (e.ctrlKey && (e.which == 83)) {
                 $('#css-ed').submit();
                 e.preventDefault();
 
@@ -40,7 +35,7 @@
             $('.CodeMirror-scroll').scrollTop(9999)
             $('.CodeMirror').scrollTop = 10000;
             $('.CodeMirror-vscrollbar').scrollTop = 10000;
-        },500)
+        }, 500)
 
     })
 

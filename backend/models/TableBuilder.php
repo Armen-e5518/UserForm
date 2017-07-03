@@ -53,7 +53,7 @@ class TableBuilder extends Migration
                 } else {
                     $sql[$d['name']] = $this->string()->null();
                 }
-                if ($d['search'] == 'search') {
+                if (!empty($d['search']) && $d['search'] == 'search') {
                     SearchForm::SaveFormSearchColumn($form_id, $d['name'],$d['c_name']);
                 }
             }

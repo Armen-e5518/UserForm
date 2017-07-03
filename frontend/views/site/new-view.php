@@ -5990,7 +5990,7 @@
     <div class="container">
         <header>
             <h1>
-               Form </h1>
+               <?=$form['name']?> </h1>
         </header>
     </div>
 </div>

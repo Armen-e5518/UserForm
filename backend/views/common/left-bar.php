@@ -348,11 +348,15 @@
 								drag
 							</span>
                     <span class="configuration">
-								<span class="btn-group btn-group-xs n-empty">
-                                    <span>Not empty</span>
-                                    <span><input type="checkbox"></span>
-								</span>
-							</span>
+                          <span class="btn-group btn-group-xs">
+                                 <span>Max Character</span>
+                                 <span> <input type="number" value="200" id="max-character" placeholder=""></span>
+						  </span>
+						  <span class="btn-group btn-group-xs n-empty">
+                                 <span>Not empty</span>
+                                 <span><input type="checkbox"></span>
+						  </span>
+                    </span>
                     <div class="preview">Text area</div>
                     <div class="view">
                         <textarea></textarea>
@@ -393,6 +397,10 @@
                     <span class="configuration">
                                 <span class="btn-group btn-group-xs n-empty">
                                    <input type="text" id="column-name-l" placeholder="Column name">
+								</span>
+                                <span class="btn-group btn-group-xs">
+                                    <span>Max Character</span>
+                                    <span> <input type="number" value="200" id="max-character" placeholder=""></span>
 								</span>
 								<span class="btn-group btn-group-xs n-empty">
                                     <span>Not empty</span>
@@ -451,7 +459,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="box box-element ui-draggable">
+                <div class="box box-element ui-draggable radio-element">
                     <a href="#close" class="remove label label-danger">
                         <i class="glyphicon glyphicon-remove"></i>
                         delete
@@ -468,7 +476,14 @@
                     <span class="configuration">
                                 	<span class="btn-group btn-group-xs reverse">Revers</span>
 							</span>
-                    <div class="preview">Checkbox</div>
+                    <div class="preview">
+                        <span>Checkbox</span>
+                        <div class="new-group-options">
+                            <span class="op-title">Required</span>
+                            <input  type="checkbox" id="radio-required">
+                            <span class="new-group">New group</span>
+                        </div>
+                    </div>
                     <div class="view">
                         <div>
                             <span class="name-title">Text</span>
@@ -497,7 +512,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="box box-element ui-draggable" >
+                <div class="box box-element ui-draggable">
                     <a href="#close" class="remove label label-danger">
                         <i class="glyphicon glyphicon-remove"></i>
                         delete
@@ -512,18 +527,20 @@
                     </span>
                     <span class="configuration">
                         <input id="image-url" placeholder="Image URL" type="text">
-                        <span><input id="image-width" alt='img'  value="70" type="number"> px.</span>
+                        <span><input id="image-width" alt='img' value="70" type="number"> px.</span>
                     </span>
                     <div class="preview">
                         Image
                     </div>
                     <div class="view">
                         <div class="image-block">
-                            <img style="width: 70px;" src="https://s-media-cache-ak0.pinimg.com/originals/ff/a5/e6/ffa5e6b0e5808c8a455ca52e4b47bd05.jpg" alt="">
+                            <img style="width: 70px;"
+                                 src="https://s-media-cache-ak0.pinimg.com/originals/ff/a5/e6/ffa5e6b0e5808c8a455ca52e4b47bd05.jpg"
+                                 alt="">
                         </div>
                     </div>
                 </div>
-                <div class="box box-element ui-draggable">
+                <div class="box box-element ui-draggable radio-element">
                     <a href="#close" class="remove label label-danger">
                         <i class="glyphicon glyphicon-remove"></i>
                         delete
@@ -541,13 +558,17 @@
 							</span>
                     <div class="preview">
                         Radiobutton
-                        <span class="new-group">New group</span>
+                        <div class="new-group-options">
+                            <span class="op-title">Required</span>
+                            <input  type="checkbox" id="radio-required">
+                            <span class="new-group">New group</span>
+                        </div>
                     </div>
                     <div class="view">
                         <div>
                             <span class="name-title">Text</span>
-                            <span class="checkbox-c"><input class="gen-redio" name="radio_5462010" value="1"
-                                                            type="radio"></span>
+                            <span class="checkbox-c">
+                                <input class="gen-redio" name="radio_5462010" value="1" type="radio"></span>
                         </div>
                     </div>
                 </div>
@@ -594,7 +615,7 @@
                     </span>
                     <span class="configuration">
                         <input id="image-url" placeholder="Image URL" type="text">
-                        <span><input id="image-width" alt='img'  value="70" type="number"> px.</span>
+                        <span><input id="image-width" alt='img' value="70" type="number"> px.</span>
                     </span>
                     <div class="preview">
                         Image
@@ -607,7 +628,9 @@
                             <form action="/" method="post" class="dropzone" id="my-awesome-dropzone"></form>
                         </div>
                         <div class="image-block">
-                            <img style="width: 70px;" src="https://s-media-cache-ak0.pinimg.com/originals/ff/a5/e6/ffa5e6b0e5808c8a455ca52e4b47bd05.jpg" alt="">
+                            <img style="width: 70px;"
+                                 src="https://s-media-cache-ak0.pinimg.com/originals/ff/a5/e6/ffa5e6b0e5808c8a455ca52e4b47bd05.jpg"
+                                 alt="">
                         </div>
                     </div>
                 </div>

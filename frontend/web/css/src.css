@@ -494,3 +494,6 @@ th.success input {
 #user-view textarea {
     height: 50px;
 }
+.radio-active{
+    color: red;
+}

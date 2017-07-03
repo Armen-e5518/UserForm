@@ -20,6 +20,7 @@ use \yii\web\View;
     <script src="/admin/js/jquery/jquery.htmlClean.js"></script>
     <script src="/admin/lib/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="/admin/js/radio.js"></script>
+    <script src="/admin/js/max-character.js"></script>
     <script src="/admin/js/scripts.js"></script>
     <script src="/admin/js/src.js"></script>
     <script src="/admin/js/save-form.js"></script>

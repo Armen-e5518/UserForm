@@ -20,6 +20,7 @@ $(document).ready(function () {
         }
         if (flag) {
             SetItemName();
+            SetMaxCharacter();
             setTimeout(function () {
                 SaveForm()
             }, 500)
@@ -115,4 +116,13 @@ function toObject(arr) {
 function validateEmail(email) {
     var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     return re.test(email);
+}
+
+function SetMaxCharacter() {
+
+    $('.demo #max-character').each(function () {
+        $(this).closest('.box-element').find('.view input').attr('max-character', $(this).val())
+        $(this).closest('.box-element').find('.view textarea').attr('max-character', $(this).val())
+    })
+
 }

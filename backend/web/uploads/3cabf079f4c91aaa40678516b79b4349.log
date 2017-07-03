@@ -1,0 +1,23 @@
+KNZaDrXLXh_.js:132 
+Остановитесь!
+KNZaDrXLXh_.js:132 
+Эта функция браузера предназначена для разработчиков. Если кто-то сказал вам скопировать и вставить что-то здесь, чтобы включить функцию Facebook или «взломать» чей-то аккаунт, это мошенники. Выполнив эти действия, вы предоставите им доступ к своему аккаунту Facebook.
+KNZaDrXLXh_.js:132 
+Подробнее на https://www.facebook.com/selfxss.
+KNZaDrXLXh_.js:132 
+
+?ref=logo:1 Uncaught (in promise) Object {name: "abort", message: "Request aborted.", type: "aborted", url: "https://video-sof1-1.xx.fbcdn.net/v/t42.1790-2/191…871fd&oe=593ECE80&bytestart=255031&byteend=333395", xhr: Object}message: "Request aborted."name: "abort"type: "aborted"url: "https://video-sof1-1.xx.fbcdn.net/v/t42.1790-2/19164364_1498193796897478_8973987161699254272_n.mp4?efg=eyJ2ZW5jb2RlX3RhZyI6ImRhc2hfdjNfNDI2X2NyZl8yM19tYWluXzMuMF9mcmFnXzJfdmlkZW8ifQ%3D%3D&oh=133a3bcea967b1bad3c775d1eb6871fd&oe=593ECE80&bytestart=255031&byteend=333395"xhr: Object__proto__: Object
+?ref=logo:1 Uncaught (in promise) Object {name: "abort", message: "Request aborted.", type: "aborted", url: "https://video-sof1-1.xx.fbcdn.net/v/t42.1790-2/191…7db73&oe=593ECBA2&bytestart=218715&byteend=293632", xhr: Object}
+?ref=logo:1 Uncaught (in promise) Object {name: "abort", message: "Request aborted.", type: "aborted", url: "https://video-sof1-1.xx.fbcdn.net/v/t42.1790-2/191…62f8&oe=593ECF1D&bytestart=937087&byteend=1122491", xhr: Object}
+KNZaDrXLXh_.js:46 Refused to get unsafe header "X-FB-Debug-Num-Pushed"
+gd @ CyHJ65Ojad2.js:170
+$c.o @ CyHJ65Ojad2.js:169
+ha @ KNZaDrXLXh_.js:46
+ia @ KNZaDrXLXh_.js:94
+r @ KNZaDrXLXh_.js:89
+KNZaDrXLXh_.js:46 Refused to get unsafe header "X-FB-Debug-List-Pushed"
+gd @ CyHJ65Ojad2.js:170
+$c.o @ CyHJ65Ojad2.js:169
+ha @ KNZaDrXLXh_.js:46
+ia @ KNZaDrXLXh_.js:94
+r @ KNZaDrXLXh_.js:89

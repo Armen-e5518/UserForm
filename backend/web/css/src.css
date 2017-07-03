@@ -572,3 +572,92 @@ select {
 #user-view textarea {
     height: 50px;
 }
+
+@media (max-width: 768px) {
+    .image-block img {
+        width: 100% !important;
+    }
+
+    .view h1 {
+        font-size: 20px !important;
+    }
+
+    .view h2 {
+        font-size: 17px !important;
+    }
+
+    .view p {
+        font-size: 15px !important;
+    }
+
+    .view h1, .view h2, .view h3, .view h4 {
+        padding: 5px;
+    }
+}
+
+@media (max-width: 568px) {
+    .view h1 {
+        font-size: 17px !important;
+    }
+
+    .view h2 {
+        font-size: 15px !important;
+    }
+
+    .view p {
+        font-size: 13px !important;
+    }
+
+    .file-c, .view span {
+        font-size: 14px;
+        padding-right: 3px;
+    }
+
+    .checkbox-c input[type="checkbox"],
+    .checkbox-c input[type="radio"] {
+        height: 16px;
+        width: 17px;
+    }
+
+    .table > thead > tr > td.success, .table > tbody > tr > td.success,
+    .table > tfoot > tr > td.success, .table > thead > tr > th.success,
+    .table > tbody > tr > th.success, .table > tfoot > tr > th.success,
+    .table > thead > tr.success > td, .table > tbody > tr.success > td,
+    .table > tfoot > tr.success > td, .table > thead > tr.success > th,
+    .table > tbody > tr.success > th, .table > tfoot > tr.success > th {
+        font-size: 13px;
+    }
+
+    .content-user-data p {
+        padding: 0;
+    }
+}
+
+#max-character {
+    width: 45px;
+}
+.configuration span,.configuration a{
+    font-size: 11px!important;
+}
+.radio-element{
+    height:45px!important;
+}
+.sidebar-nav .preview {
+    line-height: 15px;
+}
+.new-group-options .op-title{
+    position: absolute;
+    top: 21px;
+    left: 28px;
+}
+
+.new-group-options input{
+    position: absolute;
+    top: 2px!important;
+    left: 38px;
+    height: 16px!important;
+
+}
+.new-group-options .new-group{
+    top: 21px!important;
+}
