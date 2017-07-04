@@ -5,7 +5,19 @@ $(document).ready(function () {
     $('#save-data').click(function () {
         if (CheckNotEmptyAndEmailVal(true)) {
             $('#data-form').submit();
+        } else {
+            console.log('Not Valid')
         }
+    })
+
+    $('#user-view textarea').on('keydown', function () {
+        var el = this;
+        setTimeout(function () {
+            el.style.cssText = 'height:auto; padding:0';
+            // for box-sizing other than "content-box" use:
+            // el.style.cssText = '-moz-box-sizing:content-box';
+            el.style.cssText = 'height:' + el.scrollHeight + 'px';
+        }, 0);
     })
 });
 
@@ -55,10 +67,11 @@ function CheckNotEmptyAndEmailVal(scroll_flag) {
                 if (scroll_flag) {
                     $('body').scrollTop($(this).offset().top - 80);
                 }
-            } else {
-                $(this).removeClass('empty-active')
-                $(this).closest('.view').find('.error-pop').remove()
             }
+            // else {
+            //     $(this).removeClass('empty-active')
+            //     $(this).closest('.view').find('.error-pop').remove()
+            // }
         }
     });
 
@@ -80,7 +93,11 @@ function CheckNotEmptyAndEmailVal(scroll_flag) {
             });
             if (!rad_flag) {
                 flag = false;
-                $('#user-view .checked-required[name-required="' + val + '"]').closest('div').find('.name-title').addClass('radio-active')
+                var checked_required_ob = $('#user-view .checked-required[name-required="' + val + '"]');
+                checked_required_ob.closest('div').find('.name-title').addClass('radio-active');
+                if (scroll_flag) {
+                    $('body').scrollTop(checked_required_ob.offset().top - 80);
+                }
             } else {
                 $('#user-view .checked-required[name-required="' + val + '"]').closest('div').find('.name-title').removeClass('radio-active')
             }

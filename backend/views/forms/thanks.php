@@ -27,6 +27,14 @@ $this->title = 'Thank you';
 
     <?= $form->field($model, 'thank_title')->textInput(['maxlength' => true]) ?>
 
+    <div class="row">
+        <div class="col-md-6">
+            <?= $form->field($model, 'redirect_link')->textInput(['maxlength' => true]) ?>
+        </div>
+        <div class="col-md-6">
+            <?= $form->field($model, 'time')->textInput(['maxlength' => true]) ?>
+        </div>
+    </div>
     <?= $form->field($model, 'thank_text')->textarea(['row' => 5]) ?>
 
     <div class="form-group">

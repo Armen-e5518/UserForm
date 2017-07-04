@@ -109,8 +109,6 @@
     <link rel="stylesheet" href="/css/src.css" type="text/css">
     <link rel="stylesheet" href="/css/front.css" type="text/css">
     <link rel="stylesheet" href="/css/layoutit.css" type="text/css">
-    
-    
 
 
     <link rel="stylesheet" id="contact-form-7-css" href="/main/styles.css"
@@ -125,8 +123,6 @@
           href="/main/jquery-ui.css" type="text/css" media="all">
     <link rel="stylesheet" id="pcs-styles-css"
           href="/main/default-styles.css" type="text/css" media="screen">
-
-
 
 
     <script type="text/javascript" src="/main/admin-ajax.php"></script>
@@ -293,8 +289,7 @@
     <script type="text/javascript" src="/main/remote.loader.js"></script>
 
 
-
-    <style type="text/css" href = '/css/usembassy/src2.css'></style>
+    <style type="text/css" href='/css/usembassy/src2.css'></style>
     <style type="text/css">.at-branding-logo {
             font-family: helvetica, arial, sans-serif;
             text-decoration: none;
@@ -836,8 +831,7 @@
             left: 50%;
             z-index: 4
         }</style>
-   
-   
+
 
     <style type="text/css">.at-share-dock.atss {
             top: auto;
@@ -4362,8 +4356,7 @@
         .at-tjin-element .at-tjin-title {
             margin: 0 0 15px
         }</style>
-    <style type="text/css" href = '/css/usembassy/src1.css'></style>
-
+    <style type="text/css" href='/css/usembassy/src1.css'></style>
 
 
 </head>
@@ -4371,1206 +4364,1238 @@
 <div id="fb-root" class=" fb_reset">
     <div style="position: absolute; top: -10000px; height: 0px; width: 0px;">
         <div>
-        <div>
+            <div>
 
+            </div>
+        </div>
+        <div style="position: absolute; top: -10000px; height: 0px; width: 0px;">
+            <div></div>
         </div>
     </div>
-    <div style="position: absolute; top: -10000px; height: 0px; width: 0px;">
-        <div></div>
+
+
+    <!--[if lt IE  9]>
+    <div class="alert alert-warning">
+        You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your
+        browser</a> to improve your experience.
     </div>
-</div>
+    <![endif]-->
+    <header class="banner">
+        <div class="mo-header">
+            <div class="container">
+                <div class="mo-language">
+                    <ul class="head-disclaimer">
+                        <li class="throw-away">&nbsp;</li>
+                        <li class="disclaimer">
+                            <span>             </span>
+                        </li>
+                        <li class="language">
+                            <ul id="language-switch"><label for="lang_choice_1"><select name="lang_choice_1"
+                                                                                        id="lang_choice_1">
+                                        <option value="en" lang="en-US" selected="selected">English</option>
+                                        <option value="hy" lang="hy">Հայերեն</option>
 
+                                    </select>
 
-
-<!--[if lt IE  9]>
-<div class="alert alert-warning">
-    You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your
-    browser</a> to improve your experience.
-</div>
-<![endif]-->
-<header class="banner">
-    <div class="mo-header">
-        <div class="container">
-            <div class="mo-language">
-                <ul class="head-disclaimer">
-                    <li class="throw-away">&nbsp;</li>
-                    <li class="disclaimer">
-                        <span>             </span>
-                    </li>
-                    <li class="language">
-                        <ul id="language-switch"><label for="lang_choice_1"><select name="lang_choice_1"
-                                                                                    id="lang_choice_1">
-                                    <option value="en" lang="en-US" selected="selected">English</option>
-                                    <option value="hy" lang="hy">Հայերեն</option>
-
-                                </select>
-
-                                <script type="text/javascript">
-                                    //<![CDATA[
-                                    var urls_1 = {
-                                        "en": "https:\/\/am.usembassy.gov\/",
-                                        "hy": "https:\/\/am.usembassy.gov\/hy\/"
-                                    };
-                                    document.getElementById("lang_choice_1").onchange = function () {
-                                        location.href = urls_1[this.value];
-                                    }
-                                    //]]>
-                                </script>
-                            </label></ul>
-                    </li>
-                </ul>
-            </div>
-            <div class="mo-header-wrap">
-                <div class="mo-logo">
-                    <a class="brand-logo" href="https://am.usembassy.gov/"><img
-                                alt="United States of America, Department of State"
-                                src="/main/dos-logo-light.png"></a>
-                    <h1><a class="brand" href="https://am.usembassy.gov/" title="U.S. Embassy in Armenia"><span
-                                    class="head-title-1 head-one-liner">U.S. Embassy in Armenia</span></a></h1>
+                                    <script type="text/javascript">
+                                        //<![CDATA[
+                                        var urls_1 = {
+                                            "en": "https:\/\/am.usembassy.gov\/",
+                                            "hy": "https:\/\/am.usembassy.gov\/hy\/"
+                                        };
+                                        document.getElementById("lang_choice_1").onchange = function () {
+                                            location.href = urls_1[this.value];
+                                        }
+                                        //]]>
+                                    </script>
+                                </label></ul>
+                        </li>
+                    </ul>
                 </div>
-                <div class="mo-header-social-search">
-                    <section class="mo-footer-subscription widget text-44 widget_text"><h3>Social / Search</h3>
-                        <div class="textwidget">
+                <div class="mo-header-wrap">
+                    <div class="mo-logo">
+                        <a class="brand-logo" href="https://am.usembassy.gov/"><img
+                                    alt="United States of America, Department of State"
+                                    src="/main/dos-logo-light.png"></a>
+                        <h1><a class="brand" href="https://am.usembassy.gov/" title="U.S. Embassy in Armenia"><span
+                                        class="head-title-1 head-one-liner">U.S. Embassy in Armenia</span></a></h1>
+                    </div>
+                    <div class="mo-header-social-search">
+                        <section class="mo-footer-subscription widget text-44 widget_text"><h3>Social / Search</h3>
+                            <div class="textwidget">
+                                <div class="mo-social-links"><a class="fa fa-twitter"
+                                                                href="http://twitter.com/usembarmenia"
+                                                                style="color:#ffffff;background:#003875; border:1px solid #003875"
+                                                                title="Twitter"><span>Twitter</span></a><a
+                                            class="fa fa-facebook" href="https://www.facebook.com/usembarmenia"
+                                            style="color:#ffffff;background:#003875; border:1px solid #003875"
+                                            title="Facebook"><span>Facebook</span></a><a
+                                            class="fa fa-youtube" href="http://www.youtube.com/user/usembassyarmenia"
+                                            style="color:#ffffff;background:#003875; border:1px solid #003875"
+                                            title="YouTube"><span>YouTube</span></a></div>
+                                <a href="https://am.usembassy.gov/social-media/" class="topplus">
+                                    <i class="fa fa-plus-square"></i></a> <span class="toppipe">|</span>
+
+                                <nav class="socialsearch">
+                                    <!-- UberMenu [Configuration:main] [Theme Loc:] [Integration:api] -->
+                                    <nav class="ubermenu ubermenu-transition-fade ubermenu-trigger-click ubermenu-notouch">
+                                        <ul>
+                                            <li id="menu-item-topsearchsocial"
+                                                class="ubermenu-item ubermenu-has-submenu-drop ubermenu-has-submenu-mega">
+                                            <span class="ubermenu-target newserach"><i
+                                                        class="ubermenu-icon fa fa-search"></i></span>
+                                                <ul class="ubermenu-submenu ubermenu-submenu-type-mega ubermenu-submenu-drop ubermenu-submenu-align-right_edge_bar ubermenu-submenu-retractor-top">
+                                                    <li class="ubermenu-retractor ubermenu-retractor-desktop"><i
+                                                                class="fa fa-times"></i></li>
+                                                    <li id="menu-item-2463" class="ubermenu-item ">
+                                                        <div class="ubermenu-content-block">
+
+                                                            <label class="sr-only" for="s">Search</label>
+                                                            <!-- UberMenu Search Bar -->
+                                                            <div class="ubermenu-search">
+                                                                <form method="get" class="ubermenu-searchform"
+                                                                      id="search_form"
+                                                                      action="https://search.usembassy.gov/search/"
+                                                                      accept-charset="UTF-8">
+                                                                    <div style="margin:0;padding:0">
+                                                                    </div>
+                                                                    <input type="hidden" id="affiliate" name="affiliate"
+                                                                           value="dos_emb_eur_armenia">
+                                                                    <!-- <label for="query">Enter Search Term(s):</label> -->
+                                                                    <input type="text" name="query" id="query"
+                                                                           class="usagov-search-autocomplete ubermenu-search-input ui-autocomplete-input"
+                                                                           placeholder="Search..." autocomplete="off"
+                                                                           role="textbox" aria-autocomplete="list"
+                                                                           aria-haspopup="true">
+                                                                    <input type="submit" value=""
+                                                                           class="ubermenu-search-submit" name="commit">
+                                                                </form>
+                                                            </div>
+                                                            <!-- end .ubermenu-search -->
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </nav><!-- End UberMenu --></nav>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="accessible" href="https://am.usembassy.gov/our-relationship/#main">[Skip to Content]</a>
+        <div class="mo-nav">
+            <div class="container">
+                <nav>
+
+                    <!-- UberMenu [Configuration:main] [Theme Loc:] [Integration:api] -->
+                    <div class="ubermenu-responsive-toggle ubermenu-responsive-toggle-main ubermenu-skin-white ubermenu-loc- ubermenu-responsive-toggle-content-align-left ubermenu-responsive-toggle-align-full "
+                         data-ubermenu-target="ubermenu-main-Main-Navigation"><i class="fa fa-bars"></i>Menu
+                    </div>
+                    <nav id="ubermenu-main-Main-Navigation"
+                         class="ubermenu ubermenu-main ubermenu-menu-Main-Navigation ubermenu-responsive ubermenu-responsive-default ubermenu-responsive-collapse ubermenu-horizontal ubermenu-transition-fade ubermenu-trigger-hover_intent ubermenu-skin-white  ubermenu-bar-align-full ubermenu-items-align-left ubermenu-bound ubermenu-disable-submenu-scroll ubermenu-sub-indicators ubermenu-icons-inline ubermenu-notouch">
+                        <ul id="ubermenu-nav-main-Main-Navigation" class="ubermenu-nav">
+                            <li id="menu-item-2232"
+                                class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-2232 ubermenu-item-level-0 ubermenu-column ubermenu-column-auto"></li>
+                            <li id="menu-item-2231"
+                                class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-2231 ubermenu-item-level-0 ubermenu-column ubermenu-column-auto">
+                                <div class="ubermenu-content-block ubermenu-custom-content ">
+                                    <!-- this is a hidden (li) that allows the Mobile Nav to work with the sticky nav --></div>
+                            </li>
+                            <li id="menu-item-8711"
+                                class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-has-children ubermenu-item-8711 ubermenu-item-level-0 ubermenu-column ubermenu-column-auto ubermenu-has-submenu-drop ubermenu-has-submenu-mega">
+                                <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"
+                                   href="https://am.usembassy.gov/visas/" tabindex="0"><span
+                                            class="ubermenu-target-title ubermenu-target-text">Visas</span></a>
+                                <ul class="ubermenu-submenu ubermenu-submenu-id-8711 ubermenu-submenu-type-auto ubermenu-submenu-type-mega ubermenu-submenu-drop ubermenu-submenu-align-full_width ubermenu-autoclear ubermenu-submenu-retractor-top">
+                                    <li class="ubermenu-retractor ubermenu-retractor-desktop"><i
+                                                class="fa fa-times"></i>
+                                    </li>
+                                    <li id="menu-item-301"
+                                        class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-has-children ubermenu-item-301 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-1 ubermenu-column ubermenu-column-1-3 ubermenu-has-submenu-stack">
+                                        <div class="ubermenu-content-block ubermenu-custom-content ubermenu-custom-content-padded">
+                                            <div class="uber-submenu-heading">Nonimmigrant Visas</div>
+                                        </div>
+                                        <ul class="ubermenu-submenu ubermenu-submenu-id-301 ubermenu-submenu-type-auto ubermenu-submenu-type-stack">
+                                            <li id="menu-item-8715"
+                                                class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-8715 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
+                                                <div class="ubermenu-content-block ubermenu-custom-content ubermenu-custom-content-padded">
+                                                    <p style="height: 120px;">For travel to the United States on a
+                                                        temporary
+                                                        basis, including tourism, temporary employment, study and
+                                                        exchange.</p></div>
+                                            </li>
+                                            <li id="menu-item-8714"
+                                                class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-8714 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
+                                                <div class="ubermenu-content-block ubermenu-custom-content ubermenu-custom-content-padded">
+                                                    <a href="https://am.usembassy.gov/visas/nonimmigrant-visas/"
+                                                       class="uber-expand btn btn-default">Read More</a></div>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li id="menu-item-302"
+                                        class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-has-children ubermenu-item-302 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-1 ubermenu-column ubermenu-column-1-3 ubermenu-has-submenu-stack">
+                                        <div class="ubermenu-content-block ubermenu-custom-content ubermenu-custom-content-padded">
+                                            <div class="uber-submenu-heading">Immigrant Visas</div>
+                                        </div>
+                                        <ul class="ubermenu-submenu ubermenu-submenu-id-302 ubermenu-submenu-type-auto ubermenu-submenu-type-stack">
+                                            <li id="menu-item-8713"
+                                                class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-8713 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
+                                                <div class="ubermenu-content-block ubermenu-custom-content ubermenu-custom-content-padded">
+                                                    <p style="height: 120px;">For foreign citizens who want to live
+                                                        permanently in the United States.</p></div>
+                                            </li>
+                                            <li id="menu-item-8712"
+                                                class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-8712 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
+                                                <div class="ubermenu-content-block ubermenu-custom-content ubermenu-custom-content-padded">
+                                                    <a href="https://am.usembassy.gov/visas/immigrant-visas/"
+                                                       class="uber-expand btn btn-default">Read More</a></div>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li id="menu-item-306"
+                                        class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-has-children ubermenu-item-306 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-1 ubermenu-column ubermenu-column-1-3 ubermenu-has-submenu-stack">
+                                        <div class="ubermenu-content-block ubermenu-custom-content ubermenu-custom-content-padded">
+                                            <div class="uber-submenu-heading">Travel &amp; Tourism in the U.S.</div>
+                                        </div>
+                                        <ul class="ubermenu-submenu ubermenu-submenu-id-306 ubermenu-submenu-type-auto ubermenu-submenu-type-stack">
+                                            <li id="menu-item-2063"
+                                                class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-2063 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
+                                                <div class="ubermenu-content-block ubermenu-custom-content ubermenu-custom-content-padded">
+                                                    <img src="/main/travel_photo_no_text_243x115px_360.png"
+                                                         alt="woman standing in front of the Washington monument"></div>
+                                            </li>
+                                            <li id="menu-item-1036"
+                                                class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-1036 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
+                                                <div class="ubermenu-content-block ubermenu-custom-content ubermenu-custom-content-padded">
+                                                    <a href="https://am.usembassy.gov/visas/travel-tourism/"
+                                                       class="uber-expand btn btn-default">Visit the U.S.!</a></div>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li id="menu-item-289"
+                                class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-has-children ubermenu-item-289 ubermenu-item-level-0 ubermenu-column ubermenu-column-auto ubermenu-has-submenu-drop ubermenu-has-submenu-mega">
+                                <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"
+                                   href="https://am.usembassy.gov/u-s-citizen-services/" tabindex="0"><span
+                                            class="ubermenu-target-title ubermenu-target-text">U.S. Citizen Services</span></a>
+                                <ul class="ubermenu-submenu ubermenu-submenu-id-289 ubermenu-submenu-type-mega ubermenu-submenu-drop ubermenu-submenu-align-full_width ubermenu-autoclear ubermenu-submenu-retractor-top">
+                                    <li class="ubermenu-retractor ubermenu-retractor-desktop"><i
+                                                class="fa fa-times"></i>
+                                    </li>
+                                    <li id="menu-item-331"
+                                        class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-has-children ubermenu-item-331 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-1 ubermenu-column ubermenu-column-1-5 ubermenu-has-submenu-stack">
+                                        <div class="ubermenu-content-block ubermenu-custom-content ubermenu-custom-content-padded">
+                                            <div class="uber-submenu-heading">Emergency Services</div>
+                                        </div>
+                                        <ul class="ubermenu-submenu ubermenu-submenu-id-331 ubermenu-submenu-type-auto ubermenu-submenu-type-stack">
+                                            <li id="menu-item-439"
+                                                class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-439 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
+                                                <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"
+                                                   href="https://am.usembassy.gov/u-s-citizen-services/emergency-contact/"><span
+                                                            class="ubermenu-target-title ubermenu-target-text">Contact Information</span></a>
+                                            </li>
+                                            <li id="menu-item-440"
+                                                class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-440 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
+                                                <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"
+                                                   href="https://am.usembassy.gov/u-s-citizen-services/arrest-of-a-u-s-citizen/"><span
+                                                            class="ubermenu-target-title ubermenu-target-text">Arrest of a U.S. Citizen</span></a>
+                                            </li>
+                                            <li id="menu-item-441"
+                                                class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-441 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
+                                                <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"
+                                                   href="https://am.usembassy.gov/u-s-citizen-services/death-of-a-u-s-citizen/"><span
+                                                            class="ubermenu-target-title ubermenu-target-text">Death of a U.S. Citizen</span></a>
+                                            </li>
+                                            <li id="menu-item-442"
+                                                class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-442 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
+                                                <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"
+                                                   href="https://am.usembassy.gov/u-s-citizen-services/victims-of-crime/"><span
+                                                            class="ubermenu-target-title ubermenu-target-text">Victims of Crime</span></a>
+                                            </li>
+                                            <li id="menu-item-443"
+                                                class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-443 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
+                                                <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"
+                                                   href="https://am.usembassy.gov/u-s-citizen-services/emergency-financial-assistance/"><span
+                                                            class="ubermenu-target-title ubermenu-target-text">Emergency Financial Assistance</span></a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li id="menu-item-332"
+                                        class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-has-children ubermenu-item-332 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-1 ubermenu-column ubermenu-column-1-5 ubermenu-has-submenu-stack">
+                                        <div class="ubermenu-content-block ubermenu-custom-content ubermenu-custom-content-padded">
+                                            <div class="uber-submenu-heading">Security Messages &amp; Local Resources
+                                            </div>
+                                        </div>
+                                        <ul class="ubermenu-submenu ubermenu-submenu-id-332 ubermenu-submenu-type-auto ubermenu-submenu-type-stack">
+                                            <li id="menu-item-444"
+                                                class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-444 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
+                                                <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"
+                                                   href="https://am.usembassy.gov/u-s-citizen-services/security-and-travel-information/"><span
+                                                            class="ubermenu-target-title ubermenu-target-text">Safety &amp; Security Messages</span></a>
+                                            </li>
+                                            <li id="menu-item-445"
+                                                class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-445 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
+                                                <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"
+                                                   href="https://am.usembassy.gov/u-s-citizen-services/local-resources-of-u-s-citizens/"><span
+                                                            class="ubermenu-target-title ubermenu-target-text">Local Resources for U.S. Citizens</span></a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li id="menu-item-333"
+                                        class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-has-children ubermenu-item-333 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-1 ubermenu-column ubermenu-column-1-5 ubermenu-has-submenu-stack">
+                                        <div class="ubermenu-content-block ubermenu-custom-content ubermenu-custom-content-padded">
+                                            <div class="uber-submenu-heading">Passports &amp; Citizenship</div>
+                                        </div>
+                                        <ul class="ubermenu-submenu ubermenu-submenu-id-333 ubermenu-submenu-type-auto ubermenu-submenu-type-stack">
+                                            <li id="menu-item-7184"
+                                                class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-7184 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
+                                                <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"
+                                                   href="https://am.usembassy.gov/hy/citizenship-services/"><span
+                                                            class="ubermenu-target-title ubermenu-target-text">Citizenship Services</span></a>
+                                            </li>
+                                            <li id="menu-item-7183"
+                                                class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-7183 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
+                                                <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"
+                                                   href="https://am.usembassy.gov/u-s-citizen-services/passports/"><span
+                                                            class="ubermenu-target-title ubermenu-target-text">Passports</span></a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li id="menu-item-334"
+                                        class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-has-children ubermenu-item-334 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-1 ubermenu-column ubermenu-column-1-5 ubermenu-has-submenu-stack">
+                                        <div class="ubermenu-content-block ubermenu-custom-content ubermenu-custom-content-padded">
+                                            <div class="uber-submenu-heading">Federal Programs</div>
+                                        </div>
+                                        <ul class="ubermenu-submenu ubermenu-submenu-id-334 ubermenu-submenu-type-auto ubermenu-submenu-type-stack">
+                                            <li id="menu-item-450"
+                                                class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-450 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
+                                                <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"
+                                                   href="https://am.usembassy.gov/u-s-citizen-services/internal-revenue-service-u-s-taxes/"><span
+                                                            class="ubermenu-target-title ubermenu-target-text">Internal Revenue Service</span></a>
+                                            </li>
+                                            <li id="menu-item-451"
+                                                class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-451 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
+                                                <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"
+                                                   href="https://am.usembassy.gov/u-s-citizen-services/selective-service-registration/"><span
+                                                            class="ubermenu-target-title ubermenu-target-text">Selective Service Registration</span></a>
+                                            </li>
+                                            <li id="menu-item-452"
+                                                class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-452 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
+                                                <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"
+                                                   href="https://am.usembassy.gov/u-s-citizen-services/social-security/"><span
+                                                            class="ubermenu-target-title ubermenu-target-text">Social Security</span></a>
+                                            </li>
+                                            <li id="menu-item-453"
+                                                class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-453 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
+                                                <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"
+                                                   href="https://am.usembassy.gov/u-s-citizen-services/veterans-affairs/"><span
+                                                            class="ubermenu-target-title ubermenu-target-text">Veterans Affairs</span></a>
+                                            </li>
+                                            <li id="menu-item-454"
+                                                class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-454 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
+                                                <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"
+                                                   href="https://am.usembassy.gov/u-s-citizen-services/voting/"><span
+                                                            class="ubermenu-target-title ubermenu-target-text">Voting</span></a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li id="menu-item-335"
+                                        class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-has-children ubermenu-item-335 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-1 ubermenu-column ubermenu-column-1-5 ubermenu-has-submenu-stack">
+                                        <div class="ubermenu-content-block ubermenu-custom-content ubermenu-custom-content-padded">
+                                            <div class="uber-submenu-heading">Child &amp; Family Matters</div>
+                                        </div>
+                                        <ul class="ubermenu-submenu ubermenu-submenu-id-335 ubermenu-submenu-type-auto ubermenu-submenu-type-stack">
+                                            <li id="menu-item-455"
+                                                class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-455 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
+                                                <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"
+                                                   href="https://am.usembassy.gov/u-s-citizen-services/adoption/"><span
+                                                            class="ubermenu-target-title ubermenu-target-text">Adoption</span></a>
+                                            </li>
+                                            <li id="menu-item-456"
+                                                class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-456 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
+                                                <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"
+                                                   href="https://am.usembassy.gov/u-s-citizen-services/birth/"><span
+                                                            class="ubermenu-target-title ubermenu-target-text">Birth</span></a>
+                                            </li>
+                                            <li id="menu-item-457"
+                                                class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-457 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
+                                                <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"
+                                                   href="https://am.usembassy.gov/u-s-citizen-services/international-parental-child-abduction/"><span
+                                                            class="ubermenu-target-title ubermenu-target-text">International Parental Child Abduction</span></a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li id="menu-item-288"
+                                class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-current-menu-item ubermenu-page_item ubermenu-page-item-173 ubermenu-current_page_item ubermenu-item-has-children ubermenu-item-288 ubermenu-item-level-0 ubermenu-column ubermenu-column-auto ubermenu-has-submenu-drop ubermenu-has-submenu-mega">
+                                <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"
+                                   href="https://am.usembassy.gov/our-relationship/" tabindex="0"><span
+                                            class="ubermenu-target-title ubermenu-target-text">Our Relationship</span></a>
+                                <ul class="ubermenu-submenu ubermenu-submenu-id-288 ubermenu-submenu-type-mega ubermenu-submenu-drop ubermenu-submenu-align-full_width ubermenu-submenu-retractor-top">
+                                    <li class="ubermenu-retractor ubermenu-retractor-desktop"><i
+                                                class="fa fa-times"></i>
+                                    </li>
+                                    <li id="menu-item-328"
+                                        class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-has-children ubermenu-item-328 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-1 ubermenu-column ubermenu-column-1-3 ubermenu-has-submenu-stack">
+                                        <div class="ubermenu-content-block ubermenu-custom-content ubermenu-custom-content-padded">
+                                            <div class="uber-submenu-heading">U.S. Mission Leaders</div>
+                                        </div>
+                                        <ul class="ubermenu-submenu ubermenu-submenu-id-328 ubermenu-submenu-type-auto ubermenu-submenu-type-stack">
+                                            <li id="menu-item-461"
+                                                class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-461 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
+                                                <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"
+                                                   href="https://am.usembassy.gov/our-relationship/ambassador/"><span
+                                                            class="ubermenu-target-title ubermenu-target-text">Ambassador Richard M. Mills, Jr.</span></a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li id="menu-item-1888"
+                                        class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-has-children ubermenu-item-1888 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-1 ubermenu-column ubermenu-column-1-3 ubermenu-has-submenu-stack">
+                                        <div class="ubermenu-content-block ubermenu-custom-content ubermenu-custom-content-padded">
+                                            <div class="uber-submenu-heading">U.S. Government Leaders</div>
+                                        </div>
+                                        <ul class="ubermenu-submenu ubermenu-submenu-id-1888 ubermenu-submenu-type-auto ubermenu-submenu-type-stack">
+                                            <li id="menu-item-458"
+                                                class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-458 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
+                                                <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"
+                                                   href="https://am.usembassy.gov/our-relationship/the-president-of-the-united-states/"><span
+                                                            class="ubermenu-target-title ubermenu-target-text">President of the United States</span></a>
+                                            </li>
+                                            <li id="menu-item-459"
+                                                class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-459 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
+                                                <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"
+                                                   href="https://am.usembassy.gov/our-relationship/vice-president/"><span
+                                                            class="ubermenu-target-title ubermenu-target-text">Vice President of the United States</span></a>
+                                            </li>
+                                            <li id="menu-item-460"
+                                                class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-460 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
+                                                <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"
+                                                   href="https://am.usembassy.gov/our-relationship/the-secretary-of-state/"><span
+                                                            class="ubermenu-target-title ubermenu-target-text">U.S. Secretary of State</span></a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li id="menu-item-329"
+                                        class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-has-children ubermenu-item-329 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-1 ubermenu-column ubermenu-column-1-3 ubermenu-has-submenu-stack">
+                                        <div class="ubermenu-content-block ubermenu-custom-content ubermenu-custom-content-padded">
+                                            <div class="uber-submenu-heading">U.S. &amp; Armenia</div>
+                                        </div>
+                                        <ul class="ubermenu-submenu ubermenu-submenu-id-329 ubermenu-submenu-type-auto ubermenu-submenu-type-stack">
+                                            <li id="menu-item-465"
+                                                class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-465 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
+                                                <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"
+                                                   href="https://am.usembassy.gov/our-relationship/policy-history/"><span
+                                                            class="ubermenu-target-title ubermenu-target-text">Policy &amp; History</span></a>
+                                            </li>
+                                            <li id="menu-item-464"
+                                                class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-464 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
+                                                <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"
+                                                   href="https://am.usembassy.gov/our-relationship/official-reports/"><span
+                                                            class="ubermenu-target-title ubermenu-target-text">Official Reports</span></a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li id="menu-item-285"
+                                class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-has-children ubermenu-item-285 ubermenu-item-level-0 ubermenu-column ubermenu-column-auto ubermenu-has-submenu-drop ubermenu-has-submenu-mega">
+                                <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"
+                                   href="https://am.usembassy.gov/business/" tabindex="0"><span
+                                            class="ubermenu-target-title ubermenu-target-text">Business</span></a>
+                                <ul class="ubermenu-submenu ubermenu-submenu-id-285 ubermenu-submenu-type-auto ubermenu-submenu-type-mega ubermenu-submenu-drop ubermenu-submenu-align-left_edge_item ubermenu-autoclear ubermenu-submenu-retractor-top">
+                                    <li class="ubermenu-retractor ubermenu-retractor-desktop"><i
+                                                class="fa fa-times"></i>
+                                    </li>
+                                    <li id="menu-item-326"
+                                        class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-has-children ubermenu-item-326 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-1 ubermenu-column ubermenu-column-1-2 ubermenu-has-submenu-stack">
+                                        <div class="ubermenu-content-block ubermenu-custom-content ubermenu-custom-content-padded">
+                                            <div class="uber-submenu-heading">Doing Business in Armenia</div>
+                                        </div>
+                                        <ul class="ubermenu-submenu ubermenu-submenu-id-326 ubermenu-submenu-type-auto ubermenu-submenu-type-stack">
+                                            <li id="menu-item-471"
+                                                class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-471 ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
+                                                <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"
+                                                   href="https://am.usembassy.gov/business/getting-started-armenia/"><span
+                                                            class="ubermenu-target-title ubermenu-target-text">Getting Started</span></a>
+                                            </li>
+                                            <li id="menu-item-469"
+                                                class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-469 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
+                                                <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"
+                                                   href="https://am.usembassy.gov/business/overseas-security-advisory-council/"><span
+                                                            class="ubermenu-target-title ubermenu-target-text">Overseas Security Advisory Council</span></a>
+                                            </li>
+                                            <li id="menu-item-468"
+                                                class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-468 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
+                                                <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"
+                                                   href="https://am.usembassy.gov/business/economic-data-reports-armenia/"><span
+                                                            class="ubermenu-target-title ubermenu-target-text">Economic Data &amp; Reports</span></a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li id="menu-item-327"
+                                        class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-has-children ubermenu-item-327 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-1 ubermenu-column ubermenu-column-1-2 ubermenu-has-submenu-stack">
+                                        <div class="ubermenu-content-block ubermenu-custom-content ubermenu-custom-content-padded">
+                                            <div class="uber-submenu-heading">Doing Business in the U.S.</div>
+                                        </div>
+                                        <ul class="ubermenu-submenu ubermenu-submenu-id-327 ubermenu-submenu-type-auto ubermenu-submenu-type-stack">
+                                            <li id="menu-item-467"
+                                                class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-467 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
+                                                <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"
+                                                   href="https://am.usembassy.gov/business/getting-started-usa/"><span
+                                                            class="ubermenu-target-title ubermenu-target-text">Getting Started in the U.S.</span></a>
+                                            </li>
+                                            <li id="menu-item-466"
+                                                class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-466 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
+                                                <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"
+                                                   href="https://am.usembassy.gov/business/economic-data-reports-usa/"><span
+                                                            class="ubermenu-target-title ubermenu-target-text">Economic Data &amp; Reports</span></a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li id="menu-item-8680"
+                                class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-has-children ubermenu-item-8680 ubermenu-item-level-0 ubermenu-column ubermenu-column-auto ubermenu-has-submenu-drop ubermenu-has-submenu-mega">
+                                <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"
+                                   href="https://am.usembassy.gov/education-culture/" tabindex="0"><span
+                                            class="ubermenu-target-title ubermenu-target-text">Education &amp; Culture</span></a>
+                                <ul class="ubermenu-submenu ubermenu-submenu-id-8680 ubermenu-submenu-type-auto ubermenu-submenu-type-mega ubermenu-submenu-drop ubermenu-submenu-align-full_width ubermenu-autoclear ubermenu-submenu-retractor-top">
+                                    <li class="ubermenu-retractor ubermenu-retractor-desktop"><i
+                                                class="fa fa-times"></i>
+                                    </li>
+                                    <li id="menu-item-8685"
+                                        class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-has-children ubermenu-item-8685 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-1 ubermenu-column ubermenu-column-1-3 ubermenu-has-submenu-stack">
+                                        <div class="ubermenu-content-block ubermenu-custom-content ubermenu-custom-content-padded">
+                                            <div class="uber-submenu-heading">Study in the U.S.A.</div>
+                                        </div>
+                                        <ul class="ubermenu-submenu ubermenu-submenu-id-8685 ubermenu-submenu-type-auto ubermenu-submenu-type-stack">
+                                            <li id="menu-item-8691"
+                                                class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-8691 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
+                                                <div class="ubermenu-content-block ubermenu-custom-content ubermenu-custom-content-padded">
+                                                    <img src="/main/study-us-243x115.png">
+                                                </div>
+                                            </li>
+                                            <li id="menu-item-8689"
+                                                class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-8689 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
+                                                <div class="ubermenu-content-block ubermenu-custom-content ubermenu-custom-content-padded">
+                                                    <p style="height: 75px;">Learn more about quality higher-education
+                                                        opportunities in the U.S. that you will not find anywhere else
+                                                        in
+                                                        the world.</p></div>
+                                            </li>
+                                            <li id="menu-item-8690"
+                                                class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-8690 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
+                                                <div class="ubermenu-content-block ubermenu-custom-content ubermenu-custom-content-padded">
+                                                    <a href="https://am.usembassy.gov/education-culture/study-usa/"
+                                                       class="uber-expand btn btn-default">Find Opportunities</a></div>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li id="menu-item-8686"
+                                        class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-has-children ubermenu-item-8686 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-1 ubermenu-column ubermenu-column-1-3 ubermenu-has-submenu-stack">
+                                        <div class="ubermenu-content-block ubermenu-custom-content ubermenu-custom-content-padded">
+                                            <div class="uber-submenu-heading">American Spaces</div>
+                                        </div>
+                                        <ul class="ubermenu-submenu ubermenu-submenu-id-8686 ubermenu-submenu-type-auto ubermenu-submenu-type-stack">
+                                            <li id="menu-item-16248"
+                                                class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-16248 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
+                                                <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"
+                                                   href="https://am.usembassy.gov/education-culture/information-resource-center/"><span
+                                                            class="ubermenu-target-title ubermenu-target-text">Information Resource Center</span></a>
+                                            </li>
+                                            <li id="menu-item-16249"
+                                                class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-16249 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
+                                                <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"
+                                                   href="https://am.usembassy.gov/education-culture/elibraryusa-databases/"><span
+                                                            class="ubermenu-target-title ubermenu-target-text">eLibraryUSA Databases</span></a>
+                                            </li>
+                                            <li id="menu-item-16250"
+                                                class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-16250 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
+                                                <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"
+                                                   href="https://am.usembassy.gov/education-culture/american-corners/"><span
+                                                            class="ubermenu-target-title ubermenu-target-text">American Corners</span></a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li id="menu-item-8687"
+                                        class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-has-children ubermenu-item-8687 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-1 ubermenu-column ubermenu-column-1-3 ubermenu-has-submenu-stack">
+                                        <div class="ubermenu-content-block ubermenu-custom-content ubermenu-custom-content-padded">
+                                            <div class="uber-submenu-heading">Local Programs</div>
+                                        </div>
+                                        <ul class="ubermenu-submenu ubermenu-submenu-id-8687 ubermenu-submenu-type-auto ubermenu-submenu-type-stack">
+                                            <li id="menu-item-16256"
+                                                class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-16256 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
+                                                <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"
+                                                   href="https://am.usembassy.gov/education-culture/educational-exchange/"><span
+                                                            class="ubermenu-target-title ubermenu-target-text">Educational Exchange</span></a>
+                                            </li>
+                                            <li id="menu-item-16252"
+                                                class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-16252 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
+                                                <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"
+                                                   href="https://am.usembassy.gov/education-culture/state-alumni/"><span
+                                                            class="ubermenu-target-title ubermenu-target-text">State Alumni</span></a>
+                                            </li>
+                                            <li id="menu-item-16253"
+                                                class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-16253 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
+                                                <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"
+                                                   href="https://am.usembassy.gov/education-culture/educationusa-armenia/"><span
+                                                            class="ubermenu-target-title ubermenu-target-text">EducationUSA Armenia</span></a>
+                                            </li>
+                                            <li id="menu-item-18350"
+                                                class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-18350 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
+                                                <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"
+                                                   href="https://am.usembassy.gov/education-culture/english-language-learning/"><span
+                                                            class="ubermenu-target-title ubermenu-target-text">English Language Learning</span></a>
+                                            </li>
+                                            <li id="menu-item-18332"
+                                                class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-18332 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
+                                                <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"
+                                                   href="https://am.usembassy.gov/our-relationship/policy-history/ambassadors-fund-cultural-preservation/"><span
+                                                            class="ubermenu-target-title ubermenu-target-text">Ambassador’s Fund For Cultural Preservation</span></a>
+                                            </li>
+                                            <li id="menu-item-18333"
+                                                class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-18333 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
+                                                <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"
+                                                   href="https://am.usembassy.gov/embassy/yerevan/democracy-commission-small-grants/"><span
+                                                            class="ubermenu-target-title ubermenu-target-text">Democracy Commission Small Grants</span></a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li id="menu-item-287"
+                                class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-has-children ubermenu-item-287 ubermenu-item-level-0 ubermenu-column ubermenu-column-auto ubermenu-has-submenu-drop ubermenu-has-submenu-mega ubermenu-submenu-rtl">
+                                <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"
+                                   href="https://am.usembassy.gov/embassy/" tabindex="0"><span
+                                            class="ubermenu-target-title ubermenu-target-text">Embassy</span></a>
+                                <ul class="ubermenu-submenu ubermenu-submenu-id-287 ubermenu-submenu-type-auto ubermenu-submenu-type-mega ubermenu-submenu-drop ubermenu-submenu-align-right_edge_item ubermenu-autoclear ubermenu-submenu-retractor-top">
+                                    <li class="ubermenu-retractor ubermenu-retractor-desktop"><i
+                                                class="fa fa-times"></i>
+                                    </li>
+                                    <li id="menu-item-488"
+                                        class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-has-children ubermenu-item-488 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-1 ubermenu-column ubermenu-column-1-2 ubermenu-has-submenu-stack">
+                                        <div class="ubermenu-content-block ubermenu-custom-content ubermenu-custom-content-padded">
+                                            <div class="uber-submenu-heading">U.S. Embassy</div>
+                                        </div>
+                                        <ul class="ubermenu-submenu ubermenu-submenu-id-488 ubermenu-submenu-type-auto ubermenu-submenu-type-stack">
+                                            <li id="menu-item-2198"
+                                                class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-2198 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
+                                                <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"
+                                                   href="https://am.usembassy.gov/embassy/yerevan/"><span
+                                                            class="ubermenu-target-title ubermenu-target-text">U.S. Embassy Yerevan</span></a>
+                                            </li>
+                                            <li id="menu-item-1849"
+                                                class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-1849 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
+                                                <div class="ubermenu-content-block ubermenu-custom-content ubermenu-custom-content-padded">
+                                                    <div class="addresspad">
+                                                        <p></p>1 American Avenue<p></p>
+                                                        <p></p>Yerevan 0082, Republic of Armenia<p></p>
+                                                        <p></p>Telephone: (+37410) 464-700<p></p>
+                                                        <p></p>Fax:(+37410) 464-742<p></p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li id="menu-item-478"
+                                        class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-has-children ubermenu-item-478 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-1 ubermenu-column ubermenu-column-1-2 ubermenu-has-submenu-stack">
+                                        <div class="ubermenu-content-block ubermenu-custom-content ubermenu-custom-content-padded">
+                                            <div class="uber-submenu-heading">Work With Us!</div>
+                                        </div>
+                                        <ul class="ubermenu-submenu ubermenu-submenu-id-478 ubermenu-submenu-type-auto ubermenu-submenu-type-stack">
+                                            <li id="menu-item-1854"
+                                                class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-1854 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
+                                                <div class="ubermenu-content-block ubermenu-custom-content ubermenu-custom-content-padded">
+                                                    <img src="/main/work_with_us_no_text_244x116px_360.png"
+                                                         alt="a group of people in business attire with hands raised">
+                                                </div>
+                                            </li>
+                                            <li id="menu-item-2124"
+                                                class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-2124 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
+                                                <div class="ubermenu-content-block ubermenu-custom-content ubermenu-custom-content-padded">
+                                                    <a href="https://am.usembassy.gov/embassy/jobs/"
+                                                       class="uber-expand btn btn-default">Jobs and Announcements</a>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li id="menu-item-284"
+                                class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-has-children ubermenu-item-284 ubermenu-item-level-0 ubermenu-column ubermenu-column-auto ubermenu-has-submenu-drop ubermenu-has-submenu-mega">
+                                <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"
+                                   href="https://am.usembassy.gov/news-events/" tabindex="0"><span
+                                            class="ubermenu-target-title ubermenu-target-text">News &amp; Events</span></a>
+                                <ul class="ubermenu-submenu ubermenu-submenu-id-284 ubermenu-submenu-type-auto ubermenu-submenu-type-mega ubermenu-submenu-drop ubermenu-submenu-align-full_width ubermenu-submenu-retractor-top">
+                                    <li class="ubermenu-retractor ubermenu-retractor-desktop"><i
+                                                class="fa fa-times"></i>
+                                    </li><!-- begin Tabs: [Tabs] 6999 -->
+                                    <li id="menu-item-6999"
+                                        class="ubermenu-tabs menu-item-6999 ubermenu-item-level-1 ubermenu-column ubermenu-column-full ubermenu-tab-layout-left ubermenu-tabs-show-default">
+                                        <ul class="ubermenu-tabs-group ubermenu-column ubermenu-column-1-4 ubermenu-submenu ubermenu-submenu-id-6999 ubermenu-submenu-type-auto ubermenu-submenu-type-tabs-group"
+                                            style="min-height: 252px;">
+                                            <!-- begin Dynamic Terms: [Dynamic Terms] 7000 -->
+                                            <li id="menu-item-7000-term-37"
+                                                class="ubermenu-tab ubermenu-has-submenu-drop ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-has-children ubermenu-dynamic-term ubermenu-item-7000-term-37 ubermenu-item-auto ubermenu-item-level-2 ubermenu-column ubermenu-column-full ubermenu-has-submenu-tab-content-panel ubermenu-active ubermenu-in-transition"
+                                                data-ubermenu-trigger="mouseover"><a
+                                                        class="ubermenu-target ubermenu-item-layout-default ubermenu-content-align-right ubermenu-item-layout-text_only"
+                                                        href="https://am.usembassy.gov/category/news/"><span
+                                                            class="ubermenu-target-title ubermenu-target-text">News</span></a>
+                                                <ul class="ubermenu-tab-content-panel ubermenu-column ubermenu-column-3-4 ubermenu-submenu ubermenu-submenu-id-7000-term-37 ubermenu-submenu-type-auto ubermenu-submenu-type-tab-content-panel ubermenu-submenu-retractor-top"
+                                                    style="min-height: 252px;">
+                                                    <li class="ubermenu-retractor ubermenu-retractor-desktop"><i
+                                                                class="fa fa-times"></i></li>
+                                                    <!-- begin Dynamic Posts: [Dynamic Posts] ID[7001] count[4] -->
+                                                    <li id="menu-item-7001-post-19159"
+                                                        class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-7001 ubermenu-item-7001-post-19159 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-4 ubermenu-column ubermenu-column-1-4">
+                                                        <a class="ubermenu-target ubermenu-target-with-image ubermenu-item-layout-image_above ubermenu-content-align-left"
+                                                           href="https://am.usembassy.gov/women-policing/"><img
+                                                                    class="ubermenu-image ubermenu-image-size-ubermenu-image"
+                                                                    src="/main/inl1-175x105.jpg"
+                                                                    srcset="https://am.usembassy.gov/wp-content/uploads/sites/92/2017/05/inl1-175x105.jpg 175w, https://am.usembassy.gov/wp-content/uploads/sites/92/2017/05/inl1-350x210.jpg 350w, https://am.usembassy.gov/wp-content/uploads/sites/92/2017/05/inl1-750x450.jpg 750w, https://am.usembassy.gov/wp-content/uploads/sites/92/2017/05/inl1.jpg 755w"
+                                                                    sizes="(max-width: 175px) 100vw, 175px" width="175"
+                                                                    height="105"
+                                                                    alt="Դեսպանատունը հյուրընկալում է կին իրավապահների համաժողովների մասնակիցներին"><span
+                                                                    class="ubermenu-target-title ubermenu-target-text">Embassy hosts alumni from Women in Policing conferences</span></a>
+                                                    </li>
+                                                    <li id="menu-item-7001-post-19136"
+                                                        class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-7001 ubermenu-item-7001-post-19136 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-4 ubermenu-column ubermenu-column-1-4">
+                                                        <a class="ubermenu-target ubermenu-target-with-image ubermenu-item-layout-image_above ubermenu-content-align-left"
+                                                           href="https://am.usembassy.gov/embassy-helps-train-investigators-cases-involving-minors/"><img
+                                                                    class="ubermenu-image ubermenu-image-size-ubermenu-image"
+                                                                    src="/main/news052417_750x450-175x105.jpg"
+                                                                    srcset="https://am.usembassy.gov/wp-content/uploads/sites/92/2017/05/news052417_750x450-175x105.jpg 175w, https://am.usembassy.gov/wp-content/uploads/sites/92/2017/05/news052417_750x450-350x210.jpg 350w, https://am.usembassy.gov/wp-content/uploads/sites/92/2017/05/news052417_750x450.jpg 750w"
+                                                                    sizes="(max-width: 175px) 100vw, 175px" width="175"
+                                                                    height="105"
+                                                                    alt="Embassy helps train investigators on cases involving minors"><span
+                                                                    class="ubermenu-target-title ubermenu-target-text">Embassy helps train investigators on cases involving minors</span></a>
+                                                    </li>
+                                                    <li id="menu-item-7001-post-19121"
+                                                        class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-7001 ubermenu-item-7001-post-19121 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-4 ubermenu-column ubermenu-column-1-4">
+                                                        <a class="ubermenu-target ubermenu-target-with-image ubermenu-item-layout-image_above ubermenu-content-align-left"
+                                                           href="https://am.usembassy.gov/ambassador-renewable-energy/"><img
+                                                                    class="ubermenu-image ubermenu-image-size-ubermenu-image"
+                                                                    src="/main/news051717_750x450-1-175x105.jpg"
+                                                                    srcset="https://am.usembassy.gov/wp-content/uploads/sites/92/2017/05/news051717_750x450-1-175x105.jpg 175w, https://am.usembassy.gov/wp-content/uploads/sites/92/2017/05/news051717_750x450-1-350x210.jpg 350w, https://am.usembassy.gov/wp-content/uploads/sites/92/2017/05/news051717_750x450-1.jpg 750w"
+                                                                    sizes="(max-width: 175px) 100vw, 175px" width="175"
+                                                                    height="105"
+                                                                    alt="U.S. Embassy brings U.S. and Armenian companies together to develop renewable energy"><span
+                                                                    class="ubermenu-target-title ubermenu-target-text">U.S. Embassy brings U.S. and Armenian companies together to develop renewable energy</span></a>
+                                                    </li>
+                                                    <li id="menu-item-7001-post-19114"
+                                                        class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-7001 ubermenu-item-7001-post-19114 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-4 ubermenu-column ubermenu-column-1-4">
+                                                        <a class="ubermenu-target ubermenu-target-with-image ubermenu-item-layout-image_above ubermenu-content-align-left"
+                                                           href="https://am.usembassy.gov/ambassador-muskie-meeting/"><img
+                                                                    class="ubermenu-image ubermenu-image-size-ubermenu-image"
+                                                                    src="/main/news051717_750x450-175x105.jpg"
+                                                                    srcset="https://am.usembassy.gov/wp-content/uploads/sites/92/2017/05/news051717_750x450-175x105.jpg 175w, https://am.usembassy.gov/wp-content/uploads/sites/92/2017/05/news051717_750x450-350x210.jpg 350w, https://am.usembassy.gov/wp-content/uploads/sites/92/2017/05/news051717_750x450.jpg 750w"
+                                                                    sizes="(max-width: 175px) 100vw, 175px" width="175"
+                                                                    height="105"
+                                                                    alt="U.S. Ambassador meets with Muskie Exchange Program alumni"><span
+                                                                    class="ubermenu-target-title ubermenu-target-text">U.S. Ambassador meets with Muskie Exchange Program alumni</span></a>
+                                                    </li><!-- end Dynamic Posts: [Dynamic Posts] ID[7001] --></ul>
+                                            </li>
+                                            <li id="menu-item-7000-term-4"
+                                                class="ubermenu-tab ubermenu-has-submenu-drop ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-has-children ubermenu-dynamic-term ubermenu-item-7000-term-4 ubermenu-item-auto ubermenu-item-level-2 ubermenu-column ubermenu-column-full ubermenu-has-submenu-tab-content-panel"
+                                                data-ubermenu-trigger="mouseover"><a
+                                                        class="ubermenu-target ubermenu-item-layout-default ubermenu-content-align-right ubermenu-item-layout-text_only"
+                                                        href="https://am.usembassy.gov/category/ambassador/"><span
+                                                            class="ubermenu-target-title ubermenu-target-text">Ambassador</span></a>
+                                                <ul class="ubermenu-tab-content-panel ubermenu-column ubermenu-column-3-4 ubermenu-submenu ubermenu-submenu-id-7000-term-4 ubermenu-submenu-type-auto ubermenu-submenu-type-tab-content-panel ubermenu-submenu-retractor-top"
+                                                    style="min-height: 252px;">
+                                                    <li class="ubermenu-retractor ubermenu-retractor-desktop"><i
+                                                                class="fa fa-times"></i></li>
+                                                    <!-- begin Dynamic Posts: [Dynamic Posts] ID[7001] count[4] -->
+                                                    <li class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-7001 ubermenu-item-7001-post-19121 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-4 ubermenu-column ubermenu-column-1-4">
+                                                        <a class="ubermenu-target ubermenu-target-with-image ubermenu-item-layout-image_above ubermenu-content-align-left"
+                                                           href="https://am.usembassy.gov/ambassador-renewable-energy/"><img
+                                                                    class="ubermenu-image ubermenu-image-size-ubermenu-image"
+                                                                    src="/main/news051717_750x450-1-175x105.jpg"
+                                                                    srcset="https://am.usembassy.gov/wp-content/uploads/sites/92/2017/05/news051717_750x450-1-175x105.jpg 175w, https://am.usembassy.gov/wp-content/uploads/sites/92/2017/05/news051717_750x450-1-350x210.jpg 350w, https://am.usembassy.gov/wp-content/uploads/sites/92/2017/05/news051717_750x450-1.jpg 750w"
+                                                                    sizes="(max-width: 175px) 100vw, 175px" width="175"
+                                                                    height="105"
+                                                                    alt="U.S. Embassy brings U.S. and Armenian companies together to develop renewable energy"><span
+                                                                    class="ubermenu-target-title ubermenu-target-text">U.S. Embassy brings U.S. and Armenian companies together to develop renewable energy</span></a>
+                                                    </li>
+                                                    <li class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-7001 ubermenu-item-7001-post-19114 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-4 ubermenu-column ubermenu-column-1-4">
+                                                        <a class="ubermenu-target ubermenu-target-with-image ubermenu-item-layout-image_above ubermenu-content-align-left"
+                                                           href="https://am.usembassy.gov/ambassador-muskie-meeting/"><img
+                                                                    class="ubermenu-image ubermenu-image-size-ubermenu-image"
+                                                                    src="/main/news051717_750x450-175x105.jpg"
+                                                                    srcset="https://am.usembassy.gov/wp-content/uploads/sites/92/2017/05/news051717_750x450-175x105.jpg 175w, https://am.usembassy.gov/wp-content/uploads/sites/92/2017/05/news051717_750x450-350x210.jpg 350w, https://am.usembassy.gov/wp-content/uploads/sites/92/2017/05/news051717_750x450.jpg 750w"
+                                                                    sizes="(max-width: 175px) 100vw, 175px" width="175"
+                                                                    height="105"
+                                                                    alt="U.S. Ambassador meets with Muskie Exchange Program alumni"><span
+                                                                    class="ubermenu-target-title ubermenu-target-text">U.S. Ambassador meets with Muskie Exchange Program alumni</span></a>
+                                                    </li>
+                                                    <li id="menu-item-7001-post-19070"
+                                                        class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-7001 ubermenu-item-7001-post-19070 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-4 ubermenu-column ubermenu-column-1-4">
+                                                        <a class="ubermenu-target ubermenu-target-with-image ubermenu-item-layout-image_above ubermenu-content-align-left"
+                                                           href="https://am.usembassy.gov/ambassador-oped/"><img
+                                                                    class="ubermenu-image ubermenu-image-size-ubermenu-image"
+                                                                    src="/main/ambassador-175x105.jpg"
+                                                                    srcset="https://am.usembassy.gov/wp-content/uploads/sites/92/2016/12/ambassador-175x105.jpg 175w, https://am.usembassy.gov/wp-content/uploads/sites/92/2016/12/ambassador-350x210.jpg 350w, https://am.usembassy.gov/wp-content/uploads/sites/92/2016/12/ambassador.jpg 750w"
+                                                                    sizes="(max-width: 175px) 100vw, 175px" width="175"
+                                                                    height="105"
+                                                                    alt="U.S. Ambassador to Armenia Richard Mills"><span
+                                                                    class="ubermenu-target-title ubermenu-target-text">We want you to study in the U.S. – Op-Ed by U.S. Ambassador</span></a>
+                                                    </li>
+                                                    <li id="menu-item-7001-post-18975"
+                                                        class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-7001 ubermenu-item-7001-post-18975 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-4 ubermenu-column ubermenu-column-1-4">
+                                                        <a class="ubermenu-target ubermenu-target-with-image ubermenu-item-layout-image_above ubermenu-content-align-left"
+                                                           href="https://am.usembassy.gov/american-corners-armenia-celebrate-national-library-week-reading-marathon/"><img
+                                                                    class="ubermenu-image ubermenu-image-size-ubermenu-image"
+                                                                    src="/main/news041807_1200x600-175x105.jpg"
+                                                                    srcset="https://am.usembassy.gov/wp-content/uploads/sites/92/2017/04/news041807_1200x600-175x105.jpg 175w, https://am.usembassy.gov/wp-content/uploads/sites/92/2017/04/news041807_1200x600-750x450.jpg 750w"
+                                                                    sizes="(max-width: 175px) 100vw, 175px" width="175"
+                                                                    height="105"
+                                                                    alt="American Corners in Armenia celebrate National Library Week with reading marathon"><span
+                                                                    class="ubermenu-target-title ubermenu-target-text">American Corners in Armenia celebrate National Library Week with reading marathon</span></a>
+                                                    </li><!-- end Dynamic Posts: [Dynamic Posts] ID[7001] --></ul>
+                                            </li>
+                                            <li id="menu-item-7000-term-54"
+                                                class="ubermenu-tab ubermenu-has-submenu-drop ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-has-children ubermenu-dynamic-term ubermenu-item-7000-term-54 ubermenu-item-auto ubermenu-item-level-2 ubermenu-column ubermenu-column-full ubermenu-has-submenu-tab-content-panel"
+                                                data-ubermenu-trigger="mouseover"><a
+                                                        class="ubermenu-target ubermenu-item-layout-default ubermenu-content-align-right ubermenu-item-layout-text_only"
+                                                        href="https://am.usembassy.gov/category/speeches/"><span
+                                                            class="ubermenu-target-title ubermenu-target-text">Speeches</span></a>
+                                                <ul class="ubermenu-tab-content-panel ubermenu-column ubermenu-column-3-4 ubermenu-submenu ubermenu-submenu-id-7000-term-54 ubermenu-submenu-type-auto ubermenu-submenu-type-tab-content-panel ubermenu-submenu-retractor-top"
+                                                    style="min-height: 252px;">
+                                                    <li class="ubermenu-retractor ubermenu-retractor-desktop"><i
+                                                                class="fa fa-times"></i></li>
+                                                    <!-- begin Dynamic Posts: [Dynamic Posts] ID[7001] count[4] -->
+                                                    <li class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-7001 ubermenu-item-7001-post-19070 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-4 ubermenu-column ubermenu-column-1-4">
+                                                        <a class="ubermenu-target ubermenu-target-with-image ubermenu-item-layout-image_above ubermenu-content-align-left"
+                                                           href="https://am.usembassy.gov/ambassador-oped/"><img
+                                                                    class="ubermenu-image ubermenu-image-size-ubermenu-image"
+                                                                    src="/main/ambassador-175x105.jpg"
+                                                                    srcset="https://am.usembassy.gov/wp-content/uploads/sites/92/2016/12/ambassador-175x105.jpg 175w, https://am.usembassy.gov/wp-content/uploads/sites/92/2016/12/ambassador-350x210.jpg 350w, https://am.usembassy.gov/wp-content/uploads/sites/92/2016/12/ambassador.jpg 750w"
+                                                                    sizes="(max-width: 175px) 100vw, 175px" width="175"
+                                                                    height="105"
+                                                                    alt="U.S. Ambassador to Armenia Richard Mills"><span
+                                                                    class="ubermenu-target-title ubermenu-target-text">We want you to study in the U.S. – Op-Ed by U.S. Ambassador</span></a>
+                                                    </li>
+                                                    <li id="menu-item-7001-post-18930"
+                                                        class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-7001 ubermenu-item-7001-post-18930 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-4 ubermenu-column ubermenu-column-1-4">
+                                                        <a class="ubermenu-target ubermenu-target-with-image ubermenu-item-layout-image_above ubermenu-content-align-left"
+                                                           href="https://am.usembassy.gov/mills-womens-mentoring/"><img
+                                                                    class="ubermenu-image ubermenu-image-size-ubermenu-image"
+                                                                    src="/main/news040617_750x450-175x105.jpg"
+                                                                    srcset="https://am.usembassy.gov/wp-content/uploads/sites/92/2017/04/news040617_750x450-175x105.jpg 175w, https://am.usembassy.gov/wp-content/uploads/sites/92/2017/04/news040617_750x450-350x210.jpg 350w, https://am.usembassy.gov/wp-content/uploads/sites/92/2017/04/news040617_750x450.jpg 750w"
+                                                                    sizes="(max-width: 175px) 100vw, 175px" width="175"
+                                                                    height="105"
+                                                                    alt="Ambassador Richard Mills Remarks at Women’s Mentoring Program Reception"><span
+                                                                    class="ubermenu-target-title ubermenu-target-text">Ambassador Richard Mills Remarks at Women’s Mentoring Program Reception</span></a>
+                                                    </li>
+                                                    <li id="menu-item-7001-post-18761"
+                                                        class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-7001 ubermenu-item-7001-post-18761 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-4 ubermenu-column ubermenu-column-1-4">
+                                                        <a class="ubermenu-target ubermenu-target-with-image ubermenu-item-layout-image_above ubermenu-content-align-left"
+                                                           href="https://am.usembassy.gov/donation-ceremony/"><img
+                                                                    class="ubermenu-image ubermenu-image-size-ubermenu-image"
+                                                                    src="/main/news032717_750x450_3-amb-175x105.jpg"
+                                                                    srcset="https://am.usembassy.gov/wp-content/uploads/sites/92/2017/03/news032717_750x450_3-amb-175x105.jpg 175w, https://am.usembassy.gov/wp-content/uploads/sites/92/2017/03/news032717_750x450_3-amb-350x210.jpg 350w, https://am.usembassy.gov/wp-content/uploads/sites/92/2017/03/news032717_750x450_3-amb.jpg 750w"
+                                                                    sizes="(max-width: 175px) 100vw, 175px" width="175"
+                                                                    height="105"
+                                                                    alt="Remarks at Donation Ceremony"><span
+                                                                    class="ubermenu-target-title ubermenu-target-text">Ambassador Richard Mills Remarks at Donation Ceremony</span></a>
+                                                    </li>
+                                                    <li id="menu-item-7001-post-18758"
+                                                        class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-7001 ubermenu-item-7001-post-18758 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-4 ubermenu-column ubermenu-column-1-4">
+                                                        <a class="ubermenu-target ubermenu-target-with-image ubermenu-item-layout-image_above ubermenu-content-align-left"
+                                                           href="https://am.usembassy.gov/photo-exhibit/"><img
+                                                                    class="ubermenu-image ubermenu-image-size-ubermenu-image"
+                                                                    src="/main/news032717_750_450_2-amb-175x105.jpg"
+                                                                    srcset="https://am.usembassy.gov/wp-content/uploads/sites/92/2017/03/news032717_750_450_2-amb-175x105.jpg 175w, https://am.usembassy.gov/wp-content/uploads/sites/92/2017/03/news032717_750_450_2-amb-350x210.jpg 350w, https://am.usembassy.gov/wp-content/uploads/sites/92/2017/03/news032717_750_450_2-amb.jpg 750w"
+                                                                    sizes="(max-width: 175px) 100vw, 175px" width="175"
+                                                                    height="105"
+                                                                    alt="25th Anniversary Photo Exhibit with Armenian MFA"><span
+                                                                    class="ubermenu-target-title ubermenu-target-text">Ambassador Richard Mills Remarks at 25th Anniversary Photo Exhibit with Armenian MFA</span></a>
+                                                    </li><!-- end Dynamic Posts: [Dynamic Posts] ID[7001] --></ul>
+                                            </li>
+                                            <li id="menu-item-7000-term-51"
+                                                class="ubermenu-tab ubermenu-has-submenu-drop ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-has-children ubermenu-dynamic-term ubermenu-item-7000-term-51 ubermenu-item-auto ubermenu-item-level-2 ubermenu-column ubermenu-column-full ubermenu-has-submenu-tab-content-panel"
+                                                data-ubermenu-trigger="mouseover"><a
+                                                        class="ubermenu-target ubermenu-item-layout-default ubermenu-content-align-right ubermenu-item-layout-text_only"
+                                                        href="https://am.usembassy.gov/category/security-and-emergency-messages/"><span
+                                                            class="ubermenu-target-title ubermenu-target-text">Security &amp; Emergency Messages</span></a>
+                                                <ul class="ubermenu-tab-content-panel ubermenu-column ubermenu-column-3-4 ubermenu-submenu ubermenu-submenu-id-7000-term-51 ubermenu-submenu-type-auto ubermenu-submenu-type-tab-content-panel ubermenu-submenu-retractor-top"
+                                                    style="min-height: 252px;">
+                                                    <li class="ubermenu-retractor ubermenu-retractor-desktop"><i
+                                                                class="fa fa-times"></i></li>
+                                                    <!-- begin Dynamic Posts: [Dynamic Posts] ID[7001] count[4] -->
+                                                    <li id="menu-item-7001-post-17838"
+                                                        class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-7001 ubermenu-item-7001-post-17838 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-4 ubermenu-column ubermenu-column-1-4">
+                                                        <a class="ubermenu-target ubermenu-target-with-image ubermenu-item-layout-image_above ubermenu-content-align-left"
+                                                           href="https://am.usembassy.gov/irs-webinar/"><img
+                                                                    class="ubermenu-image ubermenu-image-size-ubermenu-image"
+                                                                    src="/main/default-blog-seal.png"
+                                                                    srcset="https://am.usembassy.gov/wp-content/uploads/sites/92/2015/12/default-blog-seal.png 750w, https://am.usembassy.gov/wp-content/uploads/sites/92/2015/12/default-blog-seal-350x210.png 350w"
+                                                                    sizes="(max-width: 175px) 100vw, 175px" width="175"
+                                                                    height="105"
+                                                                    alt="Great Seal of the United States"><span
+                                                                    class="ubermenu-target-title ubermenu-target-text">IRS Webinar</span></a>
+                                                    </li>
+                                                    <li id="menu-item-7001-post-17763"
+                                                        class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-7001 ubermenu-item-7001-post-17763 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-4 ubermenu-column ubermenu-column-1-4">
+                                                        <a class="ubermenu-target ubermenu-target-with-image ubermenu-item-layout-image_above ubermenu-content-align-left"
+                                                           href="https://am.usembassy.gov/europe-travel-alert-3/"><img
+                                                                    class="ubermenu-image ubermenu-image-size-ubermenu-image"
+                                                                    src="/main/default-blog-seal.png"
+                                                                    srcset="https://am.usembassy.gov/wp-content/uploads/sites/92/2015/12/default-blog-seal.png 750w, https://am.usembassy.gov/wp-content/uploads/sites/92/2015/12/default-blog-seal-350x210.png 350w"
+                                                                    sizes="(max-width: 175px) 100vw, 175px" width="175"
+                                                                    height="105"
+                                                                    alt="Great Seal of the United States"><span
+                                                                    class="ubermenu-target-title ubermenu-target-text">Europe Travel Alert</span></a>
+                                                    </li>
+                                                    <li id="menu-item-7001-post-17759"
+                                                        class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-7001 ubermenu-item-7001-post-17759 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-4 ubermenu-column ubermenu-column-1-4">
+                                                        <a class="ubermenu-target ubermenu-target-with-image ubermenu-item-layout-image_above ubermenu-content-align-left"
+                                                           href="https://am.usembassy.gov/webinar/"><img
+                                                                    class="ubermenu-image ubermenu-image-size-ubermenu-image"
+                                                                    src="/main/default-blog-seal.png"
+                                                                    srcset="https://am.usembassy.gov/wp-content/uploads/sites/92/2015/12/default-blog-seal.png 750w, https://am.usembassy.gov/wp-content/uploads/sites/92/2015/12/default-blog-seal-350x210.png 350w"
+                                                                    sizes="(max-width: 175px) 100vw, 175px" width="175"
+                                                                    height="105"
+                                                                    alt="Great Seal of the United States"><span
+                                                                    class="ubermenu-target-title ubermenu-target-text">Webinar on “Overseas Filing for U.S. Taxpayers”</span></a>
+                                                    </li>
+                                                    <li id="menu-item-7001-post-17755"
+                                                        class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-7001 ubermenu-item-7001-post-17755 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-4 ubermenu-column ubermenu-column-1-4">
+                                                        <a class="ubermenu-target ubermenu-target-with-image ubermenu-item-layout-image_above ubermenu-content-align-left"
+                                                           href="https://am.usembassy.gov/security-message-demonstrations-planned-yerevan-2/"><img
+                                                                    class="ubermenu-image ubermenu-image-size-ubermenu-image"
+                                                                    src="/main/default-blog-seal.png"
+                                                                    srcset="https://am.usembassy.gov/wp-content/uploads/sites/92/2015/12/default-blog-seal.png 750w, https://am.usembassy.gov/wp-content/uploads/sites/92/2015/12/default-blog-seal-350x210.png 350w"
+                                                                    sizes="(max-width: 175px) 100vw, 175px" width="175"
+                                                                    height="105"
+                                                                    alt="Great Seal of the United States"><span
+                                                                    class="ubermenu-target-title ubermenu-target-text">Security Message: Demonstrations planned in Yerevan</span></a>
+                                                    </li><!-- end Dynamic Posts: [Dynamic Posts] ID[7001] --></ul>
+                                            </li>
+                                            <li id="menu-item-7000-term-65"
+                                                class="ubermenu-tab ubermenu-has-submenu-drop ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-has-children ubermenu-dynamic-term ubermenu-item-7000-term-65 ubermenu-item-auto ubermenu-item-level-2 ubermenu-column ubermenu-column-full ubermenu-has-submenu-tab-content-panel"
+                                                data-ubermenu-trigger="mouseover"><a
+                                                        class="ubermenu-target ubermenu-item-layout-default ubermenu-content-align-right ubermenu-item-layout-text_only"
+                                                        href="https://am.usembassy.gov/category/video/"><span
+                                                            class="ubermenu-target-title ubermenu-target-text">Video</span></a>
+                                                <ul class="ubermenu-tab-content-panel ubermenu-column ubermenu-column-3-4 ubermenu-submenu ubermenu-submenu-id-7000-term-65 ubermenu-submenu-type-auto ubermenu-submenu-type-tab-content-panel ubermenu-submenu-retractor-top"
+                                                    style="min-height: 252px;">
+                                                    <li class="ubermenu-retractor ubermenu-retractor-desktop"><i
+                                                                class="fa fa-times"></i></li>
+                                                    <!-- begin Dynamic Posts: [Dynamic Posts] ID[7001] count[4] -->
+                                                    <li id="menu-item-7001-post-16418"
+                                                        class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-7001 ubermenu-item-7001-post-16418 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-4 ubermenu-column ubermenu-column-1-4">
+                                                        <a class="ubermenu-target ubermenu-target-with-image ubermenu-item-layout-image_above ubermenu-content-align-left"
+                                                           href="https://am.usembassy.gov/ambassador-richard-mills-new-year-message/"><img
+                                                                    class="ubermenu-image ubermenu-image-size-ubermenu-image"
+                                                                    src="/main/default-blog-seal.png"
+                                                                    srcset="https://am.usembassy.gov/wp-content/uploads/sites/92/2015/12/default-blog-seal.png 750w, https://am.usembassy.gov/wp-content/uploads/sites/92/2015/12/default-blog-seal-350x210.png 350w"
+                                                                    sizes="(max-width: 175px) 100vw, 175px" width="175"
+                                                                    height="105"
+                                                                    alt="Great Seal of the United States"><span
+                                                                    class="ubermenu-target-title ubermenu-target-text">Ambassador Richard Mills’ New Year Message</span></a>
+                                                    </li>
+                                                    <li id="menu-item-7001-post-16415"
+                                                        class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-7001 ubermenu-item-7001-post-16415 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-4 ubermenu-column ubermenu-column-1-4">
+                                                        <a class="ubermenu-target ubermenu-target-with-image ubermenu-item-layout-image_above ubermenu-content-align-left"
+                                                           href="https://am.usembassy.gov/unsettled/"><img
+                                                                    class="ubermenu-image ubermenu-image-size-ubermenu-image"
+                                                                    src="/main/default-blog-seal.png"
+                                                                    srcset="https://am.usembassy.gov/wp-content/uploads/sites/92/2015/12/default-blog-seal.png 750w, https://am.usembassy.gov/wp-content/uploads/sites/92/2015/12/default-blog-seal-350x210.png 350w"
+                                                                    sizes="(max-width: 175px) 100vw, 175px" width="175"
+                                                                    height="105"
+                                                                    alt="Great Seal of the United States"><span
+                                                                    class="ubermenu-target-title ubermenu-target-text">Unsettled</span></a>
+                                                    </li>
+                                                    <li id="menu-item-7001-post-16413"
+                                                        class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-7001 ubermenu-item-7001-post-16413 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-4 ubermenu-column ubermenu-column-1-4">
+                                                        <a class="ubermenu-target ubermenu-target-with-image ubermenu-item-layout-image_above ubermenu-content-align-left"
+                                                           href="https://am.usembassy.gov/wonder/"><img
+                                                                    class="ubermenu-image ubermenu-image-size-ubermenu-image"
+                                                                    src="/main/default-blog-seal.png"
+                                                                    srcset="https://am.usembassy.gov/wp-content/uploads/sites/92/2015/12/default-blog-seal.png 750w, https://am.usembassy.gov/wp-content/uploads/sites/92/2015/12/default-blog-seal-350x210.png 350w"
+                                                                    sizes="(max-width: 175px) 100vw, 175px" width="175"
+                                                                    height="105"
+                                                                    alt="Great Seal of the United States"><span
+                                                                    class="ubermenu-target-title ubermenu-target-text">Wonder</span></a>
+                                                    </li>
+                                                    <li id="menu-item-7001-post-16411"
+                                                        class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-7001 ubermenu-item-7001-post-16411 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-4 ubermenu-column ubermenu-column-1-4">
+                                                        <a class="ubermenu-target ubermenu-target-with-image ubermenu-item-layout-image_above ubermenu-content-align-left"
+                                                           href="https://am.usembassy.gov/consul-general-frank-tu-ar-tv/"><img
+                                                                    class="ubermenu-image ubermenu-image-size-ubermenu-image"
+                                                                    src="/main/default-blog-seal.png"
+                                                                    srcset="https://am.usembassy.gov/wp-content/uploads/sites/92/2015/12/default-blog-seal.png 750w, https://am.usembassy.gov/wp-content/uploads/sites/92/2015/12/default-blog-seal-350x210.png 350w"
+                                                                    sizes="(max-width: 175px) 100vw, 175px" width="175"
+                                                                    height="105"
+                                                                    alt="Great Seal of the United States"><span
+                                                                    class="ubermenu-target-title ubermenu-target-text">Consul General Frank Tu on AR TV</span></a>
+                                                    </li><!-- end Dynamic Posts: [Dynamic Posts] ID[7001] --></ul>
+                                            </li><!-- end Dynamic Terms: [Dynamic Terms] 7000 --></ul>
+                                    </li><!-- end Tabs: [Tabs] 6999 --></ul>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!-- End UberMenu -->
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="mo-breadcrumbs">
+        <div class="container">
+            <header>
+                <h1>
+                    Form </h1>
+            </header>
+        </div>
+    </div>
+    <div class="container">
+        <p class="breadcrumbs"><span xmlns:v="http://rdf.data-vocabulary.org/#"><span typeof="v:Breadcrumb"><a
+                            href="https://am.usembassy.gov/" rel="v:url" property="v:title">Home</a> | <span
+                            class="breadcrumb_last">Form</span></span></span>
+        </p></div>
+
+    <!-- USEmbassy.gov Search --->
+    <!-- END USEmbassy.gov Search --->
+    <div id="main" class="wrap container " role="document">
+        <div class="content row thank">
+            <h1><?= $data['thank_title'] ?></h1>
+            <p><?= $data['thank_text'] ?></p>
+        </div><!-- /.content -->
+    </div><!-- /.wrap -->
+    <div class="mo-footer">
+        <footer class="content-info">
+            <div class="container">
+                <section class="mo-footer-menu widget nav_menu-2 widget_nav_menu"><h3>U.S. Embassy in Armenia</h3>
+                    <div class="menu-footer-menu-container">
+                        <ul id="menu-footer-menu" class="menu">
+                            <li id="menu-item-8710"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8710"><a
+                                        href="https://am.usembassy.gov/visas/">Visas</a></li>
+                            <li id="menu-item-274"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-274"><a
+                                        href="https://am.usembassy.gov/u-s-citizen-services/">U.S. Citizen Services</a>
+                            </li>
+                            <li id="menu-item-277"
+                                class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-173 current_page_item menu-item-277">
+                                <a href="https://am.usembassy.gov/our-relationship/">Our Relationship</a></li>
+                            <li id="menu-item-275"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-275"><a
+                                        href="https://am.usembassy.gov/business/">Business</a></li>
+                            <li id="menu-item-8697"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8697"><a
+                                        href="https://am.usembassy.gov/education-culture/">Education &amp; Culture</a>
+                            </li>
+                            <li id="menu-item-278"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-278"><a
+                                        href="https://am.usembassy.gov/embassy/">Embassy</a></li>
+                            <li id="menu-item-279"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-279"><a
+                                        href="https://am.usembassy.gov/news-events/">News &amp; Events</a></li>
+                            <li id="menu-item-280"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-280"><a
+                                        href="https://am.usembassy.gov/privacy/">Privacy</a></li>
+                            <li id="menu-item-1732"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1732"><a
+                                        href="https://am.usembassy.gov/sitemap/">Sitemap</a></li>
+                        </ul>
+                    </div>
+                </section>
+                <div class="footer-middle">
+                    <section class="mo-footer-embassy widget text-26 widget_text"><h3>U.S. Embassy</h3>
+                        <div class="textwidget"><a href="https://am.usembassy.gov/embassy/yerevan/">U.S. Embassy
+                                Yerevan</a><br>
+
+                            1 American Avenue<br>
+                            Yerevan 0082, Republic of Armenia<br>
+                            Telephone: (+37410) 464-700<br>
+                            Fax: (+37410) 464-742<br>
+
                             <div class="mo-social-links"><a class="fa fa-twitter" href="http://twitter.com/usembarmenia"
                                                             style="color:#ffffff;background:#003875; border:1px solid #003875"
                                                             title="Twitter"><span>Twitter</span></a><a
                                         class="fa fa-facebook" href="https://www.facebook.com/usembarmenia"
                                         style="color:#ffffff;background:#003875; border:1px solid #003875"
-                                        title="Facebook"><span>Facebook</span></a><a
-                                        class="fa fa-youtube" href="http://www.youtube.com/user/usembassyarmenia"
-                                        style="color:#ffffff;background:#003875; border:1px solid #003875"
-                                        title="YouTube"><span>YouTube</span></a></div>
-                            <a href="https://am.usembassy.gov/social-media/" class="topplus">
-                                <i class="fa fa-plus-square"></i></a> <span class="toppipe">|</span>
-
-                            <nav class="socialsearch">
-                                <!-- UberMenu [Configuration:main] [Theme Loc:] [Integration:api] -->
-                                <nav class="ubermenu ubermenu-transition-fade ubermenu-trigger-click ubermenu-notouch">
-                                    <ul>
-                                        <li id="menu-item-topsearchsocial"
-                                            class="ubermenu-item ubermenu-has-submenu-drop ubermenu-has-submenu-mega">
-                                            <span class="ubermenu-target newserach"><i
-                                                        class="ubermenu-icon fa fa-search"></i></span>
-                                            <ul class="ubermenu-submenu ubermenu-submenu-type-mega ubermenu-submenu-drop ubermenu-submenu-align-right_edge_bar ubermenu-submenu-retractor-top">
-                                                <li class="ubermenu-retractor ubermenu-retractor-desktop"><i
-                                                            class="fa fa-times"></i></li>
-                                                <li id="menu-item-2463" class="ubermenu-item ">
-                                                    <div class="ubermenu-content-block">
-
-                                                        <label class="sr-only" for="s">Search</label>
-                                                        <!-- UberMenu Search Bar -->
-                                                        <div class="ubermenu-search">
-                                                            <form method="get" class="ubermenu-searchform"
-                                                                  id="search_form"
-                                                                  action="https://search.usembassy.gov/search/"
-                                                                  accept-charset="UTF-8">
-                                                                <div style="margin:0;padding:0">
-                                                                </div>
-                                                                <input type="hidden" id="affiliate" name="affiliate"
-                                                                       value="dos_emb_eur_armenia">
-                                                                <!-- <label for="query">Enter Search Term(s):</label> -->
-                                                                <input type="text" name="query" id="query"
-                                                                       class="usagov-search-autocomplete ubermenu-search-input ui-autocomplete-input"
-                                                                       placeholder="Search..." autocomplete="off"
-                                                                       role="textbox" aria-autocomplete="list"
-                                                                       aria-haspopup="true">
-                                                                <input type="submit" value=""
-                                                                       class="ubermenu-search-submit" name="commit">
-                                                            </form>
-                                                        </div>
-                                                        <!-- end .ubermenu-search -->
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </nav><!-- End UberMenu --></nav>
+                                        title="Facebook"><span>Facebook</span></a><a class="fa fa-youtube"
+                                                                                     href="http://www.youtube.com/user/usembassyarmenia"
+                                                                                     style="color:#ffffff;background:#003875; border:1px solid #003875"
+                                                                                     title="YouTube"><span>YouTube</span></a>
+                            </div>
                         </div>
                     </section>
                 </div>
-            </div>
-        </div>
-    </div>
-    <a class="accessible" href="https://am.usembassy.gov/our-relationship/#main">[Skip to Content]</a>
-    <div class="mo-nav">
-        <div class="container">
-            <nav>
-
-                <!-- UberMenu [Configuration:main] [Theme Loc:] [Integration:api] -->
-                <div class="ubermenu-responsive-toggle ubermenu-responsive-toggle-main ubermenu-skin-white ubermenu-loc- ubermenu-responsive-toggle-content-align-left ubermenu-responsive-toggle-align-full "
-                     data-ubermenu-target="ubermenu-main-Main-Navigation"><i class="fa fa-bars"></i>Menu
+                <div class="footer-end">
                 </div>
-                <nav id="ubermenu-main-Main-Navigation"
-                     class="ubermenu ubermenu-main ubermenu-menu-Main-Navigation ubermenu-responsive ubermenu-responsive-default ubermenu-responsive-collapse ubermenu-horizontal ubermenu-transition-fade ubermenu-trigger-hover_intent ubermenu-skin-white  ubermenu-bar-align-full ubermenu-items-align-left ubermenu-bound ubermenu-disable-submenu-scroll ubermenu-sub-indicators ubermenu-icons-inline ubermenu-notouch">
-                    <ul id="ubermenu-nav-main-Main-Navigation" class="ubermenu-nav">
-                        <li id="menu-item-2232"
-                            class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-2232 ubermenu-item-level-0 ubermenu-column ubermenu-column-auto"></li>
-                        <li id="menu-item-2231"
-                            class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-2231 ubermenu-item-level-0 ubermenu-column ubermenu-column-auto">
-                            <div class="ubermenu-content-block ubermenu-custom-content ">
-                                <!-- this is a hidden (li) that allows the Mobile Nav to work with the sticky nav --></div>
-                        </li>
-                        <li id="menu-item-8711"
-                            class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-has-children ubermenu-item-8711 ubermenu-item-level-0 ubermenu-column ubermenu-column-auto ubermenu-has-submenu-drop ubermenu-has-submenu-mega">
-                            <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"
-                               href="https://am.usembassy.gov/visas/" tabindex="0"><span
-                                        class="ubermenu-target-title ubermenu-target-text">Visas</span></a>
-                            <ul class="ubermenu-submenu ubermenu-submenu-id-8711 ubermenu-submenu-type-auto ubermenu-submenu-type-mega ubermenu-submenu-drop ubermenu-submenu-align-full_width ubermenu-autoclear ubermenu-submenu-retractor-top">
-                                <li class="ubermenu-retractor ubermenu-retractor-desktop"><i class="fa fa-times"></i>
-                                </li>
-                                <li id="menu-item-301"
-                                    class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-has-children ubermenu-item-301 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-1 ubermenu-column ubermenu-column-1-3 ubermenu-has-submenu-stack">
-                                    <div class="ubermenu-content-block ubermenu-custom-content ubermenu-custom-content-padded">
-                                        <div class="uber-submenu-heading">Nonimmigrant Visas</div>
-                                    </div>
-                                    <ul class="ubermenu-submenu ubermenu-submenu-id-301 ubermenu-submenu-type-auto ubermenu-submenu-type-stack">
-                                        <li id="menu-item-8715"
-                                            class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-8715 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
-                                            <div class="ubermenu-content-block ubermenu-custom-content ubermenu-custom-content-padded">
-                                                <p style="height: 120px;">For travel to the United States on a temporary
-                                                    basis, including tourism, temporary employment, study and
-                                                    exchange.</p></div>
-                                        </li>
-                                        <li id="menu-item-8714"
-                                            class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-8714 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
-                                            <div class="ubermenu-content-block ubermenu-custom-content ubermenu-custom-content-padded">
-                                                <a href="https://am.usembassy.gov/visas/nonimmigrant-visas/"
-                                                   class="uber-expand btn btn-default">Read More</a></div>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li id="menu-item-302"
-                                    class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-has-children ubermenu-item-302 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-1 ubermenu-column ubermenu-column-1-3 ubermenu-has-submenu-stack">
-                                    <div class="ubermenu-content-block ubermenu-custom-content ubermenu-custom-content-padded">
-                                        <div class="uber-submenu-heading">Immigrant Visas</div>
-                                    </div>
-                                    <ul class="ubermenu-submenu ubermenu-submenu-id-302 ubermenu-submenu-type-auto ubermenu-submenu-type-stack">
-                                        <li id="menu-item-8713"
-                                            class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-8713 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
-                                            <div class="ubermenu-content-block ubermenu-custom-content ubermenu-custom-content-padded">
-                                                <p style="height: 120px;">For foreign citizens who want to live
-                                                    permanently in the United States.</p></div>
-                                        </li>
-                                        <li id="menu-item-8712"
-                                            class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-8712 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
-                                            <div class="ubermenu-content-block ubermenu-custom-content ubermenu-custom-content-padded">
-                                                <a href="https://am.usembassy.gov/visas/immigrant-visas/"
-                                                   class="uber-expand btn btn-default">Read More</a></div>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li id="menu-item-306"
-                                    class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-has-children ubermenu-item-306 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-1 ubermenu-column ubermenu-column-1-3 ubermenu-has-submenu-stack">
-                                    <div class="ubermenu-content-block ubermenu-custom-content ubermenu-custom-content-padded">
-                                        <div class="uber-submenu-heading">Travel &amp; Tourism in the U.S.</div>
-                                    </div>
-                                    <ul class="ubermenu-submenu ubermenu-submenu-id-306 ubermenu-submenu-type-auto ubermenu-submenu-type-stack">
-                                        <li id="menu-item-2063"
-                                            class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-2063 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
-                                            <div class="ubermenu-content-block ubermenu-custom-content ubermenu-custom-content-padded">
-                                                <img src="/main/travel_photo_no_text_243x115px_360.png"
-                                                     alt="woman standing in front of the Washington monument"></div>
-                                        </li>
-                                        <li id="menu-item-1036"
-                                            class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-1036 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
-                                            <div class="ubermenu-content-block ubermenu-custom-content ubermenu-custom-content-padded">
-                                                <a href="https://am.usembassy.gov/visas/travel-tourism/"
-                                                   class="uber-expand btn btn-default">Visit the U.S.!</a></div>
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                        <li id="menu-item-289"
-                            class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-has-children ubermenu-item-289 ubermenu-item-level-0 ubermenu-column ubermenu-column-auto ubermenu-has-submenu-drop ubermenu-has-submenu-mega">
-                            <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"
-                               href="https://am.usembassy.gov/u-s-citizen-services/" tabindex="0"><span
-                                        class="ubermenu-target-title ubermenu-target-text">U.S. Citizen Services</span></a>
-                            <ul class="ubermenu-submenu ubermenu-submenu-id-289 ubermenu-submenu-type-mega ubermenu-submenu-drop ubermenu-submenu-align-full_width ubermenu-autoclear ubermenu-submenu-retractor-top">
-                                <li class="ubermenu-retractor ubermenu-retractor-desktop"><i class="fa fa-times"></i>
-                                </li>
-                                <li id="menu-item-331"
-                                    class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-has-children ubermenu-item-331 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-1 ubermenu-column ubermenu-column-1-5 ubermenu-has-submenu-stack">
-                                    <div class="ubermenu-content-block ubermenu-custom-content ubermenu-custom-content-padded">
-                                        <div class="uber-submenu-heading">Emergency Services</div>
-                                    </div>
-                                    <ul class="ubermenu-submenu ubermenu-submenu-id-331 ubermenu-submenu-type-auto ubermenu-submenu-type-stack">
-                                        <li id="menu-item-439"
-                                            class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-439 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
-                                            <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"
-                                               href="https://am.usembassy.gov/u-s-citizen-services/emergency-contact/"><span
-                                                        class="ubermenu-target-title ubermenu-target-text">Contact Information</span></a>
-                                        </li>
-                                        <li id="menu-item-440"
-                                            class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-440 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
-                                            <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"
-                                               href="https://am.usembassy.gov/u-s-citizen-services/arrest-of-a-u-s-citizen/"><span
-                                                        class="ubermenu-target-title ubermenu-target-text">Arrest of a U.S. Citizen</span></a>
-                                        </li>
-                                        <li id="menu-item-441"
-                                            class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-441 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
-                                            <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"
-                                               href="https://am.usembassy.gov/u-s-citizen-services/death-of-a-u-s-citizen/"><span
-                                                        class="ubermenu-target-title ubermenu-target-text">Death of a U.S. Citizen</span></a>
-                                        </li>
-                                        <li id="menu-item-442"
-                                            class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-442 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
-                                            <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"
-                                               href="https://am.usembassy.gov/u-s-citizen-services/victims-of-crime/"><span
-                                                        class="ubermenu-target-title ubermenu-target-text">Victims of Crime</span></a>
-                                        </li>
-                                        <li id="menu-item-443"
-                                            class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-443 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
-                                            <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"
-                                               href="https://am.usembassy.gov/u-s-citizen-services/emergency-financial-assistance/"><span
-                                                        class="ubermenu-target-title ubermenu-target-text">Emergency Financial Assistance</span></a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li id="menu-item-332"
-                                    class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-has-children ubermenu-item-332 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-1 ubermenu-column ubermenu-column-1-5 ubermenu-has-submenu-stack">
-                                    <div class="ubermenu-content-block ubermenu-custom-content ubermenu-custom-content-padded">
-                                        <div class="uber-submenu-heading">Security Messages &amp; Local Resources</div>
-                                    </div>
-                                    <ul class="ubermenu-submenu ubermenu-submenu-id-332 ubermenu-submenu-type-auto ubermenu-submenu-type-stack">
-                                        <li id="menu-item-444"
-                                            class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-444 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
-                                            <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"
-                                               href="https://am.usembassy.gov/u-s-citizen-services/security-and-travel-information/"><span
-                                                        class="ubermenu-target-title ubermenu-target-text">Safety &amp; Security Messages</span></a>
-                                        </li>
-                                        <li id="menu-item-445"
-                                            class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-445 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
-                                            <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"
-                                               href="https://am.usembassy.gov/u-s-citizen-services/local-resources-of-u-s-citizens/"><span
-                                                        class="ubermenu-target-title ubermenu-target-text">Local Resources for U.S. Citizens</span></a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li id="menu-item-333"
-                                    class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-has-children ubermenu-item-333 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-1 ubermenu-column ubermenu-column-1-5 ubermenu-has-submenu-stack">
-                                    <div class="ubermenu-content-block ubermenu-custom-content ubermenu-custom-content-padded">
-                                        <div class="uber-submenu-heading">Passports &amp; Citizenship</div>
-                                    </div>
-                                    <ul class="ubermenu-submenu ubermenu-submenu-id-333 ubermenu-submenu-type-auto ubermenu-submenu-type-stack">
-                                        <li id="menu-item-7184"
-                                            class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-7184 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
-                                            <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"
-                                               href="https://am.usembassy.gov/hy/citizenship-services/"><span
-                                                        class="ubermenu-target-title ubermenu-target-text">Citizenship Services</span></a>
-                                        </li>
-                                        <li id="menu-item-7183"
-                                            class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-7183 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
-                                            <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"
-                                               href="https://am.usembassy.gov/u-s-citizen-services/passports/"><span
-                                                        class="ubermenu-target-title ubermenu-target-text">Passports</span></a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li id="menu-item-334"
-                                    class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-has-children ubermenu-item-334 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-1 ubermenu-column ubermenu-column-1-5 ubermenu-has-submenu-stack">
-                                    <div class="ubermenu-content-block ubermenu-custom-content ubermenu-custom-content-padded">
-                                        <div class="uber-submenu-heading">Federal Programs</div>
-                                    </div>
-                                    <ul class="ubermenu-submenu ubermenu-submenu-id-334 ubermenu-submenu-type-auto ubermenu-submenu-type-stack">
-                                        <li id="menu-item-450"
-                                            class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-450 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
-                                            <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"
-                                               href="https://am.usembassy.gov/u-s-citizen-services/internal-revenue-service-u-s-taxes/"><span
-                                                        class="ubermenu-target-title ubermenu-target-text">Internal Revenue Service</span></a>
-                                        </li>
-                                        <li id="menu-item-451"
-                                            class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-451 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
-                                            <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"
-                                               href="https://am.usembassy.gov/u-s-citizen-services/selective-service-registration/"><span
-                                                        class="ubermenu-target-title ubermenu-target-text">Selective Service Registration</span></a>
-                                        </li>
-                                        <li id="menu-item-452"
-                                            class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-452 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
-                                            <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"
-                                               href="https://am.usembassy.gov/u-s-citizen-services/social-security/"><span
-                                                        class="ubermenu-target-title ubermenu-target-text">Social Security</span></a>
-                                        </li>
-                                        <li id="menu-item-453"
-                                            class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-453 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
-                                            <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"
-                                               href="https://am.usembassy.gov/u-s-citizen-services/veterans-affairs/"><span
-                                                        class="ubermenu-target-title ubermenu-target-text">Veterans Affairs</span></a>
-                                        </li>
-                                        <li id="menu-item-454"
-                                            class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-454 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
-                                            <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"
-                                               href="https://am.usembassy.gov/u-s-citizen-services/voting/"><span
-                                                        class="ubermenu-target-title ubermenu-target-text">Voting</span></a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li id="menu-item-335"
-                                    class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-has-children ubermenu-item-335 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-1 ubermenu-column ubermenu-column-1-5 ubermenu-has-submenu-stack">
-                                    <div class="ubermenu-content-block ubermenu-custom-content ubermenu-custom-content-padded">
-                                        <div class="uber-submenu-heading">Child &amp; Family Matters</div>
-                                    </div>
-                                    <ul class="ubermenu-submenu ubermenu-submenu-id-335 ubermenu-submenu-type-auto ubermenu-submenu-type-stack">
-                                        <li id="menu-item-455"
-                                            class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-455 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
-                                            <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"
-                                               href="https://am.usembassy.gov/u-s-citizen-services/adoption/"><span
-                                                        class="ubermenu-target-title ubermenu-target-text">Adoption</span></a>
-                                        </li>
-                                        <li id="menu-item-456"
-                                            class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-456 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
-                                            <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"
-                                               href="https://am.usembassy.gov/u-s-citizen-services/birth/"><span
-                                                        class="ubermenu-target-title ubermenu-target-text">Birth</span></a>
-                                        </li>
-                                        <li id="menu-item-457"
-                                            class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-457 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
-                                            <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"
-                                               href="https://am.usembassy.gov/u-s-citizen-services/international-parental-child-abduction/"><span
-                                                        class="ubermenu-target-title ubermenu-target-text">International Parental Child Abduction</span></a>
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                        <li id="menu-item-288"
-                            class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-current-menu-item ubermenu-page_item ubermenu-page-item-173 ubermenu-current_page_item ubermenu-item-has-children ubermenu-item-288 ubermenu-item-level-0 ubermenu-column ubermenu-column-auto ubermenu-has-submenu-drop ubermenu-has-submenu-mega">
-                            <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"
-                               href="https://am.usembassy.gov/our-relationship/" tabindex="0"><span
-                                        class="ubermenu-target-title ubermenu-target-text">Our Relationship</span></a>
-                            <ul class="ubermenu-submenu ubermenu-submenu-id-288 ubermenu-submenu-type-mega ubermenu-submenu-drop ubermenu-submenu-align-full_width ubermenu-submenu-retractor-top">
-                                <li class="ubermenu-retractor ubermenu-retractor-desktop"><i class="fa fa-times"></i>
-                                </li>
-                                <li id="menu-item-328"
-                                    class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-has-children ubermenu-item-328 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-1 ubermenu-column ubermenu-column-1-3 ubermenu-has-submenu-stack">
-                                    <div class="ubermenu-content-block ubermenu-custom-content ubermenu-custom-content-padded">
-                                        <div class="uber-submenu-heading">U.S. Mission Leaders</div>
-                                    </div>
-                                    <ul class="ubermenu-submenu ubermenu-submenu-id-328 ubermenu-submenu-type-auto ubermenu-submenu-type-stack">
-                                        <li id="menu-item-461"
-                                            class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-461 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
-                                            <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"
-                                               href="https://am.usembassy.gov/our-relationship/ambassador/"><span
-                                                        class="ubermenu-target-title ubermenu-target-text">Ambassador Richard M. Mills, Jr.</span></a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li id="menu-item-1888"
-                                    class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-has-children ubermenu-item-1888 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-1 ubermenu-column ubermenu-column-1-3 ubermenu-has-submenu-stack">
-                                    <div class="ubermenu-content-block ubermenu-custom-content ubermenu-custom-content-padded">
-                                        <div class="uber-submenu-heading">U.S. Government Leaders</div>
-                                    </div>
-                                    <ul class="ubermenu-submenu ubermenu-submenu-id-1888 ubermenu-submenu-type-auto ubermenu-submenu-type-stack">
-                                        <li id="menu-item-458"
-                                            class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-458 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
-                                            <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"
-                                               href="https://am.usembassy.gov/our-relationship/the-president-of-the-united-states/"><span
-                                                        class="ubermenu-target-title ubermenu-target-text">President of the United States</span></a>
-                                        </li>
-                                        <li id="menu-item-459"
-                                            class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-459 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
-                                            <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"
-                                               href="https://am.usembassy.gov/our-relationship/vice-president/"><span
-                                                        class="ubermenu-target-title ubermenu-target-text">Vice President of the United States</span></a>
-                                        </li>
-                                        <li id="menu-item-460"
-                                            class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-460 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
-                                            <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"
-                                               href="https://am.usembassy.gov/our-relationship/the-secretary-of-state/"><span
-                                                        class="ubermenu-target-title ubermenu-target-text">U.S. Secretary of State</span></a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li id="menu-item-329"
-                                    class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-has-children ubermenu-item-329 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-1 ubermenu-column ubermenu-column-1-3 ubermenu-has-submenu-stack">
-                                    <div class="ubermenu-content-block ubermenu-custom-content ubermenu-custom-content-padded">
-                                        <div class="uber-submenu-heading">U.S. &amp; Armenia</div>
-                                    </div>
-                                    <ul class="ubermenu-submenu ubermenu-submenu-id-329 ubermenu-submenu-type-auto ubermenu-submenu-type-stack">
-                                        <li id="menu-item-465"
-                                            class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-465 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
-                                            <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"
-                                               href="https://am.usembassy.gov/our-relationship/policy-history/"><span
-                                                        class="ubermenu-target-title ubermenu-target-text">Policy &amp; History</span></a>
-                                        </li>
-                                        <li id="menu-item-464"
-                                            class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-464 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
-                                            <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"
-                                               href="https://am.usembassy.gov/our-relationship/official-reports/"><span
-                                                        class="ubermenu-target-title ubermenu-target-text">Official Reports</span></a>
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                        <li id="menu-item-285"
-                            class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-has-children ubermenu-item-285 ubermenu-item-level-0 ubermenu-column ubermenu-column-auto ubermenu-has-submenu-drop ubermenu-has-submenu-mega">
-                            <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"
-                               href="https://am.usembassy.gov/business/" tabindex="0"><span
-                                        class="ubermenu-target-title ubermenu-target-text">Business</span></a>
-                            <ul class="ubermenu-submenu ubermenu-submenu-id-285 ubermenu-submenu-type-auto ubermenu-submenu-type-mega ubermenu-submenu-drop ubermenu-submenu-align-left_edge_item ubermenu-autoclear ubermenu-submenu-retractor-top">
-                                <li class="ubermenu-retractor ubermenu-retractor-desktop"><i class="fa fa-times"></i>
-                                </li>
-                                <li id="menu-item-326"
-                                    class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-has-children ubermenu-item-326 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-1 ubermenu-column ubermenu-column-1-2 ubermenu-has-submenu-stack">
-                                    <div class="ubermenu-content-block ubermenu-custom-content ubermenu-custom-content-padded">
-                                        <div class="uber-submenu-heading">Doing Business in Armenia</div>
-                                    </div>
-                                    <ul class="ubermenu-submenu ubermenu-submenu-id-326 ubermenu-submenu-type-auto ubermenu-submenu-type-stack">
-                                        <li id="menu-item-471"
-                                            class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-471 ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
-                                            <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"
-                                               href="https://am.usembassy.gov/business/getting-started-armenia/"><span
-                                                        class="ubermenu-target-title ubermenu-target-text">Getting Started</span></a>
-                                        </li>
-                                        <li id="menu-item-469"
-                                            class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-469 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
-                                            <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"
-                                               href="https://am.usembassy.gov/business/overseas-security-advisory-council/"><span
-                                                        class="ubermenu-target-title ubermenu-target-text">Overseas Security Advisory Council</span></a>
-                                        </li>
-                                        <li id="menu-item-468"
-                                            class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-468 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
-                                            <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"
-                                               href="https://am.usembassy.gov/business/economic-data-reports-armenia/"><span
-                                                        class="ubermenu-target-title ubermenu-target-text">Economic Data &amp; Reports</span></a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li id="menu-item-327"
-                                    class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-has-children ubermenu-item-327 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-1 ubermenu-column ubermenu-column-1-2 ubermenu-has-submenu-stack">
-                                    <div class="ubermenu-content-block ubermenu-custom-content ubermenu-custom-content-padded">
-                                        <div class="uber-submenu-heading">Doing Business in the U.S.</div>
-                                    </div>
-                                    <ul class="ubermenu-submenu ubermenu-submenu-id-327 ubermenu-submenu-type-auto ubermenu-submenu-type-stack">
-                                        <li id="menu-item-467"
-                                            class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-467 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
-                                            <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"
-                                               href="https://am.usembassy.gov/business/getting-started-usa/"><span
-                                                        class="ubermenu-target-title ubermenu-target-text">Getting Started in the U.S.</span></a>
-                                        </li>
-                                        <li id="menu-item-466"
-                                            class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-466 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
-                                            <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"
-                                               href="https://am.usembassy.gov/business/economic-data-reports-usa/"><span
-                                                        class="ubermenu-target-title ubermenu-target-text">Economic Data &amp; Reports</span></a>
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                        <li id="menu-item-8680"
-                            class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-has-children ubermenu-item-8680 ubermenu-item-level-0 ubermenu-column ubermenu-column-auto ubermenu-has-submenu-drop ubermenu-has-submenu-mega">
-                            <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"
-                               href="https://am.usembassy.gov/education-culture/" tabindex="0"><span
-                                        class="ubermenu-target-title ubermenu-target-text">Education &amp; Culture</span></a>
-                            <ul class="ubermenu-submenu ubermenu-submenu-id-8680 ubermenu-submenu-type-auto ubermenu-submenu-type-mega ubermenu-submenu-drop ubermenu-submenu-align-full_width ubermenu-autoclear ubermenu-submenu-retractor-top">
-                                <li class="ubermenu-retractor ubermenu-retractor-desktop"><i class="fa fa-times"></i>
-                                </li>
-                                <li id="menu-item-8685"
-                                    class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-has-children ubermenu-item-8685 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-1 ubermenu-column ubermenu-column-1-3 ubermenu-has-submenu-stack">
-                                    <div class="ubermenu-content-block ubermenu-custom-content ubermenu-custom-content-padded">
-                                        <div class="uber-submenu-heading">Study in the U.S.A.</div>
-                                    </div>
-                                    <ul class="ubermenu-submenu ubermenu-submenu-id-8685 ubermenu-submenu-type-auto ubermenu-submenu-type-stack">
-                                        <li id="menu-item-8691"
-                                            class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-8691 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
-                                            <div class="ubermenu-content-block ubermenu-custom-content ubermenu-custom-content-padded">
-                                                <img src="/main/study-us-243x115.png">
-                                            </div>
-                                        </li>
-                                        <li id="menu-item-8689"
-                                            class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-8689 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
-                                            <div class="ubermenu-content-block ubermenu-custom-content ubermenu-custom-content-padded">
-                                                <p style="height: 75px;">Learn more about quality higher-education
-                                                    opportunities in the U.S. that you will not find anywhere else in
-                                                    the world.</p></div>
-                                        </li>
-                                        <li id="menu-item-8690"
-                                            class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-8690 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
-                                            <div class="ubermenu-content-block ubermenu-custom-content ubermenu-custom-content-padded">
-                                                <a href="https://am.usembassy.gov/education-culture/study-usa/"
-                                                   class="uber-expand btn btn-default">Find Opportunities</a></div>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li id="menu-item-8686"
-                                    class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-has-children ubermenu-item-8686 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-1 ubermenu-column ubermenu-column-1-3 ubermenu-has-submenu-stack">
-                                    <div class="ubermenu-content-block ubermenu-custom-content ubermenu-custom-content-padded">
-                                        <div class="uber-submenu-heading">American Spaces</div>
-                                    </div>
-                                    <ul class="ubermenu-submenu ubermenu-submenu-id-8686 ubermenu-submenu-type-auto ubermenu-submenu-type-stack">
-                                        <li id="menu-item-16248"
-                                            class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-16248 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
-                                            <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"
-                                               href="https://am.usembassy.gov/education-culture/information-resource-center/"><span
-                                                        class="ubermenu-target-title ubermenu-target-text">Information Resource Center</span></a>
-                                        </li>
-                                        <li id="menu-item-16249"
-                                            class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-16249 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
-                                            <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"
-                                               href="https://am.usembassy.gov/education-culture/elibraryusa-databases/"><span
-                                                        class="ubermenu-target-title ubermenu-target-text">eLibraryUSA Databases</span></a>
-                                        </li>
-                                        <li id="menu-item-16250"
-                                            class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-16250 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
-                                            <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"
-                                               href="https://am.usembassy.gov/education-culture/american-corners/"><span
-                                                        class="ubermenu-target-title ubermenu-target-text">American Corners</span></a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li id="menu-item-8687"
-                                    class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-has-children ubermenu-item-8687 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-1 ubermenu-column ubermenu-column-1-3 ubermenu-has-submenu-stack">
-                                    <div class="ubermenu-content-block ubermenu-custom-content ubermenu-custom-content-padded">
-                                        <div class="uber-submenu-heading">Local Programs</div>
-                                    </div>
-                                    <ul class="ubermenu-submenu ubermenu-submenu-id-8687 ubermenu-submenu-type-auto ubermenu-submenu-type-stack">
-                                        <li id="menu-item-16256"
-                                            class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-16256 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
-                                            <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"
-                                               href="https://am.usembassy.gov/education-culture/educational-exchange/"><span
-                                                        class="ubermenu-target-title ubermenu-target-text">Educational Exchange</span></a>
-                                        </li>
-                                        <li id="menu-item-16252"
-                                            class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-16252 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
-                                            <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"
-                                               href="https://am.usembassy.gov/education-culture/state-alumni/"><span
-                                                        class="ubermenu-target-title ubermenu-target-text">State Alumni</span></a>
-                                        </li>
-                                        <li id="menu-item-16253"
-                                            class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-16253 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
-                                            <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"
-                                               href="https://am.usembassy.gov/education-culture/educationusa-armenia/"><span
-                                                        class="ubermenu-target-title ubermenu-target-text">EducationUSA Armenia</span></a>
-                                        </li>
-                                        <li id="menu-item-18350"
-                                            class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-18350 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
-                                            <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"
-                                               href="https://am.usembassy.gov/education-culture/english-language-learning/"><span
-                                                        class="ubermenu-target-title ubermenu-target-text">English Language Learning</span></a>
-                                        </li>
-                                        <li id="menu-item-18332"
-                                            class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-18332 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
-                                            <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"
-                                               href="https://am.usembassy.gov/our-relationship/policy-history/ambassadors-fund-cultural-preservation/"><span
-                                                        class="ubermenu-target-title ubermenu-target-text">Ambassador’s Fund For Cultural Preservation</span></a>
-                                        </li>
-                                        <li id="menu-item-18333"
-                                            class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-18333 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
-                                            <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"
-                                               href="https://am.usembassy.gov/embassy/yerevan/democracy-commission-small-grants/"><span
-                                                        class="ubermenu-target-title ubermenu-target-text">Democracy Commission Small Grants</span></a>
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                        <li id="menu-item-287"
-                            class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-has-children ubermenu-item-287 ubermenu-item-level-0 ubermenu-column ubermenu-column-auto ubermenu-has-submenu-drop ubermenu-has-submenu-mega ubermenu-submenu-rtl">
-                            <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"
-                               href="https://am.usembassy.gov/embassy/" tabindex="0"><span
-                                        class="ubermenu-target-title ubermenu-target-text">Embassy</span></a>
-                            <ul class="ubermenu-submenu ubermenu-submenu-id-287 ubermenu-submenu-type-auto ubermenu-submenu-type-mega ubermenu-submenu-drop ubermenu-submenu-align-right_edge_item ubermenu-autoclear ubermenu-submenu-retractor-top">
-                                <li class="ubermenu-retractor ubermenu-retractor-desktop"><i class="fa fa-times"></i>
-                                </li>
-                                <li id="menu-item-488"
-                                    class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-has-children ubermenu-item-488 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-1 ubermenu-column ubermenu-column-1-2 ubermenu-has-submenu-stack">
-                                    <div class="ubermenu-content-block ubermenu-custom-content ubermenu-custom-content-padded">
-                                        <div class="uber-submenu-heading">U.S. Embassy</div>
-                                    </div>
-                                    <ul class="ubermenu-submenu ubermenu-submenu-id-488 ubermenu-submenu-type-auto ubermenu-submenu-type-stack">
-                                        <li id="menu-item-2198"
-                                            class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-2198 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
-                                            <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"
-                                               href="https://am.usembassy.gov/embassy/yerevan/"><span
-                                                        class="ubermenu-target-title ubermenu-target-text">U.S. Embassy Yerevan</span></a>
-                                        </li>
-                                        <li id="menu-item-1849"
-                                            class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-1849 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
-                                            <div class="ubermenu-content-block ubermenu-custom-content ubermenu-custom-content-padded">
-                                                <div class="addresspad">
-                                                    <p></p>1 American Avenue<p></p>
-                                                    <p></p>Yerevan 0082, Republic of Armenia<p></p>
-                                                    <p></p>Telephone: (+37410) 464-700<p></p>
-                                                    <p></p>Fax:(+37410) 464-742<p></p>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li id="menu-item-478"
-                                    class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-has-children ubermenu-item-478 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-1 ubermenu-column ubermenu-column-1-2 ubermenu-has-submenu-stack">
-                                    <div class="ubermenu-content-block ubermenu-custom-content ubermenu-custom-content-padded">
-                                        <div class="uber-submenu-heading">Work With Us!</div>
-                                    </div>
-                                    <ul class="ubermenu-submenu ubermenu-submenu-id-478 ubermenu-submenu-type-auto ubermenu-submenu-type-stack">
-                                        <li id="menu-item-1854"
-                                            class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-1854 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
-                                            <div class="ubermenu-content-block ubermenu-custom-content ubermenu-custom-content-padded">
-                                                <img src="/main/work_with_us_no_text_244x116px_360.png"
-                                                     alt="a group of people in business attire with hands raised"></div>
-                                        </li>
-                                        <li id="menu-item-2124"
-                                            class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-2124 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
-                                            <div class="ubermenu-content-block ubermenu-custom-content ubermenu-custom-content-padded">
-                                                <a href="https://am.usembassy.gov/embassy/jobs/"
-                                                   class="uber-expand btn btn-default">Jobs and Announcements</a></div>
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                        <li id="menu-item-284"
-                            class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-has-children ubermenu-item-284 ubermenu-item-level-0 ubermenu-column ubermenu-column-auto ubermenu-has-submenu-drop ubermenu-has-submenu-mega">
-                            <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"
-                               href="https://am.usembassy.gov/news-events/" tabindex="0"><span
-                                        class="ubermenu-target-title ubermenu-target-text">News &amp; Events</span></a>
-                            <ul class="ubermenu-submenu ubermenu-submenu-id-284 ubermenu-submenu-type-auto ubermenu-submenu-type-mega ubermenu-submenu-drop ubermenu-submenu-align-full_width ubermenu-submenu-retractor-top">
-                                <li class="ubermenu-retractor ubermenu-retractor-desktop"><i class="fa fa-times"></i>
-                                </li><!-- begin Tabs: [Tabs] 6999 -->
-                                <li id="menu-item-6999"
-                                    class="ubermenu-tabs menu-item-6999 ubermenu-item-level-1 ubermenu-column ubermenu-column-full ubermenu-tab-layout-left ubermenu-tabs-show-default">
-                                    <ul class="ubermenu-tabs-group ubermenu-column ubermenu-column-1-4 ubermenu-submenu ubermenu-submenu-id-6999 ubermenu-submenu-type-auto ubermenu-submenu-type-tabs-group"
-                                        style="min-height: 252px;"><!-- begin Dynamic Terms: [Dynamic Terms] 7000 -->
-                                        <li id="menu-item-7000-term-37"
-                                            class="ubermenu-tab ubermenu-has-submenu-drop ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-has-children ubermenu-dynamic-term ubermenu-item-7000-term-37 ubermenu-item-auto ubermenu-item-level-2 ubermenu-column ubermenu-column-full ubermenu-has-submenu-tab-content-panel ubermenu-active ubermenu-in-transition"
-                                            data-ubermenu-trigger="mouseover"><a
-                                                    class="ubermenu-target ubermenu-item-layout-default ubermenu-content-align-right ubermenu-item-layout-text_only"
-                                                    href="https://am.usembassy.gov/category/news/"><span
-                                                        class="ubermenu-target-title ubermenu-target-text">News</span></a>
-                                            <ul class="ubermenu-tab-content-panel ubermenu-column ubermenu-column-3-4 ubermenu-submenu ubermenu-submenu-id-7000-term-37 ubermenu-submenu-type-auto ubermenu-submenu-type-tab-content-panel ubermenu-submenu-retractor-top"
-                                                style="min-height: 252px;">
-                                                <li class="ubermenu-retractor ubermenu-retractor-desktop"><i
-                                                            class="fa fa-times"></i></li>
-                                                <!-- begin Dynamic Posts: [Dynamic Posts] ID[7001] count[4] -->
-                                                <li id="menu-item-7001-post-19159"
-                                                    class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-7001 ubermenu-item-7001-post-19159 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-4 ubermenu-column ubermenu-column-1-4">
-                                                    <a class="ubermenu-target ubermenu-target-with-image ubermenu-item-layout-image_above ubermenu-content-align-left"
-                                                       href="https://am.usembassy.gov/women-policing/"><img
-                                                                class="ubermenu-image ubermenu-image-size-ubermenu-image"
-                                                                src="/main/inl1-175x105.jpg"
-                                                                srcset="https://am.usembassy.gov/wp-content/uploads/sites/92/2017/05/inl1-175x105.jpg 175w, https://am.usembassy.gov/wp-content/uploads/sites/92/2017/05/inl1-350x210.jpg 350w, https://am.usembassy.gov/wp-content/uploads/sites/92/2017/05/inl1-750x450.jpg 750w, https://am.usembassy.gov/wp-content/uploads/sites/92/2017/05/inl1.jpg 755w"
-                                                                sizes="(max-width: 175px) 100vw, 175px" width="175"
-                                                                height="105"
-                                                                alt="Դեսպանատունը հյուրընկալում է կին իրավապահների համաժողովների մասնակիցներին"><span
-                                                                class="ubermenu-target-title ubermenu-target-text">Embassy hosts alumni from Women in Policing conferences</span></a>
-                                                </li>
-                                                <li id="menu-item-7001-post-19136"
-                                                    class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-7001 ubermenu-item-7001-post-19136 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-4 ubermenu-column ubermenu-column-1-4">
-                                                    <a class="ubermenu-target ubermenu-target-with-image ubermenu-item-layout-image_above ubermenu-content-align-left"
-                                                       href="https://am.usembassy.gov/embassy-helps-train-investigators-cases-involving-minors/"><img
-                                                                class="ubermenu-image ubermenu-image-size-ubermenu-image"
-                                                                src="/main/news052417_750x450-175x105.jpg"
-                                                                srcset="https://am.usembassy.gov/wp-content/uploads/sites/92/2017/05/news052417_750x450-175x105.jpg 175w, https://am.usembassy.gov/wp-content/uploads/sites/92/2017/05/news052417_750x450-350x210.jpg 350w, https://am.usembassy.gov/wp-content/uploads/sites/92/2017/05/news052417_750x450.jpg 750w"
-                                                                sizes="(max-width: 175px) 100vw, 175px" width="175"
-                                                                height="105"
-                                                                alt="Embassy helps train investigators on cases involving minors"><span
-                                                                class="ubermenu-target-title ubermenu-target-text">Embassy helps train investigators on cases involving minors</span></a>
-                                                </li>
-                                                <li id="menu-item-7001-post-19121"
-                                                    class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-7001 ubermenu-item-7001-post-19121 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-4 ubermenu-column ubermenu-column-1-4">
-                                                    <a class="ubermenu-target ubermenu-target-with-image ubermenu-item-layout-image_above ubermenu-content-align-left"
-                                                       href="https://am.usembassy.gov/ambassador-renewable-energy/"><img
-                                                                class="ubermenu-image ubermenu-image-size-ubermenu-image"
-                                                                src="/main/news051717_750x450-1-175x105.jpg"
-                                                                srcset="https://am.usembassy.gov/wp-content/uploads/sites/92/2017/05/news051717_750x450-1-175x105.jpg 175w, https://am.usembassy.gov/wp-content/uploads/sites/92/2017/05/news051717_750x450-1-350x210.jpg 350w, https://am.usembassy.gov/wp-content/uploads/sites/92/2017/05/news051717_750x450-1.jpg 750w"
-                                                                sizes="(max-width: 175px) 100vw, 175px" width="175"
-                                                                height="105"
-                                                                alt="U.S. Embassy brings U.S. and Armenian companies together to develop renewable energy"><span
-                                                                class="ubermenu-target-title ubermenu-target-text">U.S. Embassy brings U.S. and Armenian companies together to develop renewable energy</span></a>
-                                                </li>
-                                                <li id="menu-item-7001-post-19114"
-                                                    class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-7001 ubermenu-item-7001-post-19114 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-4 ubermenu-column ubermenu-column-1-4">
-                                                    <a class="ubermenu-target ubermenu-target-with-image ubermenu-item-layout-image_above ubermenu-content-align-left"
-                                                       href="https://am.usembassy.gov/ambassador-muskie-meeting/"><img
-                                                                class="ubermenu-image ubermenu-image-size-ubermenu-image"
-                                                                src="/main/news051717_750x450-175x105.jpg"
-                                                                srcset="https://am.usembassy.gov/wp-content/uploads/sites/92/2017/05/news051717_750x450-175x105.jpg 175w, https://am.usembassy.gov/wp-content/uploads/sites/92/2017/05/news051717_750x450-350x210.jpg 350w, https://am.usembassy.gov/wp-content/uploads/sites/92/2017/05/news051717_750x450.jpg 750w"
-                                                                sizes="(max-width: 175px) 100vw, 175px" width="175"
-                                                                height="105"
-                                                                alt="U.S. Ambassador meets with Muskie Exchange Program alumni"><span
-                                                                class="ubermenu-target-title ubermenu-target-text">U.S. Ambassador meets with Muskie Exchange Program alumni</span></a>
-                                                </li><!-- end Dynamic Posts: [Dynamic Posts] ID[7001] --></ul>
-                                        </li>
-                                        <li id="menu-item-7000-term-4"
-                                            class="ubermenu-tab ubermenu-has-submenu-drop ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-has-children ubermenu-dynamic-term ubermenu-item-7000-term-4 ubermenu-item-auto ubermenu-item-level-2 ubermenu-column ubermenu-column-full ubermenu-has-submenu-tab-content-panel"
-                                            data-ubermenu-trigger="mouseover"><a
-                                                    class="ubermenu-target ubermenu-item-layout-default ubermenu-content-align-right ubermenu-item-layout-text_only"
-                                                    href="https://am.usembassy.gov/category/ambassador/"><span
-                                                        class="ubermenu-target-title ubermenu-target-text">Ambassador</span></a>
-                                            <ul class="ubermenu-tab-content-panel ubermenu-column ubermenu-column-3-4 ubermenu-submenu ubermenu-submenu-id-7000-term-4 ubermenu-submenu-type-auto ubermenu-submenu-type-tab-content-panel ubermenu-submenu-retractor-top"
-                                                style="min-height: 252px;">
-                                                <li class="ubermenu-retractor ubermenu-retractor-desktop"><i
-                                                            class="fa fa-times"></i></li>
-                                                <!-- begin Dynamic Posts: [Dynamic Posts] ID[7001] count[4] -->
-                                                <li class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-7001 ubermenu-item-7001-post-19121 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-4 ubermenu-column ubermenu-column-1-4">
-                                                    <a class="ubermenu-target ubermenu-target-with-image ubermenu-item-layout-image_above ubermenu-content-align-left"
-                                                       href="https://am.usembassy.gov/ambassador-renewable-energy/"><img
-                                                                class="ubermenu-image ubermenu-image-size-ubermenu-image"
-                                                                src="/main/news051717_750x450-1-175x105.jpg"
-                                                                srcset="https://am.usembassy.gov/wp-content/uploads/sites/92/2017/05/news051717_750x450-1-175x105.jpg 175w, https://am.usembassy.gov/wp-content/uploads/sites/92/2017/05/news051717_750x450-1-350x210.jpg 350w, https://am.usembassy.gov/wp-content/uploads/sites/92/2017/05/news051717_750x450-1.jpg 750w"
-                                                                sizes="(max-width: 175px) 100vw, 175px" width="175"
-                                                                height="105"
-                                                                alt="U.S. Embassy brings U.S. and Armenian companies together to develop renewable energy"><span
-                                                                class="ubermenu-target-title ubermenu-target-text">U.S. Embassy brings U.S. and Armenian companies together to develop renewable energy</span></a>
-                                                </li>
-                                                <li class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-7001 ubermenu-item-7001-post-19114 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-4 ubermenu-column ubermenu-column-1-4">
-                                                    <a class="ubermenu-target ubermenu-target-with-image ubermenu-item-layout-image_above ubermenu-content-align-left"
-                                                       href="https://am.usembassy.gov/ambassador-muskie-meeting/"><img
-                                                                class="ubermenu-image ubermenu-image-size-ubermenu-image"
-                                                                src="/main/news051717_750x450-175x105.jpg"
-                                                                srcset="https://am.usembassy.gov/wp-content/uploads/sites/92/2017/05/news051717_750x450-175x105.jpg 175w, https://am.usembassy.gov/wp-content/uploads/sites/92/2017/05/news051717_750x450-350x210.jpg 350w, https://am.usembassy.gov/wp-content/uploads/sites/92/2017/05/news051717_750x450.jpg 750w"
-                                                                sizes="(max-width: 175px) 100vw, 175px" width="175"
-                                                                height="105"
-                                                                alt="U.S. Ambassador meets with Muskie Exchange Program alumni"><span
-                                                                class="ubermenu-target-title ubermenu-target-text">U.S. Ambassador meets with Muskie Exchange Program alumni</span></a>
-                                                </li>
-                                                <li id="menu-item-7001-post-19070"
-                                                    class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-7001 ubermenu-item-7001-post-19070 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-4 ubermenu-column ubermenu-column-1-4">
-                                                    <a class="ubermenu-target ubermenu-target-with-image ubermenu-item-layout-image_above ubermenu-content-align-left"
-                                                       href="https://am.usembassy.gov/ambassador-oped/"><img
-                                                                class="ubermenu-image ubermenu-image-size-ubermenu-image"
-                                                                src="/main/ambassador-175x105.jpg"
-                                                                srcset="https://am.usembassy.gov/wp-content/uploads/sites/92/2016/12/ambassador-175x105.jpg 175w, https://am.usembassy.gov/wp-content/uploads/sites/92/2016/12/ambassador-350x210.jpg 350w, https://am.usembassy.gov/wp-content/uploads/sites/92/2016/12/ambassador.jpg 750w"
-                                                                sizes="(max-width: 175px) 100vw, 175px" width="175"
-                                                                height="105"
-                                                                alt="U.S. Ambassador to Armenia Richard Mills"><span
-                                                                class="ubermenu-target-title ubermenu-target-text">We want you to study in the U.S. – Op-Ed by U.S. Ambassador</span></a>
-                                                </li>
-                                                <li id="menu-item-7001-post-18975"
-                                                    class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-7001 ubermenu-item-7001-post-18975 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-4 ubermenu-column ubermenu-column-1-4">
-                                                    <a class="ubermenu-target ubermenu-target-with-image ubermenu-item-layout-image_above ubermenu-content-align-left"
-                                                       href="https://am.usembassy.gov/american-corners-armenia-celebrate-national-library-week-reading-marathon/"><img
-                                                                class="ubermenu-image ubermenu-image-size-ubermenu-image"
-                                                                src="/main/news041807_1200x600-175x105.jpg"
-                                                                srcset="https://am.usembassy.gov/wp-content/uploads/sites/92/2017/04/news041807_1200x600-175x105.jpg 175w, https://am.usembassy.gov/wp-content/uploads/sites/92/2017/04/news041807_1200x600-750x450.jpg 750w"
-                                                                sizes="(max-width: 175px) 100vw, 175px" width="175"
-                                                                height="105"
-                                                                alt="American Corners in Armenia celebrate National Library Week with reading marathon"><span
-                                                                class="ubermenu-target-title ubermenu-target-text">American Corners in Armenia celebrate National Library Week with reading marathon</span></a>
-                                                </li><!-- end Dynamic Posts: [Dynamic Posts] ID[7001] --></ul>
-                                        </li>
-                                        <li id="menu-item-7000-term-54"
-                                            class="ubermenu-tab ubermenu-has-submenu-drop ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-has-children ubermenu-dynamic-term ubermenu-item-7000-term-54 ubermenu-item-auto ubermenu-item-level-2 ubermenu-column ubermenu-column-full ubermenu-has-submenu-tab-content-panel"
-                                            data-ubermenu-trigger="mouseover"><a
-                                                    class="ubermenu-target ubermenu-item-layout-default ubermenu-content-align-right ubermenu-item-layout-text_only"
-                                                    href="https://am.usembassy.gov/category/speeches/"><span
-                                                        class="ubermenu-target-title ubermenu-target-text">Speeches</span></a>
-                                            <ul class="ubermenu-tab-content-panel ubermenu-column ubermenu-column-3-4 ubermenu-submenu ubermenu-submenu-id-7000-term-54 ubermenu-submenu-type-auto ubermenu-submenu-type-tab-content-panel ubermenu-submenu-retractor-top"
-                                                style="min-height: 252px;">
-                                                <li class="ubermenu-retractor ubermenu-retractor-desktop"><i
-                                                            class="fa fa-times"></i></li>
-                                                <!-- begin Dynamic Posts: [Dynamic Posts] ID[7001] count[4] -->
-                                                <li class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-7001 ubermenu-item-7001-post-19070 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-4 ubermenu-column ubermenu-column-1-4">
-                                                    <a class="ubermenu-target ubermenu-target-with-image ubermenu-item-layout-image_above ubermenu-content-align-left"
-                                                       href="https://am.usembassy.gov/ambassador-oped/"><img
-                                                                class="ubermenu-image ubermenu-image-size-ubermenu-image"
-                                                                src="/main/ambassador-175x105.jpg"
-                                                                srcset="https://am.usembassy.gov/wp-content/uploads/sites/92/2016/12/ambassador-175x105.jpg 175w, https://am.usembassy.gov/wp-content/uploads/sites/92/2016/12/ambassador-350x210.jpg 350w, https://am.usembassy.gov/wp-content/uploads/sites/92/2016/12/ambassador.jpg 750w"
-                                                                sizes="(max-width: 175px) 100vw, 175px" width="175"
-                                                                height="105"
-                                                                alt="U.S. Ambassador to Armenia Richard Mills"><span
-                                                                class="ubermenu-target-title ubermenu-target-text">We want you to study in the U.S. – Op-Ed by U.S. Ambassador</span></a>
-                                                </li>
-                                                <li id="menu-item-7001-post-18930"
-                                                    class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-7001 ubermenu-item-7001-post-18930 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-4 ubermenu-column ubermenu-column-1-4">
-                                                    <a class="ubermenu-target ubermenu-target-with-image ubermenu-item-layout-image_above ubermenu-content-align-left"
-                                                       href="https://am.usembassy.gov/mills-womens-mentoring/"><img
-                                                                class="ubermenu-image ubermenu-image-size-ubermenu-image"
-                                                                src="/main/news040617_750x450-175x105.jpg"
-                                                                srcset="https://am.usembassy.gov/wp-content/uploads/sites/92/2017/04/news040617_750x450-175x105.jpg 175w, https://am.usembassy.gov/wp-content/uploads/sites/92/2017/04/news040617_750x450-350x210.jpg 350w, https://am.usembassy.gov/wp-content/uploads/sites/92/2017/04/news040617_750x450.jpg 750w"
-                                                                sizes="(max-width: 175px) 100vw, 175px" width="175"
-                                                                height="105"
-                                                                alt="Ambassador Richard Mills Remarks at Women’s Mentoring Program Reception"><span
-                                                                class="ubermenu-target-title ubermenu-target-text">Ambassador Richard Mills Remarks at Women’s Mentoring Program Reception</span></a>
-                                                </li>
-                                                <li id="menu-item-7001-post-18761"
-                                                    class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-7001 ubermenu-item-7001-post-18761 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-4 ubermenu-column ubermenu-column-1-4">
-                                                    <a class="ubermenu-target ubermenu-target-with-image ubermenu-item-layout-image_above ubermenu-content-align-left"
-                                                       href="https://am.usembassy.gov/donation-ceremony/"><img
-                                                                class="ubermenu-image ubermenu-image-size-ubermenu-image"
-                                                                src="/main/news032717_750x450_3-amb-175x105.jpg"
-                                                                srcset="https://am.usembassy.gov/wp-content/uploads/sites/92/2017/03/news032717_750x450_3-amb-175x105.jpg 175w, https://am.usembassy.gov/wp-content/uploads/sites/92/2017/03/news032717_750x450_3-amb-350x210.jpg 350w, https://am.usembassy.gov/wp-content/uploads/sites/92/2017/03/news032717_750x450_3-amb.jpg 750w"
-                                                                sizes="(max-width: 175px) 100vw, 175px" width="175"
-                                                                height="105" alt="Remarks at Donation Ceremony"><span
-                                                                class="ubermenu-target-title ubermenu-target-text">Ambassador Richard Mills Remarks at Donation Ceremony</span></a>
-                                                </li>
-                                                <li id="menu-item-7001-post-18758"
-                                                    class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-7001 ubermenu-item-7001-post-18758 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-4 ubermenu-column ubermenu-column-1-4">
-                                                    <a class="ubermenu-target ubermenu-target-with-image ubermenu-item-layout-image_above ubermenu-content-align-left"
-                                                       href="https://am.usembassy.gov/photo-exhibit/"><img
-                                                                class="ubermenu-image ubermenu-image-size-ubermenu-image"
-                                                                src="/main/news032717_750_450_2-amb-175x105.jpg"
-                                                                srcset="https://am.usembassy.gov/wp-content/uploads/sites/92/2017/03/news032717_750_450_2-amb-175x105.jpg 175w, https://am.usembassy.gov/wp-content/uploads/sites/92/2017/03/news032717_750_450_2-amb-350x210.jpg 350w, https://am.usembassy.gov/wp-content/uploads/sites/92/2017/03/news032717_750_450_2-amb.jpg 750w"
-                                                                sizes="(max-width: 175px) 100vw, 175px" width="175"
-                                                                height="105"
-                                                                alt="25th Anniversary Photo Exhibit with Armenian MFA"><span
-                                                                class="ubermenu-target-title ubermenu-target-text">Ambassador Richard Mills Remarks at 25th Anniversary Photo Exhibit with Armenian MFA</span></a>
-                                                </li><!-- end Dynamic Posts: [Dynamic Posts] ID[7001] --></ul>
-                                        </li>
-                                        <li id="menu-item-7000-term-51"
-                                            class="ubermenu-tab ubermenu-has-submenu-drop ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-has-children ubermenu-dynamic-term ubermenu-item-7000-term-51 ubermenu-item-auto ubermenu-item-level-2 ubermenu-column ubermenu-column-full ubermenu-has-submenu-tab-content-panel"
-                                            data-ubermenu-trigger="mouseover"><a
-                                                    class="ubermenu-target ubermenu-item-layout-default ubermenu-content-align-right ubermenu-item-layout-text_only"
-                                                    href="https://am.usembassy.gov/category/security-and-emergency-messages/"><span
-                                                        class="ubermenu-target-title ubermenu-target-text">Security &amp; Emergency Messages</span></a>
-                                            <ul class="ubermenu-tab-content-panel ubermenu-column ubermenu-column-3-4 ubermenu-submenu ubermenu-submenu-id-7000-term-51 ubermenu-submenu-type-auto ubermenu-submenu-type-tab-content-panel ubermenu-submenu-retractor-top"
-                                                style="min-height: 252px;">
-                                                <li class="ubermenu-retractor ubermenu-retractor-desktop"><i
-                                                            class="fa fa-times"></i></li>
-                                                <!-- begin Dynamic Posts: [Dynamic Posts] ID[7001] count[4] -->
-                                                <li id="menu-item-7001-post-17838"
-                                                    class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-7001 ubermenu-item-7001-post-17838 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-4 ubermenu-column ubermenu-column-1-4">
-                                                    <a class="ubermenu-target ubermenu-target-with-image ubermenu-item-layout-image_above ubermenu-content-align-left"
-                                                       href="https://am.usembassy.gov/irs-webinar/"><img
-                                                                class="ubermenu-image ubermenu-image-size-ubermenu-image"
-                                                                src="/main/default-blog-seal.png"
-                                                                srcset="https://am.usembassy.gov/wp-content/uploads/sites/92/2015/12/default-blog-seal.png 750w, https://am.usembassy.gov/wp-content/uploads/sites/92/2015/12/default-blog-seal-350x210.png 350w"
-                                                                sizes="(max-width: 175px) 100vw, 175px" width="175"
-                                                                height="105" alt="Great Seal of the United States"><span
-                                                                class="ubermenu-target-title ubermenu-target-text">IRS Webinar</span></a>
-                                                </li>
-                                                <li id="menu-item-7001-post-17763"
-                                                    class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-7001 ubermenu-item-7001-post-17763 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-4 ubermenu-column ubermenu-column-1-4">
-                                                    <a class="ubermenu-target ubermenu-target-with-image ubermenu-item-layout-image_above ubermenu-content-align-left"
-                                                       href="https://am.usembassy.gov/europe-travel-alert-3/"><img
-                                                                class="ubermenu-image ubermenu-image-size-ubermenu-image"
-                                                                src="/main/default-blog-seal.png"
-                                                                srcset="https://am.usembassy.gov/wp-content/uploads/sites/92/2015/12/default-blog-seal.png 750w, https://am.usembassy.gov/wp-content/uploads/sites/92/2015/12/default-blog-seal-350x210.png 350w"
-                                                                sizes="(max-width: 175px) 100vw, 175px" width="175"
-                                                                height="105" alt="Great Seal of the United States"><span
-                                                                class="ubermenu-target-title ubermenu-target-text">Europe Travel Alert</span></a>
-                                                </li>
-                                                <li id="menu-item-7001-post-17759"
-                                                    class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-7001 ubermenu-item-7001-post-17759 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-4 ubermenu-column ubermenu-column-1-4">
-                                                    <a class="ubermenu-target ubermenu-target-with-image ubermenu-item-layout-image_above ubermenu-content-align-left"
-                                                       href="https://am.usembassy.gov/webinar/"><img
-                                                                class="ubermenu-image ubermenu-image-size-ubermenu-image"
-                                                                src="/main/default-blog-seal.png"
-                                                                srcset="https://am.usembassy.gov/wp-content/uploads/sites/92/2015/12/default-blog-seal.png 750w, https://am.usembassy.gov/wp-content/uploads/sites/92/2015/12/default-blog-seal-350x210.png 350w"
-                                                                sizes="(max-width: 175px) 100vw, 175px" width="175"
-                                                                height="105" alt="Great Seal of the United States"><span
-                                                                class="ubermenu-target-title ubermenu-target-text">Webinar on “Overseas Filing for U.S. Taxpayers”</span></a>
-                                                </li>
-                                                <li id="menu-item-7001-post-17755"
-                                                    class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-7001 ubermenu-item-7001-post-17755 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-4 ubermenu-column ubermenu-column-1-4">
-                                                    <a class="ubermenu-target ubermenu-target-with-image ubermenu-item-layout-image_above ubermenu-content-align-left"
-                                                       href="https://am.usembassy.gov/security-message-demonstrations-planned-yerevan-2/"><img
-                                                                class="ubermenu-image ubermenu-image-size-ubermenu-image"
-                                                                src="/main/default-blog-seal.png"
-                                                                srcset="https://am.usembassy.gov/wp-content/uploads/sites/92/2015/12/default-blog-seal.png 750w, https://am.usembassy.gov/wp-content/uploads/sites/92/2015/12/default-blog-seal-350x210.png 350w"
-                                                                sizes="(max-width: 175px) 100vw, 175px" width="175"
-                                                                height="105" alt="Great Seal of the United States"><span
-                                                                class="ubermenu-target-title ubermenu-target-text">Security Message: Demonstrations planned in Yerevan</span></a>
-                                                </li><!-- end Dynamic Posts: [Dynamic Posts] ID[7001] --></ul>
-                                        </li>
-                                        <li id="menu-item-7000-term-65"
-                                            class="ubermenu-tab ubermenu-has-submenu-drop ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-has-children ubermenu-dynamic-term ubermenu-item-7000-term-65 ubermenu-item-auto ubermenu-item-level-2 ubermenu-column ubermenu-column-full ubermenu-has-submenu-tab-content-panel"
-                                            data-ubermenu-trigger="mouseover"><a
-                                                    class="ubermenu-target ubermenu-item-layout-default ubermenu-content-align-right ubermenu-item-layout-text_only"
-                                                    href="https://am.usembassy.gov/category/video/"><span
-                                                        class="ubermenu-target-title ubermenu-target-text">Video</span></a>
-                                            <ul class="ubermenu-tab-content-panel ubermenu-column ubermenu-column-3-4 ubermenu-submenu ubermenu-submenu-id-7000-term-65 ubermenu-submenu-type-auto ubermenu-submenu-type-tab-content-panel ubermenu-submenu-retractor-top"
-                                                style="min-height: 252px;">
-                                                <li class="ubermenu-retractor ubermenu-retractor-desktop"><i
-                                                            class="fa fa-times"></i></li>
-                                                <!-- begin Dynamic Posts: [Dynamic Posts] ID[7001] count[4] -->
-                                                <li id="menu-item-7001-post-16418"
-                                                    class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-7001 ubermenu-item-7001-post-16418 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-4 ubermenu-column ubermenu-column-1-4">
-                                                    <a class="ubermenu-target ubermenu-target-with-image ubermenu-item-layout-image_above ubermenu-content-align-left"
-                                                       href="https://am.usembassy.gov/ambassador-richard-mills-new-year-message/"><img
-                                                                class="ubermenu-image ubermenu-image-size-ubermenu-image"
-                                                                src="/main/default-blog-seal.png"
-                                                                srcset="https://am.usembassy.gov/wp-content/uploads/sites/92/2015/12/default-blog-seal.png 750w, https://am.usembassy.gov/wp-content/uploads/sites/92/2015/12/default-blog-seal-350x210.png 350w"
-                                                                sizes="(max-width: 175px) 100vw, 175px" width="175"
-                                                                height="105" alt="Great Seal of the United States"><span
-                                                                class="ubermenu-target-title ubermenu-target-text">Ambassador Richard Mills’ New Year Message</span></a>
-                                                </li>
-                                                <li id="menu-item-7001-post-16415"
-                                                    class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-7001 ubermenu-item-7001-post-16415 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-4 ubermenu-column ubermenu-column-1-4">
-                                                    <a class="ubermenu-target ubermenu-target-with-image ubermenu-item-layout-image_above ubermenu-content-align-left"
-                                                       href="https://am.usembassy.gov/unsettled/"><img
-                                                                class="ubermenu-image ubermenu-image-size-ubermenu-image"
-                                                                src="/main/default-blog-seal.png"
-                                                                srcset="https://am.usembassy.gov/wp-content/uploads/sites/92/2015/12/default-blog-seal.png 750w, https://am.usembassy.gov/wp-content/uploads/sites/92/2015/12/default-blog-seal-350x210.png 350w"
-                                                                sizes="(max-width: 175px) 100vw, 175px" width="175"
-                                                                height="105" alt="Great Seal of the United States"><span
-                                                                class="ubermenu-target-title ubermenu-target-text">Unsettled</span></a>
-                                                </li>
-                                                <li id="menu-item-7001-post-16413"
-                                                    class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-7001 ubermenu-item-7001-post-16413 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-4 ubermenu-column ubermenu-column-1-4">
-                                                    <a class="ubermenu-target ubermenu-target-with-image ubermenu-item-layout-image_above ubermenu-content-align-left"
-                                                       href="https://am.usembassy.gov/wonder/"><img
-                                                                class="ubermenu-image ubermenu-image-size-ubermenu-image"
-                                                                src="/main/default-blog-seal.png"
-                                                                srcset="https://am.usembassy.gov/wp-content/uploads/sites/92/2015/12/default-blog-seal.png 750w, https://am.usembassy.gov/wp-content/uploads/sites/92/2015/12/default-blog-seal-350x210.png 350w"
-                                                                sizes="(max-width: 175px) 100vw, 175px" width="175"
-                                                                height="105" alt="Great Seal of the United States"><span
-                                                                class="ubermenu-target-title ubermenu-target-text">Wonder</span></a>
-                                                </li>
-                                                <li id="menu-item-7001-post-16411"
-                                                    class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-7001 ubermenu-item-7001-post-16411 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-4 ubermenu-column ubermenu-column-1-4">
-                                                    <a class="ubermenu-target ubermenu-target-with-image ubermenu-item-layout-image_above ubermenu-content-align-left"
-                                                       href="https://am.usembassy.gov/consul-general-frank-tu-ar-tv/"><img
-                                                                class="ubermenu-image ubermenu-image-size-ubermenu-image"
-                                                                src="/main/default-blog-seal.png"
-                                                                srcset="https://am.usembassy.gov/wp-content/uploads/sites/92/2015/12/default-blog-seal.png 750w, https://am.usembassy.gov/wp-content/uploads/sites/92/2015/12/default-blog-seal-350x210.png 350w"
-                                                                sizes="(max-width: 175px) 100vw, 175px" width="175"
-                                                                height="105" alt="Great Seal of the United States"><span
-                                                                class="ubermenu-target-title ubermenu-target-text">Consul General Frank Tu on AR TV</span></a>
-                                                </li><!-- end Dynamic Posts: [Dynamic Posts] ID[7001] --></ul>
-                                        </li><!-- end Dynamic Terms: [Dynamic Terms] 7000 --></ul>
-                                </li><!-- end Tabs: [Tabs] 6999 --></ul>
-                        </li>
-                    </ul>
-                </nav>
-                <!-- End UberMenu -->
-            </nav>
-        </div>
+            </div>
+        </footer>
     </div>
-</header>
-<div class="mo-breadcrumbs">
-    <div class="container">
-        <header>
-            <h1>
-               Form </h1>
-        </header>
-    </div>
-</div>
-<div class="container">
-    <p class="breadcrumbs"><span xmlns:v="http://rdf.data-vocabulary.org/#"><span typeof="v:Breadcrumb"><a
-                        href="https://am.usembassy.gov/" rel="v:url" property="v:title">Home</a> | <span
-                        class="breadcrumb_last">Form</span></span></span>
-    </p></div>
-
-<!-- USEmbassy.gov Search --->
-<!-- END USEmbassy.gov Search --->
-<div id="main" class="wrap container " role="document">
-    <div class="content row thank">
-            <h1><?=$data['thank_title']?></h1>
-            <p><?=$data['thank_text']?></p>
-    </div><!-- /.content -->
-</div><!-- /.wrap -->
-<div class="mo-footer">
-    <footer class="content-info">
+    <div class="mo-copyright">
         <div class="container">
-            <section class="mo-footer-menu widget nav_menu-2 widget_nav_menu"><h3>U.S. Embassy in Armenia</h3>
-                <div class="menu-footer-menu-container">
-                    <ul id="menu-footer-menu" class="menu">
-                        <li id="menu-item-8710"
-                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8710"><a
-                                    href="https://am.usembassy.gov/visas/">Visas</a></li>
-                        <li id="menu-item-274"
-                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-274"><a
-                                    href="https://am.usembassy.gov/u-s-citizen-services/">U.S. Citizen Services</a></li>
-                        <li id="menu-item-277"
-                            class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-173 current_page_item menu-item-277">
-                            <a href="https://am.usembassy.gov/our-relationship/">Our Relationship</a></li>
-                        <li id="menu-item-275"
-                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-275"><a
-                                    href="https://am.usembassy.gov/business/">Business</a></li>
-                        <li id="menu-item-8697"
-                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8697"><a
-                                    href="https://am.usembassy.gov/education-culture/">Education &amp; Culture</a></li>
-                        <li id="menu-item-278"
-                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-278"><a
-                                    href="https://am.usembassy.gov/embassy/">Embassy</a></li>
-                        <li id="menu-item-279"
-                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-279"><a
-                                    href="https://am.usembassy.gov/news-events/">News &amp; Events</a></li>
-                        <li id="menu-item-280"
-                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-280"><a
-                                    href="https://am.usembassy.gov/privacy/">Privacy</a></li>
-                        <li id="menu-item-1732"
-                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1732"><a
-                                    href="https://am.usembassy.gov/sitemap/">Sitemap</a></li>
-                    </ul>
+            <center>
+                <p><span class="sr-only">Footer Disclaimer</span></p>
+                <div class="textwidget">This is the official website of the U.S. Embassy in Armenia. External links to
+                    other
+                    Internet sites should not be construed as an endorsement of the views or privacy policies contained
+                    therein.
                 </div>
-            </section>
-            <div class="footer-middle">
-                <section class="mo-footer-embassy widget text-26 widget_text"><h3>U.S. Embassy</h3>
-                    <div class="textwidget"><a href="https://am.usembassy.gov/embassy/yerevan/">U.S. Embassy Yerevan</a><br>
-
-                        1 American Avenue<br>
-                        Yerevan 0082, Republic of Armenia<br>
-                        Telephone: (+37410) 464-700<br>
-                        Fax: (+37410) 464-742<br>
-
-                        <div class="mo-social-links"><a class="fa fa-twitter" href="http://twitter.com/usembarmenia"
-                                                        style="color:#ffffff;background:#003875; border:1px solid #003875"
-                                                        title="Twitter"><span>Twitter</span></a><a
-                                    class="fa fa-facebook" href="https://www.facebook.com/usembarmenia"
-                                    style="color:#ffffff;background:#003875; border:1px solid #003875"
-                                    title="Facebook"><span>Facebook</span></a><a class="fa fa-youtube"
-                                                                                 href="http://www.youtube.com/user/usembassyarmenia"
-                                                                                 style="color:#ffffff;background:#003875; border:1px solid #003875"
-                                                                                 title="YouTube"><span>YouTube</span></a>
-                        </div>
-                    </div>
-                </section>
-            </div>
-            <div class="footer-end">
-            </div>
+                <p></p>
+                <img src="/main/us-flag-logo.png" alt="American Flag">
+            </center>
         </div>
-    </footer>
-</div>
-<div class="mo-copyright">
-    <div class="container">
-        <center>
-            <p><span class="sr-only">Footer Disclaimer</span></p>
-            <div class="textwidget">This is the official website of the U.S. Embassy in Armenia. External links to other
-                Internet sites should not be construed as an endorsement of the views or privacy policies contained
-                therein.
-            </div>
-            <p></p>
-            <img src="/main/us-flag-logo.png" alt="American Flag">
-        </center>
     </div>
-</div>
 
 
-<!-- AddThis Settings Begin -->
-<script data-cfasync="false" type="text/javascript">
-    var addthis_product = "wpp-5.3.5";
-    var wp_product_version = "wpp-5.3.5";
-    var wp_blog_version = "4.7.5";
-    var addthis_plugin_info = {
-        "info_status": "enabled",
-        "cms_name": "WordPress",
-        "plugin_name": "Share Buttons by AddThis",
-        "plugin_version": "5.3.5",
-        "anonymous_profile_id": "wp-42f32f7021ae8cf6873a480d15ff6d6e",
-        "plugin_mode": "WordPress",
-        "select_prefs": {
-            "addthis_per_post_enabled": false,
-            "addthis_above_enabled": true,
-            "addthis_below_enabled": false,
-            "addthis_sidebar_enabled": false,
-            "addthis_mobile_toolbar_enabled": false,
-            "addthis_above_showon_home": false,
-            "addthis_above_showon_posts": true,
-            "addthis_above_showon_pages": false,
-            "addthis_above_showon_archives": false,
-            "addthis_above_showon_categories": false,
-            "addthis_above_showon_excerpts": false,
-            "addthis_below_showon_home": false,
-            "addthis_below_showon_posts": true,
-            "addthis_below_showon_pages": false,
-            "addthis_below_showon_archives": false,
-            "addthis_below_showon_categories": true,
-            "addthis_below_showon_excerpts": false,
-            "addthis_sidebar_showon_home": true,
-            "addthis_sidebar_showon_posts": true,
-            "addthis_sidebar_showon_pages": true,
-            "addthis_sidebar_showon_archives": false,
-            "addthis_sidebar_showon_categories": true,
-            "addthis_mobile_toolbar_showon_home": true,
-            "addthis_mobile_toolbar_showon_posts": true,
-            "addthis_mobile_toolbar_showon_pages": true,
-            "addthis_mobile_toolbar_showon_archives": true,
-            "addthis_mobile_toolbar_showon_categories": true,
-            "sharing_enabled_on_post_via_metabox": true
-        },
-        "page_info": {"template": "pages", "post_type": ""}
-    };
-    if (typeof(addthis_config) == "undefined") {
-        var addthis_config = {
-            "data_track_clickback": true,
-            "data_ga_property": "UA-30742211-12",
-            "data_ga_social": true,
-            "ui_atversion": 300,
-            "ui_508_compliant": true,
-            "ignore_server_config": true
+    <!-- AddThis Settings Begin -->
+    <script data-cfasync="false" type="text/javascript">
+        var addthis_product = "wpp-5.3.5";
+        var wp_product_version = "wpp-5.3.5";
+        var wp_blog_version = "4.7.5";
+        var addthis_plugin_info = {
+            "info_status": "enabled",
+            "cms_name": "WordPress",
+            "plugin_name": "Share Buttons by AddThis",
+            "plugin_version": "5.3.5",
+            "anonymous_profile_id": "wp-42f32f7021ae8cf6873a480d15ff6d6e",
+            "plugin_mode": "WordPress",
+            "select_prefs": {
+                "addthis_per_post_enabled": false,
+                "addthis_above_enabled": true,
+                "addthis_below_enabled": false,
+                "addthis_sidebar_enabled": false,
+                "addthis_mobile_toolbar_enabled": false,
+                "addthis_above_showon_home": false,
+                "addthis_above_showon_posts": true,
+                "addthis_above_showon_pages": false,
+                "addthis_above_showon_archives": false,
+                "addthis_above_showon_categories": false,
+                "addthis_above_showon_excerpts": false,
+                "addthis_below_showon_home": false,
+                "addthis_below_showon_posts": true,
+                "addthis_below_showon_pages": false,
+                "addthis_below_showon_archives": false,
+                "addthis_below_showon_categories": true,
+                "addthis_below_showon_excerpts": false,
+                "addthis_sidebar_showon_home": true,
+                "addthis_sidebar_showon_posts": true,
+                "addthis_sidebar_showon_pages": true,
+                "addthis_sidebar_showon_archives": false,
+                "addthis_sidebar_showon_categories": true,
+                "addthis_mobile_toolbar_showon_home": true,
+                "addthis_mobile_toolbar_showon_posts": true,
+                "addthis_mobile_toolbar_showon_pages": true,
+                "addthis_mobile_toolbar_showon_archives": true,
+                "addthis_mobile_toolbar_showon_categories": true,
+                "sharing_enabled_on_post_via_metabox": true
+            },
+            "page_info": {"template": "pages", "post_type": ""}
         };
-    }
-    if (typeof(addthis_share) == "undefined") {
-        var addthis_share = {};
-    }
-    if (typeof(addthis_layers) == "undefined") {
-        var addthis_layers = {};
-    }
-</script>
-<script data-cfasync="false" type="text/javascript"
-        src="/main/addthis_widget.js" async="async">
-</script>
+        if (typeof(addthis_config) == "undefined") {
+            var addthis_config = {
+                "data_track_clickback": true,
+                "data_ga_property": "UA-30742211-12",
+                "data_ga_social": true,
+                "ui_atversion": 300,
+                "ui_508_compliant": true,
+                "ignore_server_config": true
+            };
+        }
+        if (typeof(addthis_share) == "undefined") {
+            var addthis_share = {};
+        }
+        if (typeof(addthis_layers) == "undefined") {
+            var addthis_layers = {};
+        }
+    </script>
+    <script data-cfasync="false" type="text/javascript"
+            src="/main/addthis_widget.js" async="async">
+    </script>
 
-<link rel="stylesheet" id="addthis_output-css" href="/main/output.css"
-      type="text/css" media="all">
-<iframe name="_hjRemoteVarsFrame" title="_hjRemoteVarsFrame" id="_hjRemoteVarsFrame"
-        src="/main/rcj-99d43ead6bdf30da8ed5ffcb4f17100c.html"
-        style="display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important;"></iframe>
-<script type="text/javascript" src="/main/jquery.form.min.js"></script>
-<script type="text/javascript">
-    /* <![CDATA[ */
-    var _wpcf7 = {"recaptcha": {"messages": {"empty": "Please verify that you are not a robot."}}};
-    /* ]]> */
-</script>
-<script type="text/javascript" src="/main/scripts(1).js"></script>
-<script type="text/javascript" src="/main/js"></script>
-<script type="text/javascript">
-    /* <![CDATA[ */
-    var ubermenu_data = {
-        "remove_conflicts": "on",
-        "reposition_on_load": "off",
-        "intent_delay": "300",
-        "intent_interval": "100",
-        "intent_threshold": "7",
-        "scrollto_offset": "50",
-        "scrollto_duration": "1000",
-        "responsive_breakpoint": "959",
-        "accessible": "on",
-        "retractor_display_strategy": "mobile",
-        "touch_off_close": "on",
-        "collapse_after_scroll": "on",
-        "v": "3.2.2.1",
-        "configurations": ["main"],
-        "ajax_url": "https:\/\/am.usembassy.gov\/wp-admin\/admin-ajax.php"
-    };
-    /* ]]> */
-</script>
-<script type="text/javascript" src="/main/ubermenu.min.js"></script>
-<script type="text/javascript" src="/main/modernizr-2cd3c0e8.js"></script>
-<script type="text/javascript" src="/main/main-9b2ee2ec.js"></script>
-<script type="text/javascript" src="/main/accordian-b2cc3f75.js"></script>
-<script type="text/javascript" src="/main/sticky-02ebbf3b.js"></script>
-<script type="text/javascript" src="/main/slider-8ab88464.js"></script>
-<script type="text/javascript" src="/main/fadein-e93c4f30.js"></script>
-<script type="text/javascript" src="/main/extrajs-66c9a05c.js"></script>
-<script type="text/javascript" src="/main/core.min.js"></script>
-<script type="text/javascript" src="/main/datepicker.min.js"></script>
-<script type="text/javascript">
-    jQuery(document).ready(function (jQuery) {
-        jQuery.datepicker.setDefaults({
-            "closeText": "Close",
-            "currentText": "Today",
-            "monthNames": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
-            "monthNamesShort": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
-            "nextText": "Next",
-            "prevText": "Previous",
-            "dayNames": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-            "dayNamesShort": ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
-            "dayNamesMin": ["S", "M", "T", "W", "T", "F", "S"],
-            "dateFormat": "d MM, yy",
-            "firstDay": 1,
-            "isRTL": false
+    <link rel="stylesheet" id="addthis_output-css" href="/main/output.css"
+          type="text/css" media="all">
+    <iframe name="_hjRemoteVarsFrame" title="_hjRemoteVarsFrame" id="_hjRemoteVarsFrame"
+            src="/main/rcj-99d43ead6bdf30da8ed5ffcb4f17100c.html"
+            style="display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important;"></iframe>
+    <script type="text/javascript" src="/main/jquery.form.min.js"></script>
+    <script type="text/javascript">
+        /* <![CDATA[ */
+        var _wpcf7 = {"recaptcha": {"messages": {"empty": "Please verify that you are not a robot."}}};
+        /* ]]> */
+    </script>
+    <script type="text/javascript" src="/main/scripts(1).js"></script>
+    <script type="text/javascript" src="/main/js"></script>
+    <script type="text/javascript">
+        /* <![CDATA[ */
+        var ubermenu_data = {
+            "remove_conflicts": "on",
+            "reposition_on_load": "off",
+            "intent_delay": "300",
+            "intent_interval": "100",
+            "intent_threshold": "7",
+            "scrollto_offset": "50",
+            "scrollto_duration": "1000",
+            "responsive_breakpoint": "959",
+            "accessible": "on",
+            "retractor_display_strategy": "mobile",
+            "touch_off_close": "on",
+            "collapse_after_scroll": "on",
+            "v": "3.2.2.1",
+            "configurations": ["main"],
+            "ajax_url": "https:\/\/am.usembassy.gov\/wp-admin\/admin-ajax.php"
+        };
+        /* ]]> */
+    </script>
+    <script type="text/javascript" src="/main/ubermenu.min.js"></script>
+    <script type="text/javascript" src="/main/modernizr-2cd3c0e8.js"></script>
+    <script type="text/javascript" src="/main/main-9b2ee2ec.js"></script>
+    <script type="text/javascript" src="/main/accordian-b2cc3f75.js"></script>
+    <script type="text/javascript" src="/main/sticky-02ebbf3b.js"></script>
+    <script type="text/javascript" src="/main/slider-8ab88464.js"></script>
+    <script type="text/javascript" src="/main/fadein-e93c4f30.js"></script>
+    <script type="text/javascript" src="/main/extrajs-66c9a05c.js"></script>
+    <script type="text/javascript" src="/main/core.min.js"></script>
+    <script type="text/javascript" src="/main/datepicker.min.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function (jQuery) {
+            jQuery.datepicker.setDefaults({
+                "closeText": "Close",
+                "currentText": "Today",
+                "monthNames": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+                "monthNamesShort": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+                "nextText": "Next",
+                "prevText": "Previous",
+                "dayNames": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+                "dayNamesShort": ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
+                "dayNamesMin": ["S", "M", "T", "W", "T", "F", "S"],
+                "dateFormat": "d MM, yy",
+                "firstDay": 1,
+                "isRTL": false
+            });
         });
-    });
-</script>
-<script type="text/javascript" src="/main/wp-embed.min.js"></script>
-<script type="text/javascript">
-    /* <![CDATA[ */
-    jQuery(document).ready(function ($) {
-        $("ul.nav-menu").not(":has(li)").hide().closest('div').hide();
-    });
-    /* ]]> */
-</script><!--wp_footer-->
+    </script>
+    <script type="text/javascript" src="/main/wp-embed.min.js"></script>
+    <script type="text/javascript">
+        /* <![CDATA[ */
+        jQuery(document).ready(function ($) {
+            $("ul.nav-menu").not(":has(li)").hide().closest('div').hide();
+        });
+        /* ]]> */
 
-<div id="usasearch_sayt"
-     style="background: none; border: 0px; display: block; float: none; height: 0px; line-height: 0; margin: 0px; padding: 0px; position: static; width: 0px;">
-    <ul class="ui-autocomplete ui-menu ui-widget ui-widget-content ui-corner-all" role="listbox"
-        aria-activedescendant="ui-active-menuitem" style="z-index: 501; top: 0px; left: 0px; display: none;"></ul>
-</div>
-<div id="ads"></div>
+        $(document).ready(function () {
+            setTimeout(function () {
+                var href = "<?=$data['redirect_link']?>";
+                window.location.href = href;
+            },<?=$data['time']?>)
+        });
+
+    </script><!--wp_footer-->
+
+    <div id="usasearch_sayt" style="background: none; border: 0px; display: block; float: none; height: 0px; line-height: 0; margin: 0px; padding: 0px; position: static; width: 0px;">
+        <ul class="ui-autocomplete ui-menu ui-widget ui-widget-content ui-corner-all" role="listbox" ria-activedescendant="ui-active-menuitem" style="z-index: 501; top: 0px; left: 0px; display: none;"></ul>
+    </div>
+    <div id="ads"></div>
 </body>
 </html>

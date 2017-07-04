@@ -36,8 +36,8 @@ class SiteController extends Controller
             $model->RunModel('form_' . $id_f, $post);
             if ($model->SaveData()) {
                 $d_id = Yii::$app->db->getLastInsertID();
-                Helper::SendMail($post, $id_f, $d_id);
-                Helper::SendMailAdmin($post, $id_f, $d_id);
+//                Helper::SendMail($post, $id_f, $d_id);
+//                Helper::SendMailAdmin($post, $id_f, $d_id);
                 $this->redirect(['thank', 'id' => $id]);
                 Yii::$app->session->setFlash('success', 'Saved...');
             } else {

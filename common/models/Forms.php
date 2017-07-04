@@ -38,7 +38,8 @@ class Forms extends \yii\db\ActiveRecord
             [['html','thank_text'], 'string'],
             [['url','email'], 'string', 'max' => 200],
             ['email', 'email'],
-            [['name', 'email_subject', 'email_text', 'thank_title'], 'string', 'max' => 255],
+            [['time'], 'integer'],
+            [['name', 'email_subject', 'email_text', 'thank_title', 'redirect_link'], 'string', 'max' => 255],
         ];
     }
 
@@ -56,7 +57,8 @@ class Forms extends \yii\db\ActiveRecord
             'email_text' => 'Email Text',
             'thank_title' => 'Thank you title',
             'thank_text' => 'Text',
-            'email' => 'Send Email',
+            'redirect_link' => 'Redirect link',
+            'time' => 'Redirect time',
         ];
     }
 

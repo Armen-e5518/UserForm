@@ -1,15 +1,26 @@
-                                                                                                                                                                                                                                    body {
+body {
     padding-bottom: 0px !important;
 }
 
- body {
+body {
     margin-left: 0 !important;
 }
 
-.col-md-12{width:100%}
-.col-md-8{width:66.66666667%}
-.col-md-6{width:50%}
-.col-md-4{width: 33.33333333%;}
+.col-md-12 {
+    width: 100%
+}
+
+.col-md-8 {
+    width: 66.66666667%
+}
+
+.col-md-6 {
+    width: 50%
+}
+
+.col-md-4 {
+    width: 33.33333333%;
+}
 
 .mo-header .container {
     background-color: transparent !important;
@@ -523,7 +534,7 @@ th.success input {
 }
 
 a:hover, a:focus {
-   text-decoration: none !important;
+    text-decoration: none !important;
 }
 
 .save-button {
@@ -586,7 +597,7 @@ span.drag.label.label-default {
 }
 
 .ubermenu-main .ubermenu-item-level-0.ubermenu-current-menu-item > .ubermenu-target {
-	color:#000 !important;
+    color: #000 !important;
 }
 
 .ubermenu-item.ubermenu-item-type-post_type.ubermenu-item-object-page.ubermenu-current_page_item {
@@ -598,13 +609,13 @@ select {
 }
 
 .mo-footer-embassy .textwidget,
-.mo-footer a , .mo-footer-menu li{
+.mo-footer a, .mo-footer-menu li {
     font-size: 16px;
     line-height: 26px;
 }
 
 .text-title {
-	display: block;
+    display: block;
     margin-bottom: 5px;
 }
 
@@ -642,60 +653,58 @@ select {
     .image-block img {
         width: 100% !important;
     }
-  
+
     .view h1 {
-      font-size: 20px !important;
-  }
-  
-  .view h2 {
-      font-size: 17px !important;
-  }
-  
-  .view p {
-      font-size: 15px !important;
-  }
-  
-  .view h1, .view h2, .view h3, .view h4 {
-      padding: 5px;
-  }
+        font-size: 20px !important;
+    }
+
+    .view h2 {
+        font-size: 17px !important;
+    }
+
+    .view p {
+        font-size: 15px !important;
+    }
+
+    .view h1, .view h2, .view h3, .view h4 {
+        padding: 5px;
+    }
 }
 
 @media (max-width: 568px) {
-  .view h1 {
-      font-size: 17px !important;
-  }
-  
-  .view h2 {
-      font-size: 15px !important;
-  }
-  
-   .view p {
-      font-size: 13px !important;
-  }
-  
-  .file-c, .view span {
-      font-size: 14px;
-      padding-right: 3px;
-  }
-  
-  .checkbox-c input[type="checkbox"],
-  .checkbox-c input[type="radio"] {
-      height: 16px;
-      width: 17px;
-  }
-  
+    .view h1 {
+        font-size: 17px !important;
+    }
+
+    .view h2 {
+        font-size: 15px !important;
+    }
+
+    .view p {
+        font-size: 13px !important;
+    }
+
+    .file-c, .view span {
+        font-size: 14px;
+        padding-right: 3px;
+    }
+
+    .checkbox-c input[type="checkbox"],
+    .checkbox-c input[type="radio"] {
+        height: 16px;
+        width: 17px;
+    }
+
     .table > thead > tr > td.success, .table > tbody > tr > td.success,
     .table > tfoot > tr > td.success, .table > thead > tr > th.success,
     .table > tbody > tr > th.success, .table > tfoot > tr > th.success,
     .table > thead > tr.success > td, .table > tbody > tr.success > td,
     .table > tfoot > tr.success > td, .table > thead > tr.success > th,
     .table > tbody > tr.success > th, .table > tfoot > tr.success > th {
-      font-size: 13px;
-  	}
-  
+        font-size: 13px;
+    }
+
     .content-user-data p {
-      padding: 0;
-  }
+        padding: 0;
+    }
 }
-
-

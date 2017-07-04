@@ -128,6 +128,8 @@ $(document).ready(function () {
 
 });
 
+
+
 function SetTypeInInput(ob) {
     var input = ob.closest('.box-element').find('.view input');
     var type = ob.find('a').attr('rel');
