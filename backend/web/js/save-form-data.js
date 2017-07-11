@@ -10,7 +10,7 @@ $(document).ready(function () {
         }
     })
 
-    $('#user-view textarea').on('keydown', function () {
+    $('#user-view textarea').on('keydown , paste', function () {
         var el = this;
         setTimeout(function () {
             el.style.cssText = 'height:auto; padding:0';
