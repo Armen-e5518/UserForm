@@ -76,4 +76,5 @@ class TableBuilder extends Migration
         return substr(md5(microtime()), 0, 6);
     }
 
+
 }
