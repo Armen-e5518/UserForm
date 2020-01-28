@@ -11,7 +11,7 @@ return [
                 'class' => 'Swift_SmtpTransport',
                 'host' => 'smtp.gmail.com',
                 'username' => 'armen5518@gmail.com',
-                'password' => 'ggarmen1397',
+                'password' => '',
                 'port' => '587',
                 'encryption' => 'tls',
             ],
